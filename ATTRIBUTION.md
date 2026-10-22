@@ -20,6 +20,4 @@ These are cited and discussed in the notes; their text is not reproduced.
 - **OpenStand Principles** — <https://open-stand.org/about-us/principles/> (cited in *Development Principles*).
 - **NPC, *Theory of Change for funders: planning to make a difference*** — <https://www.thinknpc.org/resource-hub/theory-of-change-for-funders-planning-to-make-a-difference/> (discussed in *Minimal Theory of Change* and *Decide On Aims and Objectives*).
 
-## To confirm
 
-- **`framework/Theory of Change/Theory of change - Four principles of Change.canvas`** — a systems-change explorer (tension and fitness; memory, knowledge and imagination; coherence through short lists of simple rules; What? / So what? / Now what?). Its source and license are not recorded in the vault. Maintainer: add the source here, and confirm the text can be redistributed under CC BY-SA 4.0 or replace it with a summary and a link.
