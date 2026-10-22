@@ -1,0 +1,2424 @@
+{
+  "generated_by": "tools/build_index.py",
+  "phases": [
+    {
+      "key": "scope",
+      "name": "Scope and Start",
+      "mapped": true,
+      "referenced": true
+    },
+    {
+      "key": "develop",
+      "name": "Development",
+      "mapped": false,
+      "referenced": true
+    },
+    {
+      "key": "launch",
+      "name": "Launch and Adoption",
+      "mapped": false,
+      "referenced": true
+    },
+    {
+      "key": "review",
+      "name": "Review",
+      "mapped": false,
+      "referenced": true
+    }
+  ],
+  "nodes": [
+    {
+      "id": "simple-canvas",
+      "title": "Simple Canvas",
+      "path": "framework/Open Standards Main Map/Simple Canvas.md",
+      "phase": [
+        "scope"
+      ],
+      "role": "entry-point",
+      "status": "draft",
+      "gate": null,
+      "domain": [
+        "initiation",
+        "framing",
+        "participation"
+      ],
+      "actors": [
+        "initiators",
+        "prospective-stewards",
+        "affected-participants",
+        "early-adopters"
+      ],
+      "produces": [
+        "open-standard-canvas",
+        "initial-opportunity-frame",
+        "initial-standard-concept",
+        "initial-use-cases",
+        "participant-map",
+        "engagement-hypothesis",
+        "impact-hypothesis",
+        "risk-hypothesis",
+        "resource-hypothesis",
+        "identified-gaps"
+      ],
+      "intent": "Create a shared, revisable first view of a proposed open governance standard before substantial development begins.",
+      "canvases": [
+        "framework/Open Standards Main Map/Updated Open Governance Standards Map.canvas"
+      ],
+      "groups": [
+        "Start and Scope"
+      ]
+    },
+    {
+      "id": "on-a-governance-open-standard",
+      "title": "On a Governance Open Standard",
+      "path": "framework/Open Standards Main Map/On a Governance Open Standard.md",
+      "phase": [
+        "scope"
+      ],
+      "role": "orientation",
+      "status": "draft",
+      "gate": null,
+      "domain": [
+        "orientation"
+      ],
+      "actors": [],
+      "produces": [],
+      "intent": "An open standard for governance should make it easier for individuals and groups to create, access, share, develop and implement better quality suggestions.",
+      "canvases": [
+        "framework/Open Standards Main Map/Updated Open Governance Standards Map.canvas",
+        "framework/Open Standards Simple Canvas/Simple Canvas For Open Standards.canvas"
+      ],
+      "groups": [
+        "Start and Scope",
+        "Open Standards"
+      ]
+    },
+    {
+      "id": "decide-on-aims-and-objectives",
+      "title": "Decide On Aims and Objectives",
+      "path": "framework/Open Standards Main Map/Decide On Aims and Objectives.md",
+      "phase": [
+        "scope"
+      ],
+      "role": "checkpoint",
+      "status": "draft",
+      "gate": null,
+      "domain": [
+        "purpose",
+        "impact",
+        "design-intent"
+      ],
+      "actors": [
+        "prospective-stewards",
+        "affected-participants",
+        "ecosystem-researchers",
+        "domain-experts",
+        "prospective-adopters"
+      ],
+      "produces": [
+        "aim",
+        "objectives",
+        "theory-of-change",
+        "core-feature-hypotheses",
+        "interoperability-intent",
+        "adaptability-intent",
+        "accessibility-intent",
+        "initial-test-intent",
+        "development-principles",
+        "success-hypotheses"
+      ],
+      "intent": "Translate the framed opportunity and ecosystem understanding into a clear statement of what the standards effort intends to accomplish.",
+      "canvases": [
+        "framework/Open Standards Main Map/Updated Open Governance Standards Map.canvas"
+      ],
+      "groups": [
+        "Start and Scope"
+      ]
+    },
+    {
+      "id": "frame-the-opportunity",
+      "title": "Frame the Opportunity",
+      "path": "framework/Open Standards Main Map/Frame the Opportunity.md",
+      "phase": [
+        "scope"
+      ],
+      "role": "checkpoint",
+      "status": "draft",
+      "gate": null,
+      "domain": [
+        "framing",
+        "opportunity",
+        "standards-landscape"
+      ],
+      "actors": [
+        "initiators",
+        "ecosystem-researchers",
+        "prospective-stewards",
+        "affected-participants",
+        "domain-experts"
+      ],
+      "produces": [
+        "opportunity-frame",
+        "coordination-need",
+        "affected-participant-frame",
+        "benefit-hypotheses",
+        "candidate-interventions",
+        "candidate-standard-type",
+        "framing-assumptions",
+        "evidence-gaps",
+        "proceed-reframe-exit-decision"
+      ],
+      "intent": "Develop a shared, evidence-informed understanding of the condition the standards effort may attempt to change.",
+      "canvases": [
+        "framework/Open Standards Main Map/Updated Open Governance Standards Map.canvas"
+      ],
+      "groups": [
+        "Start and Scope"
+      ]
+    },
+    {
+      "id": "scope-and-start-phase-gate",
+      "title": "Scope and Start (Phase Gate)",
+      "path": "framework/Open Standards Main Map/Scope and Start (Phase Gate).md",
+      "phase": [
+        "scope"
+      ],
+      "role": "checkpoint",
+      "status": "draft",
+      "gate": "phase",
+      "domain": [
+        "framing",
+        "ecosystem",
+        "participation",
+        "impact",
+        "standards",
+        "development",
+        "sustainability"
+      ],
+      "actors": [
+        "prospective-stewards",
+        "affected-participants",
+        "ecosystem-researchers",
+        "domain-experts",
+        "prospective-adopters",
+        "contributors",
+        "funders",
+        "accountable-governance-bodies"
+      ],
+      "produces": [
+        "scope-and-start-bundle",
+        "development-case",
+        "development-readiness-record",
+        "approved-scope",
+        "development-entry-conditions",
+        "unresolved-questions",
+        "review-triggers"
+      ],
+      "intent": "Determine whether a proposed open governance standard is sufficiently understood, justified, scoped, supported, and sustainable to move from exploration into committed development.",
+      "canvases": [
+        "framework/Open Standards Main Map/Updated Open Governance Standards Map.canvas"
+      ],
+      "groups": [
+        "Start and Scope"
+      ]
+    },
+    {
+      "id": "sustainability-gate",
+      "title": "Sustainability Gate",
+      "path": "framework/Open Standards Main Map/Sustainability Gate.md",
+      "phase": [
+        "scope"
+      ],
+      "role": "checkpoint",
+      "status": "draft",
+      "gate": null,
+      "domain": [
+        "sustainability"
+      ],
+      "actors": [],
+      "produces": [],
+      "intent": "A standards effort has considered sustainability sufficiently when it can answer:",
+      "canvases": [
+        "framework/Open Standards Main Map/Updated Open Governance Standards Map.canvas"
+      ],
+      "groups": [
+        "Start and Scope"
+      ]
+    },
+    {
+      "id": "the-development-method",
+      "title": "The Development Method",
+      "path": "framework/Open Standards Main Map/The Development Method.md",
+      "phase": [
+        "scope"
+      ],
+      "role": "checkpoint",
+      "status": "draft",
+      "gate": null,
+      "domain": [
+        "development",
+        "governance",
+        "planning",
+        "participation"
+      ],
+      "actors": [
+        "prospective-stewards",
+        "contributors",
+        "affected-participants",
+        "early-adopters",
+        "funders",
+        "accountable-governance-bodies"
+      ],
+      "produces": [
+        "development-method",
+        "development-plan",
+        "contribution-model",
+        "work-phases",
+        "development-infrastructure",
+        "testing-plan",
+        "decision-rights",
+        "approval-record",
+        "readiness-decision"
+      ],
+      "intent": "Choose and make explicit the way the standard will be developed, tested, changed, and prepared for release.",
+      "canvases": [
+        "framework/Open Standards Main Map/Updated Open Governance Standards Map.canvas"
+      ],
+      "groups": [
+        "Start and Scope"
+      ]
+    },
+    {
+      "id": "think-about-sustainability",
+      "title": "Think about sustainability",
+      "path": "framework/Open Standards Main Map/Think about sustainability.md",
+      "phase": [
+        "scope",
+        "develop",
+        "launch",
+        "review"
+      ],
+      "role": "checkpoint",
+      "status": "draft",
+      "gate": null,
+      "domain": [
+        "sustainability",
+        "stewardship",
+        "maintenance",
+        "adoption",
+        "governance"
+      ],
+      "actors": [
+        "prospective-stewards",
+        "maintainers",
+        "adopters",
+        "contributors",
+        "funders",
+        "infrastructure-providers"
+      ],
+      "produces": [
+        "sustainability-model",
+        "stewardship-model",
+        "resource-model",
+        "maintenance-model",
+        "support-model",
+        "adoption-burden-assessment",
+        "continuity-risks",
+        "sustainability-conditions"
+      ],
+      "intent": "Determine whether the proposed standard can remain useful, governable, maintainable, and adoptable over a meaningful period of time.",
+      "canvases": [
+        "framework/Open Standards Main Map/Updated Open Governance Standards Map.canvas"
+      ],
+      "groups": [
+        "Start and Scope"
+      ]
+    },
+    {
+      "id": "understand-ecosystem",
+      "title": "Understand Ecosystem",
+      "path": "framework/Open Standards Main Map/Understand Ecosystem.md",
+      "phase": [
+        "scope"
+      ],
+      "role": "checkpoint",
+      "status": "draft",
+      "gate": null,
+      "domain": [
+        "ecosystem",
+        "governance-infrastructure",
+        "participation",
+        "standards-landscape"
+      ],
+      "actors": [
+        "initiators",
+        "ecosystem-researchers",
+        "prospective-stewards",
+        "affected-participants"
+      ],
+      "produces": [
+        "ecosystem-map",
+        "relationship-map",
+        "governance-infrastructure-map",
+        "standards-landscape",
+        "stakeholder-map",
+        "participation-candidates",
+        "ecosystem-findings",
+        "ecosystem-open-questions"
+      ],
+      "intent": "Develop a sufficiently grounded understanding of the environment in which a proposed governance standard would operate.",
+      "canvases": [
+        "framework/Open Standards Main Map/Updated Open Governance Standards Map.canvas"
+      ],
+      "groups": [
+        "Start and Scope"
+      ]
+    },
+    {
+      "id": "what-can-be-extended",
+      "title": "What Can Be Extended",
+      "path": "framework/Open Standards Main Map/What Can Be Extended.md",
+      "phase": [
+        "scope"
+      ],
+      "role": "checkpoint",
+      "status": "draft",
+      "gate": null,
+      "domain": [
+        "standards-landscape"
+      ],
+      "actors": [
+        "standards-developers",
+        "maintainers",
+        "prospective-adopters"
+      ],
+      "produces": [
+        "extension-candidates",
+        "compatibility-questions"
+      ],
+      "intent": "Determine whether an existing standard already provides a viable foundation.",
+      "canvases": [
+        "framework/Open Standards Main Map/Updated Open Governance Standards Map.canvas"
+      ],
+      "groups": [
+        "Start and Scope"
+      ]
+    },
+    {
+      "id": "what-can-be-used-instead",
+      "title": "What Can Be Used Instead",
+      "path": "framework/Open Standards Main Map/What Can Be Used Instead.md",
+      "phase": [
+        "scope"
+      ],
+      "role": "checkpoint",
+      "status": "draft",
+      "gate": null,
+      "domain": [
+        "standards-landscape"
+      ],
+      "actors": [
+        "ecosystem-researchers",
+        "prospective-users"
+      ],
+      "produces": [
+        "alternatives",
+        "no-new-standard-option"
+      ],
+      "intent": "Actively search for alternatives to creating a new standard.",
+      "canvases": [
+        "framework/Open Standards Main Map/Updated Open Governance Standards Map.canvas"
+      ],
+      "groups": [
+        "Start and Scope"
+      ]
+    },
+    {
+      "id": "1-choose-the-development-method",
+      "title": "1- Choose the Development Method",
+      "path": "framework/Open Standards Main Map/1- Choose the Development Method.md",
+      "phase": [
+        "scope"
+      ],
+      "role": "supporting",
+      "status": "draft",
+      "gate": null,
+      "domain": [
+        "development",
+        "method"
+      ],
+      "actors": [],
+      "produces": [],
+      "intent": "Match the method to the uncertainty.",
+      "canvases": [
+        "framework/Open Standards Main Map/Updated Open Governance Standards Map.canvas"
+      ],
+      "groups": [
+        "Start and Scope"
+      ]
+    },
+    {
+      "id": "2-plan-the-development",
+      "title": "2- Plan the Development",
+      "path": "framework/Open Standards Main Map/2- Plan the Development.md",
+      "phase": [
+        "scope"
+      ],
+      "role": "supporting",
+      "status": "draft",
+      "gate": null,
+      "domain": [
+        "development",
+        "planning"
+      ],
+      "actors": [],
+      "produces": [],
+      "intent": "Once the method is chosen, turn it into an actionable development model.",
+      "canvases": [
+        "framework/Open Standards Main Map/Updated Open Governance Standards Map.canvas"
+      ],
+      "groups": [
+        "Start and Scope"
+      ]
+    },
+    {
+      "id": "3-approve-development",
+      "title": "3- Approve Development",
+      "path": "framework/Open Standards Main Map/3- Approve Development.md",
+      "phase": [
+        "scope"
+      ],
+      "role": "supporting",
+      "status": "draft",
+      "gate": null,
+      "domain": [
+        "development",
+        "mandate"
+      ],
+      "actors": [],
+      "produces": [],
+      "intent": "“Approval” should not automatically mean:",
+      "canvases": [
+        "framework/Open Standards Main Map/Updated Open Governance Standards Map.canvas"
+      ],
+      "groups": [
+        "Start and Scope"
+      ]
+    },
+    {
+      "id": "accessibility-and-translation",
+      "title": "Accessibility and Translation",
+      "path": "framework/Open Standards Main Map/Accessibility and Translation.md",
+      "phase": [
+        "scope"
+      ],
+      "role": "supporting",
+      "status": "draft",
+      "gate": null,
+      "domain": [
+        "accessibility",
+        "participation"
+      ],
+      "actors": [],
+      "produces": [
+        "accessibility-intent",
+        "translation-intent",
+        "participation-barriers"
+      ],
+      "intent": "Identify whether language, technical complexity, disability, tooling, culture, geography, bandwidth, or other access conditions could prevent intended participants from using or contributing to the standard.",
+      "canvases": [
+        "framework/Open Standards Main Map/Updated Open Governance Standards Map.canvas"
+      ],
+      "groups": [
+        "Start and Scope"
+      ]
+    },
+    {
+      "id": "adaptability-and-extensibility",
+      "title": "Adaptability and Extensibility",
+      "path": "framework/Open Standards Main Map/Adaptability and Extensibility.md",
+      "phase": [
+        "scope"
+      ],
+      "role": "supporting",
+      "status": "draft",
+      "gate": null,
+      "domain": [
+        "adaptability",
+        "extensibility"
+      ],
+      "actors": [],
+      "produces": [
+        "extension-intent",
+        "variation-boundaries",
+        "stability-boundaries"
+      ],
+      "intent": "Identify what parts of the standard need to remain stable and what parts should permit adaptation.",
+      "canvases": [
+        "framework/Open Standards Main Map/Updated Open Governance Standards Map.canvas"
+      ],
+      "groups": [
+        "Start and Scope"
+      ]
+    },
+    {
+      "id": "adoption-sustainability",
+      "title": "Adoption Sustainability",
+      "path": "framework/Open Standards Main Map/Adoption Sustainability.md",
+      "phase": [
+        "scope"
+      ],
+      "role": "supporting",
+      "status": "draft",
+      "gate": null,
+      "domain": [
+        "sustainability",
+        "adoption"
+      ],
+      "actors": [],
+      "produces": [],
+      "intent": "The burden does not end with publication.",
+      "canvases": [
+        "framework/Open Standards Main Map/Updated Open Governance Standards Map.canvas"
+      ],
+      "groups": [
+        "Start and Scope"
+      ]
+    },
+    {
+      "id": "community-sustainability",
+      "title": "Community Sustainability",
+      "path": "framework/Open Standards Main Map/Community Sustainability.md",
+      "phase": [
+        "scope"
+      ],
+      "role": "supporting",
+      "status": "draft",
+      "gate": null,
+      "domain": [
+        "sustainability",
+        "community"
+      ],
+      "actors": [],
+      "produces": [],
+      "intent": "A standard persists because people continue to understand, use, improve, and care about it.",
+      "canvases": [
+        "framework/Open Standards Main Map/Updated Open Governance Standards Map.canvas"
+      ],
+      "groups": [
+        "Start and Scope"
+      ]
+    },
+    {
+      "id": "decide-who-to-work-with",
+      "title": "Decide Who To Work With",
+      "path": "framework/Open Standards Main Map/Decide Who To Work With.md",
+      "phase": [
+        "scope"
+      ],
+      "role": "supporting",
+      "status": "draft",
+      "gate": null,
+      "domain": [
+        "participation",
+        "adoption"
+      ],
+      "actors": [
+        "prospective-stewards",
+        "affected-participants"
+      ],
+      "produces": [
+        "participant-cohort",
+        "early-adopters",
+        "feedback-partners",
+        "advocates",
+        "participation-rationale"
+      ],
+      "intent": "Identify people able to participate meaningfully in the next stages of development.",
+      "canvases": [
+        "framework/Open Standards Main Map/Updated Open Governance Standards Map.canvas"
+      ],
+      "groups": [
+        "Start and Scope"
+      ]
+    },
+    {
+      "id": "development-principles",
+      "title": "Development Principles",
+      "path": "framework/Open Standards Main Map/Development Principles.md",
+      "phase": [
+        "scope"
+      ],
+      "role": "supporting",
+      "status": "draft",
+      "gate": null,
+      "domain": [
+        "process",
+        "legitimacy"
+      ],
+      "actors": [],
+      "produces": [
+        "development-principles",
+        "procedural-commitments"
+      ],
+      "intent": "Define the commitments that should govern how the standard itself is developed.",
+      "canvases": [
+        "framework/Open Standards Main Map/Updated Open Governance Standards Map.canvas"
+      ],
+      "groups": [
+        "Start and Scope"
+      ]
+    },
+    {
+      "id": "exchanging-of-governance-information",
+      "title": "Exchanging of Governance Information",
+      "path": "framework/Open Standards Main Map/Exchanging of Governance Information.md",
+      "phase": [
+        "scope"
+      ],
+      "role": "supporting",
+      "status": "draft",
+      "gate": null,
+      "domain": [
+        "ecosystem",
+        "actors",
+        "information"
+      ],
+      "actors": [],
+      "produces": [],
+      "intent": "This node is slightly less a category of people and more a search for information intermediaries and exchange relationships.",
+      "canvases": [
+        "framework/Open Standards Main Map/Updated Open Governance Standards Map.canvas"
+      ],
+      "groups": [
+        "Start and Scope"
+      ]
+    },
+    {
+      "id": "governance-sustainability",
+      "title": "Governance Sustainability",
+      "path": "framework/Open Standards Main Map/Governance Sustainability.md",
+      "phase": [
+        "scope"
+      ],
+      "role": "supporting",
+      "status": "draft",
+      "gate": null,
+      "domain": [
+        "sustainability",
+        "governance"
+      ],
+      "actors": [],
+      "produces": [],
+      "intent": "A standard that succeeds will eventually need to answer:",
+      "canvases": [
+        "framework/Open Standards Main Map/Updated Open Governance Standards Map.canvas"
+      ],
+      "groups": [
+        "Start and Scope"
+      ]
+    },
+    {
+      "id": "identify-community-stakeholders",
+      "title": "Identify Community Stakeholders",
+      "path": "framework/Open Standards Main Map/Identify Community Stakeholders.md",
+      "phase": [
+        "scope"
+      ],
+      "role": "supporting",
+      "status": "draft",
+      "gate": null,
+      "domain": [
+        "participation",
+        "ecosystem"
+      ],
+      "actors": [
+        "ecosystem-researchers",
+        "affected-participants",
+        "prospective-stewards"
+      ],
+      "produces": [
+        "stakeholder-map",
+        "affected-groups",
+        "engagement-priorities",
+        "representation-gaps"
+      ],
+      "intent": "Transform the broad ecosystem map into a more focused understanding of the people whose participation matters to this specific standards effort.",
+      "canvases": [
+        "framework/Open Standards Main Map/Updated Open Governance Standards Map.canvas"
+      ],
+      "groups": [
+        "Start and Scope"
+      ]
+    },
+    {
+      "id": "identify-core-features",
+      "title": "Identify Core Features",
+      "path": "framework/Open Standards Main Map/Identify Core Features.md",
+      "phase": [
+        "scope"
+      ],
+      "role": "supporting",
+      "status": "draft",
+      "gate": null,
+      "domain": [
+        "requirements",
+        "design-intent"
+      ],
+      "actors": [],
+      "produces": [
+        "core-feature-hypotheses",
+        "optional-feature-hypotheses",
+        "feature-rationale"
+      ],
+      "intent": "Identify the smallest capabilities the standard must possess for its objectives to remain plausible.",
+      "canvases": [
+        "framework/Open Standards Main Map/Updated Open Governance Standards Map.canvas"
+      ],
+      "groups": [
+        "Start and Scope"
+      ]
+    },
+    {
+      "id": "identify-current-ecosystem-standards",
+      "title": "Identify Current Ecosystem Standards",
+      "path": "framework/Open Standards Main Map/Identify Current Ecosystem Standards.md",
+      "phase": [
+        "scope"
+      ],
+      "role": "supporting",
+      "status": "draft",
+      "gate": null,
+      "domain": [
+        "standards-landscape"
+      ],
+      "actors": [
+        "ecosystem-researchers",
+        "domain-experts",
+        "standards-maintainers"
+      ],
+      "produces": [
+        "standards-inventory",
+        "conventions-inventory",
+        "reuse-candidates"
+      ],
+      "intent": "Identify existing standards, conventions, specifications, schemas and common practices that already coordinate relevant parts of the ecosystem.",
+      "canvases": [
+        "framework/Open Standards Main Map/Updated Open Governance Standards Map.canvas"
+      ],
+      "groups": [
+        "Start and Scope"
+      ]
+    },
+    {
+      "id": "identify-people-and-groups",
+      "title": "Identify People and Groups",
+      "path": "framework/Open Standards Main Map/Identify People and Groups.md",
+      "phase": [
+        "scope"
+      ],
+      "role": "supporting",
+      "status": "draft",
+      "gate": null,
+      "domain": [
+        "ecosystem",
+        "actors"
+      ],
+      "actors": [
+        "ecosystem-researchers",
+        "affected-participants"
+      ],
+      "produces": [
+        "actor-map",
+        "actor-categories",
+        "missing-actor-questions"
+      ],
+      "intent": "Identify the people, groups and institutions participating in the governance activity relevant to the proposed standard.",
+      "canvases": [
+        "framework/Open Standards Main Map/Updated Open Governance Standards Map.canvas"
+      ],
+      "groups": [
+        "Start and Scope"
+      ]
+    },
+    {
+      "id": "information-exchange",
+      "title": "Information Exchange",
+      "path": "framework/Open Standards Main Map/Information Exchange.md",
+      "phase": [
+        "scope",
+        "develop",
+        "review"
+      ],
+      "role": "supporting",
+      "status": "stable",
+      "gate": null,
+      "domain": [
+        "interoperability",
+        "exchange",
+        "interfaces"
+      ],
+      "actors": [
+        "standards-developers",
+        "implementers",
+        "infrastructure-maintainers",
+        "tool-developers"
+      ],
+      "produces": [
+        "schemas",
+        "specifications",
+        "templates",
+        "interfaces",
+        "exchange-rules",
+        "validation-rules"
+      ],
+      "intent": "Create consistent ways for governance information or governance objects to move between people, organisations, tools, or systems.",
+      "canvases": [
+        "framework/Open Standards Main Map/Updated Open Governance Standards Map.canvas",
+        "framework/Open Standards Simple Canvas/Simple Canvas For Open Standards.canvas"
+      ],
+      "groups": [
+        "Start and Scope",
+        "Open Standards"
+      ]
+    },
+    {
+      "id": "interoperability-intent",
+      "title": "Interoperability Intent",
+      "path": "framework/Open Standards Main Map/Interoperability Intent.md",
+      "phase": [
+        "scope"
+      ],
+      "role": "supporting",
+      "status": "draft",
+      "gate": null,
+      "domain": [
+        "interoperability",
+        "standards-landscape"
+      ],
+      "actors": [],
+      "produces": [
+        "interoperability-requirements",
+        "reuse-candidates",
+        "compatibility-boundaries"
+      ],
+      "intent": "Determine where success requires the proposed standard to work coherently with existing standards, tools, vocabularies, identifiers, or infrastructure.",
+      "canvases": [
+        "framework/Open Standards Main Map/Updated Open Governance Standards Map.canvas"
+      ],
+      "groups": [
+        "Start and Scope"
+      ]
+    },
+    {
+      "id": "knowledge-sustainability",
+      "title": "Knowledge Sustainability",
+      "path": "framework/Open Standards Main Map/Knowledge Sustainability.md",
+      "phase": [
+        "scope"
+      ],
+      "role": "supporting",
+      "status": "draft",
+      "gate": null,
+      "domain": [
+        "sustainability",
+        "knowledge"
+      ],
+      "actors": [],
+      "produces": [],
+      "intent": "A standard contains knowledge about why choices were made.",
+      "canvases": [
+        "framework/Open Standards Main Map/Updated Open Governance Standards Map.canvas"
+      ],
+      "groups": [
+        "Start and Scope"
+      ]
+    },
+    {
+      "id": "minimal-theory-of-change",
+      "title": "Minimal Theory of Change",
+      "path": "framework/Open Standards Main Map/Minimal Theory of Change.md",
+      "phase": [
+        "scope"
+      ],
+      "role": "supporting",
+      "status": "draft",
+      "gate": null,
+      "domain": [
+        "impact",
+        "causal-logic"
+      ],
+      "actors": [],
+      "produces": [
+        "change-pathway",
+        "mechanisms",
+        "enabling-conditions",
+        "assumptions",
+        "unintended-effects",
+        "learning-questions"
+      ],
+      "intent": "Make explicit the causal reasoning connecting the standard to the change it hopes to support.",
+      "canvases": [
+        "framework/Open Standards Main Map/Updated Open Governance Standards Map.canvas"
+      ],
+      "groups": [
+        "Start and Scope"
+      ]
+    },
+    {
+      "id": "operational-guidance-for-producers",
+      "title": "Operational Guidance for Producers",
+      "path": "framework/Open Standards Main Map/Operational Guidance for Producers.md",
+      "phase": [
+        "scope"
+      ],
+      "role": "supporting",
+      "status": "draft",
+      "gate": null,
+      "domain": [
+        "sustainability",
+        "information"
+      ],
+      "actors": [],
+      "produces": [],
+      "intent": "If the standard relies on participants producing governance information, specify enough operational guidance to keep implementations useful.",
+      "canvases": [
+        "framework/Open Standards Main Map/Updated Open Governance Standards Map.canvas"
+      ],
+      "groups": [
+        "Start and Scope"
+      ]
+    },
+    {
+      "id": "producers-of-governance-activity",
+      "title": "Producers of Governance Activity",
+      "path": "framework/Open Standards Main Map/Producers of Governance Activity.md",
+      "phase": [
+        "scope"
+      ],
+      "role": "supporting",
+      "status": "draft",
+      "gate": null,
+      "domain": [
+        "ecosystem",
+        "actors"
+      ],
+      "actors": [],
+      "produces": [],
+      "intent": "This node asks:",
+      "canvases": [
+        "framework/Open Standards Main Map/Updated Open Governance Standards Map.canvas"
+      ],
+      "groups": [
+        "Start and Scope"
+      ]
+    },
+    {
+      "id": "provide-guidance",
+      "title": "Provide Guidance",
+      "path": "framework/Open Standards Main Map/Provide Guidance.md",
+      "phase": [
+        "scope",
+        "develop",
+        "review"
+      ],
+      "role": "supporting",
+      "status": "stable",
+      "gate": null,
+      "domain": [
+        "practice",
+        "process",
+        "methods"
+      ],
+      "actors": [
+        "standards-developers",
+        "practitioners",
+        "domain-experts",
+        "facilitators"
+      ],
+      "produces": [
+        "guides",
+        "protocols",
+        "methods",
+        "codes-of-practice",
+        "process-models",
+        "assessment-frameworks"
+      ],
+      "intent": "Create repeatable guidance for performing governance work consistently without necessarily requiring identical outputs.",
+      "canvases": [
+        "framework/Open Standards Main Map/Updated Open Governance Standards Map.canvas",
+        "framework/Open Standards Simple Canvas/Simple Canvas For Open Standards.canvas"
+      ],
+      "groups": [
+        "Start and Scope",
+        "Open Standards"
+      ]
+    },
+    {
+      "id": "real-world-testnet",
+      "title": "Real-World Testnet",
+      "path": "framework/Open Standards Main Map/Real-World Testnet.md",
+      "phase": [
+        "scope"
+      ],
+      "role": "supporting",
+      "status": "draft",
+      "gate": null,
+      "domain": [
+        "testing",
+        "validation"
+      ],
+      "actors": [],
+      "produces": [
+        "test-hypotheses",
+        "candidate-test-contexts",
+        "failure-conditions"
+      ],
+      "intent": "Identify, before development, how the standard might eventually encounter reality.",
+      "canvases": [
+        "framework/Open Standards Main Map/Updated Open Governance Standards Map.canvas"
+      ],
+      "groups": [
+        "Start and Scope"
+      ]
+    },
+    {
+      "id": "resource-sustainability",
+      "title": "Resource Sustainability",
+      "path": "framework/Open Standards Main Map/Resource Sustainability.md",
+      "phase": [
+        "scope"
+      ],
+      "role": "supporting",
+      "status": "draft",
+      "gate": null,
+      "domain": [
+        "sustainability",
+        "resource"
+      ],
+      "actors": [],
+      "produces": [],
+      "intent": "Ask:",
+      "canvases": [
+        "framework/Open Standards Main Map/Updated Open Governance Standards Map.canvas"
+      ],
+      "groups": [
+        "Start and Scope"
+      ]
+    },
+    {
+      "id": "review-research-and-feedback",
+      "title": "Review Research and Feedback",
+      "path": "framework/Open Standards Main Map/Review Research and Feedback.md",
+      "phase": [
+        "scope"
+      ],
+      "role": "supporting",
+      "status": "draft",
+      "gate": null,
+      "domain": [
+        "evidence",
+        "participation"
+      ],
+      "actors": [],
+      "produces": [
+        "evidence-summary",
+        "feedback-summary",
+        "unresolved-disagreements",
+        "framing-changes"
+      ],
+      "intent": "Ensure aims reflect what has been learned rather than merely what initiators originally intended.",
+      "canvases": [
+        "framework/Open Standards Main Map/Updated Open Governance Standards Map.canvas"
+      ],
+      "groups": [
+        "Start and Scope"
+      ]
+    },
+    {
+      "id": "shared-vocabularies",
+      "title": "Shared Vocabularies",
+      "path": "framework/Open Standards Main Map/Shared Vocabularies.md",
+      "phase": [
+        "scope",
+        "develop",
+        "review"
+      ],
+      "role": "supporting",
+      "status": "stable",
+      "gate": null,
+      "domain": [
+        "semantics",
+        "classification",
+        "shared-language"
+      ],
+      "actors": [
+        "standards-developers",
+        "domain-experts",
+        "ecosystem-participants"
+      ],
+      "produces": [
+        "definitions",
+        "vocabularies",
+        "taxonomies",
+        "registers",
+        "ontologies",
+        "identifiers",
+        "conceptual-models"
+      ],
+      "intent": "Create shared meaning so that different participants can refer to the same concepts consistently.",
+      "canvases": [
+        "framework/Open Standards Main Map/Updated Open Governance Standards Map.canvas",
+        "framework/Open Standards Simple Canvas/Simple Canvas For Open Standards.canvas"
+      ],
+      "groups": [
+        "Start and Scope",
+        "Open Standards"
+      ]
+    },
+    {
+      "id": "surface-ecosystem-tensions",
+      "title": "Surface Ecosystem Tensions",
+      "path": "framework/Open Standards Main Map/Surface Ecosystem Tensions.md",
+      "phase": [
+        "scope"
+      ],
+      "role": "supporting",
+      "status": "draft",
+      "gate": null,
+      "domain": [
+        "ecosystem",
+        "power-and-control"
+      ],
+      "actors": [],
+      "produces": [],
+      "intent": "Look for:",
+      "canvases": [
+        "framework/Open Standards Main Map/Updated Open Governance Standards Map.canvas"
+      ],
+      "groups": [
+        "Start and Scope"
+      ]
+    },
+    {
+      "id": "technical-sustainability",
+      "title": "Technical Sustainability",
+      "path": "framework/Open Standards Main Map/Technical Sustainability.md",
+      "phase": [
+        "scope"
+      ],
+      "role": "supporting",
+      "status": "draft",
+      "gate": null,
+      "domain": [
+        "sustainability",
+        "technical"
+      ],
+      "actors": [],
+      "produces": [],
+      "intent": "Ask whether the standard depends on technology or infrastructure that can plausibly persist.",
+      "canvases": [
+        "framework/Open Standards Main Map/Updated Open Governance Standards Map.canvas"
+      ],
+      "groups": [
+        "Start and Scope"
+      ]
+    },
+    {
+      "id": "types-of-standards",
+      "title": "Types of Standards",
+      "path": "framework/Open Standards Main Map/Types of Standards.md",
+      "phase": [
+        "scope",
+        "develop",
+        "review"
+      ],
+      "role": "supporting",
+      "status": "stable",
+      "gate": null,
+      "domain": [
+        "standards",
+        "classification",
+        "design"
+      ],
+      "actors": [
+        "standards-developers",
+        "ecosystem-researchers",
+        "prospective-stewards",
+        "reviewers"
+      ],
+      "produces": [
+        "standard-type-classification",
+        "candidate-standard-form",
+        "comparison-language",
+        "specification-options"
+      ],
+      "intent": "Provide a shared reference for recognizing, comparing, and designing the kinds of reusable agreements that may function as open governance standards.",
+      "canvases": [
+        "framework/Open Standards Main Map/Updated Open Governance Standards Map.canvas"
+      ],
+      "groups": [
+        "Start and Scope"
+      ]
+    },
+    {
+      "id": "understand-governance-data-and-infrastructure",
+      "title": "Understand Governance Data and Infrastructure",
+      "path": "framework/Open Standards Main Map/Understand Governance Data and Infrastructure.md",
+      "phase": [
+        "scope"
+      ],
+      "role": "supporting",
+      "status": "draft",
+      "gate": null,
+      "domain": [
+        "governance-infrastructure",
+        "information"
+      ],
+      "actors": [
+        "ecosystem-researchers",
+        "infrastructure-maintainers",
+        "tool-developers",
+        "governance-participants"
+      ],
+      "produces": [
+        "infrastructure-map",
+        "information-flow-map",
+        "interface-map",
+        "infrastructure-gaps"
+      ],
+      "intent": "Identify the infrastructure through which governance information and action move.",
+      "canvases": [
+        "framework/Open Standards Main Map/Updated Open Governance Standards Map.canvas"
+      ],
+      "groups": [
+        "Start and Scope"
+      ]
+    },
+    {
+      "id": "understand-relationships-between-people-and-groups",
+      "title": "Understand Relationships Between People and Groups",
+      "path": "framework/Open Standards Main Map/Understand Relationships Between People and Groups.md",
+      "phase": [
+        "scope"
+      ],
+      "role": "supporting",
+      "status": "draft",
+      "gate": null,
+      "domain": [
+        "ecosystem",
+        "relationships"
+      ],
+      "actors": [
+        "ecosystem-researchers",
+        "affected-participants"
+      ],
+      "produces": [
+        "relationship-map",
+        "dependency-map",
+        "conflict-map",
+        "trust-boundaries"
+      ],
+      "intent": "Understand how actors depend upon, constrain, influence and exchange information with one another.",
+      "canvases": [
+        "framework/Open Standards Main Map/Updated Open Governance Standards Map.canvas"
+      ],
+      "groups": [
+        "Start and Scope"
+      ]
+    },
+    {
+      "id": "users-of-governance-infrastructure",
+      "title": "Users of Governance Infrastructure",
+      "path": "framework/Open Standards Main Map/Users of Governance Infrastructure.md",
+      "phase": [
+        "scope"
+      ],
+      "role": "supporting",
+      "status": "draft",
+      "gate": null,
+      "domain": [
+        "ecosystem",
+        "actors"
+      ],
+      "actors": [],
+      "produces": [],
+      "intent": "This node asks:",
+      "canvases": [
+        "framework/Open Standards Main Map/Updated Open Governance Standards Map.canvas"
+      ],
+      "groups": [
+        "Start and Scope"
+      ]
+    },
+    {
+      "id": "what-can-be-opened-up",
+      "title": "What Can Be Opened Up",
+      "path": "framework/Open Standards Main Map/What Can Be Opened Up.md",
+      "phase": [
+        "scope"
+      ],
+      "role": "supporting",
+      "status": "draft",
+      "gate": null,
+      "domain": [
+        "standards-landscape",
+        "openness"
+      ],
+      "actors": [
+        "maintainers",
+        "rights-holders",
+        "governance-participants"
+      ],
+      "produces": [
+        "opening-opportunities",
+        "access-barriers",
+        "governance-barriers"
+      ],
+      "intent": "Identify useful existing conventions or infrastructure whose primary limitation is not functionality but openness.",
+      "canvases": [
+        "framework/Open Standards Main Map/Updated Open Governance Standards Map.canvas"
+      ],
+      "groups": [
+        "Start and Scope"
+      ]
+    },
+    {
+      "id": "actor-map",
+      "title": "Actor Map",
+      "path": "framework/Open Standards Main Map/Actor Map.md",
+      "phase": [
+        "scope"
+      ],
+      "role": "artifact",
+      "status": "stub",
+      "gate": null,
+      "domain": [
+        "ecosystem",
+        "actors"
+      ],
+      "actors": [],
+      "produces": [],
+      "intent": "From the Scope and Start gate, the Actor Map should make visible:",
+      "canvases": [
+        "framework/Open Standards Main Map/Updated Open Governance Standards Map.canvas"
+      ],
+      "groups": [
+        "Start and Scope"
+      ]
+    },
+    {
+      "id": "ecosystem-map",
+      "title": "Ecosystem Map",
+      "path": "framework/Open Standards Main Map/Ecosystem Map.md",
+      "phase": [
+        "scope"
+      ],
+      "role": "artifact",
+      "status": "draft",
+      "gate": null,
+      "domain": [
+        "ecosystem"
+      ],
+      "actors": [],
+      "produces": [],
+      "intent": "An Ecosystem Map should be capable of showing:",
+      "canvases": [
+        "framework/Open Standards Main Map/Updated Open Governance Standards Map.canvas"
+      ],
+      "groups": [
+        "Start and Scope"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "from": "1-choose-the-development-method",
+      "to": "2-plan-the-development",
+      "relation": "connects",
+      "label": "",
+      "canvas": "framework/Open Standards Main Map/Updated Open Governance Standards Map.canvas"
+    },
+    {
+      "from": "2-plan-the-development",
+      "to": "sustainability-gate",
+      "relation": "connects",
+      "label": "",
+      "canvas": "framework/Open Standards Main Map/Updated Open Governance Standards Map.canvas"
+    },
+    {
+      "from": "3-approve-development",
+      "to": "the-development-method",
+      "relation": "connects",
+      "label": "",
+      "canvas": "framework/Open Standards Main Map/Updated Open Governance Standards Map.canvas"
+    },
+    {
+      "from": "accessibility-and-translation",
+      "to": "decide-on-aims-and-objectives",
+      "relation": "connects",
+      "label": "",
+      "canvas": "framework/Open Standards Main Map/Updated Open Governance Standards Map.canvas"
+    },
+    {
+      "from": "actor-map",
+      "to": "understand-governance-data-and-infrastructure",
+      "relation": "feeds",
+      "label": "Feeds",
+      "canvas": "framework/Open Standards Main Map/Updated Open Governance Standards Map.canvas"
+    },
+    {
+      "from": "actor-map",
+      "to": "understand-relationships-between-people-and-groups",
+      "relation": "informs",
+      "label": "Informs",
+      "canvas": "framework/Open Standards Main Map/Updated Open Governance Standards Map.canvas"
+    },
+    {
+      "from": "adaptability-and-extensibility",
+      "to": "decide-on-aims-and-objectives",
+      "relation": "describes",
+      "label": "Describes",
+      "canvas": "framework/Open Standards Main Map/Updated Open Governance Standards Map.canvas"
+    },
+    {
+      "from": "adoption-sustainability",
+      "to": "operational-guidance-for-producers",
+      "relation": "connects",
+      "label": "",
+      "canvas": "framework/Open Standards Main Map/Updated Open Governance Standards Map.canvas"
+    },
+    {
+      "from": "adoption-sustainability",
+      "to": "sustainability-gate",
+      "relation": "connects",
+      "label": "",
+      "canvas": "framework/Open Standards Main Map/Updated Open Governance Standards Map.canvas"
+    },
+    {
+      "from": "community-sustainability",
+      "to": "operational-guidance-for-producers",
+      "relation": "connects",
+      "label": "",
+      "canvas": "framework/Open Standards Main Map/Updated Open Governance Standards Map.canvas"
+    },
+    {
+      "from": "community-sustainability",
+      "to": "sustainability-gate",
+      "relation": "connects",
+      "label": "",
+      "canvas": "framework/Open Standards Main Map/Updated Open Governance Standards Map.canvas"
+    },
+    {
+      "from": "decide-on-aims-and-objectives",
+      "to": "development-principles",
+      "relation": "follows-through",
+      "label": "Follows through",
+      "canvas": "framework/Open Standards Main Map/Updated Open Governance Standards Map.canvas"
+    },
+    {
+      "from": "decide-who-to-work-with",
+      "to": "identify-community-stakeholders",
+      "relation": "enables-us-to",
+      "label": "Enables us to",
+      "canvas": "framework/Open Standards Main Map/Updated Open Governance Standards Map.canvas"
+    },
+    {
+      "from": "development-principles",
+      "to": "1-choose-the-development-method",
+      "relation": "enables-us-to",
+      "label": "Enables us to",
+      "canvas": "framework/Open Standards Main Map/Updated Open Governance Standards Map.canvas"
+    },
+    {
+      "from": "development-principles",
+      "to": "scope-and-start-phase-gate",
+      "relation": "checkpoint-for",
+      "label": "Checkpoint for",
+      "canvas": "framework/Open Standards Main Map/Updated Open Governance Standards Map.canvas"
+    },
+    {
+      "from": "development-principles",
+      "to": "think-about-sustainability",
+      "relation": "enables-us-to",
+      "label": "Enables us to",
+      "canvas": "framework/Open Standards Main Map/Updated Open Governance Standards Map.canvas"
+    },
+    {
+      "from": "ecosystem-map",
+      "to": "decide-who-to-work-with",
+      "relation": "enables-us-to",
+      "label": "Enables us to",
+      "canvas": "framework/Open Standards Main Map/Updated Open Governance Standards Map.canvas"
+    },
+    {
+      "from": "ecosystem-map",
+      "to": "surface-ecosystem-tensions",
+      "relation": "enables-us-to",
+      "label": "Enables us to",
+      "canvas": "framework/Open Standards Main Map/Updated Open Governance Standards Map.canvas"
+    },
+    {
+      "from": "exchanging-of-governance-information",
+      "to": "identify-people-and-groups",
+      "relation": "supports",
+      "label": "Supports",
+      "canvas": "framework/Open Standards Main Map/Updated Open Governance Standards Map.canvas"
+    },
+    {
+      "from": "frame-the-opportunity",
+      "to": "review-research-and-feedback",
+      "relation": "feeds",
+      "label": "Feeds",
+      "canvas": "framework/Open Standards Main Map/Updated Open Governance Standards Map.canvas"
+    },
+    {
+      "from": "frame-the-opportunity",
+      "to": "understand-ecosystem",
+      "relation": "informs-and-updates",
+      "label": "Informs and updates",
+      "canvas": "framework/Open Standards Main Map/Updated Open Governance Standards Map.canvas"
+    },
+    {
+      "from": "governance-sustainability",
+      "to": "operational-guidance-for-producers",
+      "relation": "connects",
+      "label": "",
+      "canvas": "framework/Open Standards Main Map/Updated Open Governance Standards Map.canvas"
+    },
+    {
+      "from": "governance-sustainability",
+      "to": "sustainability-gate",
+      "relation": "connects",
+      "label": "",
+      "canvas": "framework/Open Standards Main Map/Updated Open Governance Standards Map.canvas"
+    },
+    {
+      "from": "identify-community-stakeholders",
+      "to": "understand-ecosystem",
+      "relation": "feeds",
+      "label": "Feeds",
+      "canvas": "framework/Open Standards Main Map/Updated Open Governance Standards Map.canvas"
+    },
+    {
+      "from": "identify-core-features",
+      "to": "decide-on-aims-and-objectives",
+      "relation": "connects",
+      "label": "",
+      "canvas": "framework/Open Standards Main Map/Updated Open Governance Standards Map.canvas"
+    },
+    {
+      "from": "identify-current-ecosystem-standards",
+      "to": "ecosystem-map",
+      "relation": "produces",
+      "label": "Produces",
+      "canvas": "framework/Open Standards Main Map/Updated Open Governance Standards Map.canvas"
+    },
+    {
+      "from": "identify-people-and-groups",
+      "to": "actor-map",
+      "relation": "produces",
+      "label": "Produces",
+      "canvas": "framework/Open Standards Main Map/Updated Open Governance Standards Map.canvas"
+    },
+    {
+      "from": "information-exchange",
+      "to": "types-of-standards",
+      "relation": "connects",
+      "label": "",
+      "canvas": "framework/Open Standards Main Map/Updated Open Governance Standards Map.canvas"
+    },
+    {
+      "from": "interoperability-intent",
+      "to": "decide-on-aims-and-objectives",
+      "relation": "connects",
+      "label": "",
+      "canvas": "framework/Open Standards Main Map/Updated Open Governance Standards Map.canvas"
+    },
+    {
+      "from": "knowledge-sustainability",
+      "to": "operational-guidance-for-producers",
+      "relation": "connects",
+      "label": "",
+      "canvas": "framework/Open Standards Main Map/Updated Open Governance Standards Map.canvas"
+    },
+    {
+      "from": "knowledge-sustainability",
+      "to": "sustainability-gate",
+      "relation": "connects",
+      "label": "",
+      "canvas": "framework/Open Standards Main Map/Updated Open Governance Standards Map.canvas"
+    },
+    {
+      "from": "minimal-theory-of-change",
+      "to": "decide-on-aims-and-objectives",
+      "relation": "informs",
+      "label": "Informs",
+      "canvas": "framework/Open Standards Main Map/Updated Open Governance Standards Map.canvas"
+    },
+    {
+      "from": "on-a-governance-open-standard",
+      "to": "types-of-standards",
+      "relation": "connects",
+      "label": "",
+      "canvas": "framework/Open Standards Main Map/Updated Open Governance Standards Map.canvas"
+    },
+    {
+      "from": "producers-of-governance-activity",
+      "to": "identify-people-and-groups",
+      "relation": "supports",
+      "label": "Supports",
+      "canvas": "framework/Open Standards Main Map/Updated Open Governance Standards Map.canvas"
+    },
+    {
+      "from": "provide-guidance",
+      "to": "types-of-standards",
+      "relation": "connects",
+      "label": "",
+      "canvas": "framework/Open Standards Main Map/Updated Open Governance Standards Map.canvas"
+    },
+    {
+      "from": "real-world-testnet",
+      "to": "decide-on-aims-and-objectives",
+      "relation": "connects",
+      "label": "",
+      "canvas": "framework/Open Standards Main Map/Updated Open Governance Standards Map.canvas"
+    },
+    {
+      "from": "resource-sustainability",
+      "to": "operational-guidance-for-producers",
+      "relation": "connects",
+      "label": "",
+      "canvas": "framework/Open Standards Main Map/Updated Open Governance Standards Map.canvas"
+    },
+    {
+      "from": "resource-sustainability",
+      "to": "sustainability-gate",
+      "relation": "connects",
+      "label": "",
+      "canvas": "framework/Open Standards Main Map/Updated Open Governance Standards Map.canvas"
+    },
+    {
+      "from": "review-research-and-feedback",
+      "to": "minimal-theory-of-change",
+      "relation": "informs",
+      "label": "Informs",
+      "canvas": "framework/Open Standards Main Map/Updated Open Governance Standards Map.canvas"
+    },
+    {
+      "from": "shared-vocabularies",
+      "to": "types-of-standards",
+      "relation": "connects",
+      "label": "",
+      "canvas": "framework/Open Standards Main Map/Updated Open Governance Standards Map.canvas"
+    },
+    {
+      "from": "simple-canvas",
+      "to": "frame-the-opportunity",
+      "relation": "starts-and-supports",
+      "label": "Starts and Supports",
+      "canvas": "framework/Open Standards Main Map/Updated Open Governance Standards Map.canvas"
+    },
+    {
+      "from": "surface-ecosystem-tensions",
+      "to": "identify-community-stakeholders",
+      "relation": "enables-us-to",
+      "label": "Enables us to",
+      "canvas": "framework/Open Standards Main Map/Updated Open Governance Standards Map.canvas"
+    },
+    {
+      "from": "sustainability-gate",
+      "to": "3-approve-development",
+      "relation": "connects",
+      "label": "",
+      "canvas": "framework/Open Standards Main Map/Updated Open Governance Standards Map.canvas"
+    },
+    {
+      "from": "technical-sustainability",
+      "to": "operational-guidance-for-producers",
+      "relation": "connects",
+      "label": "",
+      "canvas": "framework/Open Standards Main Map/Updated Open Governance Standards Map.canvas"
+    },
+    {
+      "from": "technical-sustainability",
+      "to": "sustainability-gate",
+      "relation": "connects",
+      "label": "",
+      "canvas": "framework/Open Standards Main Map/Updated Open Governance Standards Map.canvas"
+    },
+    {
+      "from": "the-development-method",
+      "to": "scope-and-start-phase-gate",
+      "relation": "delivers",
+      "label": "Delivers",
+      "canvas": "framework/Open Standards Main Map/Updated Open Governance Standards Map.canvas"
+    },
+    {
+      "from": "think-about-sustainability",
+      "to": "adoption-sustainability",
+      "relation": "connects",
+      "label": "",
+      "canvas": "framework/Open Standards Main Map/Updated Open Governance Standards Map.canvas"
+    },
+    {
+      "from": "think-about-sustainability",
+      "to": "community-sustainability",
+      "relation": "connects",
+      "label": "",
+      "canvas": "framework/Open Standards Main Map/Updated Open Governance Standards Map.canvas"
+    },
+    {
+      "from": "think-about-sustainability",
+      "to": "governance-sustainability",
+      "relation": "connects",
+      "label": "",
+      "canvas": "framework/Open Standards Main Map/Updated Open Governance Standards Map.canvas"
+    },
+    {
+      "from": "think-about-sustainability",
+      "to": "knowledge-sustainability",
+      "relation": "connects",
+      "label": "",
+      "canvas": "framework/Open Standards Main Map/Updated Open Governance Standards Map.canvas"
+    },
+    {
+      "from": "think-about-sustainability",
+      "to": "resource-sustainability",
+      "relation": "connects",
+      "label": "",
+      "canvas": "framework/Open Standards Main Map/Updated Open Governance Standards Map.canvas"
+    },
+    {
+      "from": "think-about-sustainability",
+      "to": "technical-sustainability",
+      "relation": "connects",
+      "label": "",
+      "canvas": "framework/Open Standards Main Map/Updated Open Governance Standards Map.canvas"
+    },
+    {
+      "from": "types-of-standards",
+      "to": "frame-the-opportunity",
+      "relation": "references-consults",
+      "label": "References/Consults",
+      "canvas": "framework/Open Standards Main Map/Updated Open Governance Standards Map.canvas"
+    },
+    {
+      "from": "types-of-standards",
+      "to": "identify-current-ecosystem-standards",
+      "relation": "references",
+      "label": "References",
+      "canvas": "framework/Open Standards Main Map/Updated Open Governance Standards Map.canvas"
+    },
+    {
+      "from": "understand-ecosystem",
+      "to": "simple-canvas",
+      "relation": "updates",
+      "label": "Updates",
+      "canvas": "framework/Open Standards Main Map/Updated Open Governance Standards Map.canvas"
+    },
+    {
+      "from": "understand-governance-data-and-infrastructure",
+      "to": "ecosystem-map",
+      "relation": "produces",
+      "label": "Produces",
+      "canvas": "framework/Open Standards Main Map/Updated Open Governance Standards Map.canvas"
+    },
+    {
+      "from": "understand-relationships-between-people-and-groups",
+      "to": "ecosystem-map",
+      "relation": "produces",
+      "label": "Produces",
+      "canvas": "framework/Open Standards Main Map/Updated Open Governance Standards Map.canvas"
+    },
+    {
+      "from": "users-of-governance-infrastructure",
+      "to": "identify-people-and-groups",
+      "relation": "supports",
+      "label": "Supports",
+      "canvas": "framework/Open Standards Main Map/Updated Open Governance Standards Map.canvas"
+    },
+    {
+      "from": "what-can-be-extended",
+      "to": "identify-current-ecosystem-standards",
+      "relation": "checks",
+      "label": "Checks",
+      "canvas": "framework/Open Standards Main Map/Updated Open Governance Standards Map.canvas"
+    },
+    {
+      "from": "what-can-be-opened-up",
+      "to": "identify-current-ecosystem-standards",
+      "relation": "checks",
+      "label": "Checks",
+      "canvas": "framework/Open Standards Main Map/Updated Open Governance Standards Map.canvas"
+    },
+    {
+      "from": "what-can-be-used-instead",
+      "to": "identify-current-ecosystem-standards",
+      "relation": "checks",
+      "label": "Checks",
+      "canvas": "framework/Open Standards Main Map/Updated Open Governance Standards Map.canvas"
+    }
+  ],
+  "returns_to": [
+    {
+      "from": "scope-and-start-phase-gate",
+      "condition": "When the selected development approach does not match uncertainty, risk, participation needs, or legitimacy requirements",
+      "to": "1-choose-the-development-method"
+    },
+    {
+      "from": "scope-and-start-phase-gate",
+      "condition": "When the standard appears justified but phases, testing, infrastructure, roles, decision rights, or release logic are not ready",
+      "to": "2-plan-the-development"
+    },
+    {
+      "from": "scope-and-start-phase-gate",
+      "condition": "When the work is technically ready but lacks sufficient consent, authorization, commitment, or recorded conditions for progression",
+      "to": "3-approve-development"
+    },
+    {
+      "from": "scope-and-start-phase-gate",
+      "condition": "When the intended change is unclear, objectives conflict, or the proposed standard no longer plausibly supports the stated aim",
+      "to": "decide-on-aims-and-objectives"
+    },
+    {
+      "from": "scope-and-start-phase-gate",
+      "condition": "When the problem/opportunity remains vague, competing frames are unresolved, or new evidence contradicts the original framing",
+      "to": "frame-the-opportunity"
+    },
+    {
+      "from": "scope-and-start-phase-gate",
+      "condition": "When participation is too narrow, representation gaps are material, or there are no credible shapers/testers/early adopters",
+      "to": "identify-community-stakeholders"
+    },
+    {
+      "from": "scope-and-start-phase-gate",
+      "condition": "When scope is too broad, too vague, or the essential feature set is not yet distinguishable from optional work",
+      "to": "identify-core-features"
+    },
+    {
+      "from": "scope-and-start-phase-gate",
+      "condition": "When reuse, extension, interoperability, or “use something else” questions remain unresolved",
+      "to": "identify-current-ecosystem-standards"
+    },
+    {
+      "from": "scope-and-start-phase-gate",
+      "condition": "When the causal pathway is weak, assumptions are doing too much work, or the standard’s expected mechanism of change is unclear",
+      "to": "minimal-theory-of-change"
+    },
+    {
+      "from": "scope-and-start-phase-gate",
+      "condition": "When the maintenance burden, stewardship model, funding assumptions, adopter cost, or continuity plan are not credible",
+      "to": "think-about-sustainability"
+    },
+    {
+      "from": "scope-and-start-phase-gate",
+      "condition": "When important actors, relationships, infrastructure, standards, control points, or dependencies are still poorly understood",
+      "to": "understand-ecosystem"
+    }
+  ],
+  "placeholders": [
+    {
+      "from": "scope-and-start-phase-gate",
+      "to_text": "Development",
+      "relation": "connects",
+      "canvas": "framework/Open Standards Main Map/Updated Open Governance Standards Map.canvas"
+    },
+    {
+      "from": "provide-guidance",
+      "to_text": "Models",
+      "relation": "connects",
+      "canvas": "framework/Open Standards Simple Canvas/Simple Canvas For Open Standards.canvas"
+    },
+    {
+      "from": "provide-guidance",
+      "to_text": "Protocols",
+      "relation": "connects",
+      "canvas": "framework/Open Standards Simple Canvas/Simple Canvas For Open Standards.canvas"
+    },
+    {
+      "from": "provide-guidance",
+      "to_text": "Guides",
+      "relation": "connects",
+      "canvas": "framework/Open Standards Simple Canvas/Simple Canvas For Open Standards.canvas"
+    },
+    {
+      "from": "shared-vocabularies",
+      "to_text": "Registers",
+      "relation": "connects",
+      "canvas": "framework/Open Standards Simple Canvas/Simple Canvas For Open Standards.canvas"
+    },
+    {
+      "from": "shared-vocabularies",
+      "to_text": "Taxonomies",
+      "relation": "connects",
+      "canvas": "framework/Open Standards Simple Canvas/Simple Canvas For Open Standards.canvas"
+    },
+    {
+      "from": "information-exchange",
+      "to_text": "Schemas",
+      "relation": "connects",
+      "canvas": "framework/Open Standards Simple Canvas/Simple Canvas For Open Standards.canvas"
+    },
+    {
+      "from": "information-exchange",
+      "to_text": "Templates",
+      "relation": "connects",
+      "canvas": "framework/Open Standards Simple Canvas/Simple Canvas For Open Standards.canvas"
+    },
+    {
+      "from": "shared-vocabularies",
+      "to_text": "vocabularies",
+      "relation": "connects",
+      "canvas": "framework/Open Standards Simple Canvas/Simple Canvas For Open Standards.canvas"
+    },
+    {
+      "from": "shared-vocabularies",
+      "to_text": "Ontologies",
+      "relation": "connects",
+      "canvas": "framework/Open Standards Simple Canvas/Simple Canvas For Open Standards.canvas"
+    },
+    {
+      "from": "information-exchange",
+      "to_text": "Specifications",
+      "relation": "connects",
+      "canvas": "framework/Open Standards Simple Canvas/Simple Canvas For Open Standards.canvas"
+    }
+  ],
+  "artifacts": {
+    "access-barriers": [
+      "what-can-be-opened-up"
+    ],
+    "accessibility-intent": [
+      "decide-on-aims-and-objectives",
+      "accessibility-and-translation"
+    ],
+    "actor-categories": [
+      "identify-people-and-groups"
+    ],
+    "actor-map": [
+      "identify-people-and-groups"
+    ],
+    "adaptability-intent": [
+      "decide-on-aims-and-objectives"
+    ],
+    "adoption-burden-assessment": [
+      "think-about-sustainability"
+    ],
+    "advocates": [
+      "decide-who-to-work-with"
+    ],
+    "affected-groups": [
+      "identify-community-stakeholders"
+    ],
+    "affected-participant-frame": [
+      "frame-the-opportunity"
+    ],
+    "aim": [
+      "decide-on-aims-and-objectives"
+    ],
+    "alternatives": [
+      "what-can-be-used-instead"
+    ],
+    "approval-record": [
+      "the-development-method"
+    ],
+    "approved-scope": [
+      "scope-and-start-phase-gate"
+    ],
+    "assessment-frameworks": [
+      "provide-guidance"
+    ],
+    "assumptions": [
+      "minimal-theory-of-change"
+    ],
+    "benefit-hypotheses": [
+      "frame-the-opportunity"
+    ],
+    "candidate-interventions": [
+      "frame-the-opportunity"
+    ],
+    "candidate-standard-form": [
+      "types-of-standards"
+    ],
+    "candidate-standard-type": [
+      "frame-the-opportunity"
+    ],
+    "candidate-test-contexts": [
+      "real-world-testnet"
+    ],
+    "change-pathway": [
+      "minimal-theory-of-change"
+    ],
+    "codes-of-practice": [
+      "provide-guidance"
+    ],
+    "comparison-language": [
+      "types-of-standards"
+    ],
+    "compatibility-boundaries": [
+      "interoperability-intent"
+    ],
+    "compatibility-questions": [
+      "what-can-be-extended"
+    ],
+    "conceptual-models": [
+      "shared-vocabularies"
+    ],
+    "conflict-map": [
+      "understand-relationships-between-people-and-groups"
+    ],
+    "continuity-risks": [
+      "think-about-sustainability"
+    ],
+    "contribution-model": [
+      "the-development-method"
+    ],
+    "conventions-inventory": [
+      "identify-current-ecosystem-standards"
+    ],
+    "coordination-need": [
+      "frame-the-opportunity"
+    ],
+    "core-feature-hypotheses": [
+      "decide-on-aims-and-objectives",
+      "identify-core-features"
+    ],
+    "decision-rights": [
+      "the-development-method"
+    ],
+    "definitions": [
+      "shared-vocabularies"
+    ],
+    "dependency-map": [
+      "understand-relationships-between-people-and-groups"
+    ],
+    "development-case": [
+      "scope-and-start-phase-gate"
+    ],
+    "development-entry-conditions": [
+      "scope-and-start-phase-gate"
+    ],
+    "development-infrastructure": [
+      "the-development-method"
+    ],
+    "development-method": [
+      "the-development-method"
+    ],
+    "development-plan": [
+      "the-development-method"
+    ],
+    "development-principles": [
+      "decide-on-aims-and-objectives",
+      "development-principles"
+    ],
+    "development-readiness-record": [
+      "scope-and-start-phase-gate"
+    ],
+    "early-adopters": [
+      "decide-who-to-work-with"
+    ],
+    "ecosystem-findings": [
+      "understand-ecosystem"
+    ],
+    "ecosystem-map": [
+      "understand-ecosystem"
+    ],
+    "ecosystem-open-questions": [
+      "understand-ecosystem"
+    ],
+    "enabling-conditions": [
+      "minimal-theory-of-change"
+    ],
+    "engagement-hypothesis": [
+      "simple-canvas"
+    ],
+    "engagement-priorities": [
+      "identify-community-stakeholders"
+    ],
+    "evidence-gaps": [
+      "frame-the-opportunity"
+    ],
+    "evidence-summary": [
+      "review-research-and-feedback"
+    ],
+    "exchange-rules": [
+      "information-exchange"
+    ],
+    "extension-candidates": [
+      "what-can-be-extended"
+    ],
+    "extension-intent": [
+      "adaptability-and-extensibility"
+    ],
+    "failure-conditions": [
+      "real-world-testnet"
+    ],
+    "feature-rationale": [
+      "identify-core-features"
+    ],
+    "feedback-partners": [
+      "decide-who-to-work-with"
+    ],
+    "feedback-summary": [
+      "review-research-and-feedback"
+    ],
+    "framing-assumptions": [
+      "frame-the-opportunity"
+    ],
+    "framing-changes": [
+      "review-research-and-feedback"
+    ],
+    "governance-barriers": [
+      "what-can-be-opened-up"
+    ],
+    "governance-infrastructure-map": [
+      "understand-ecosystem"
+    ],
+    "guides": [
+      "provide-guidance"
+    ],
+    "identified-gaps": [
+      "simple-canvas"
+    ],
+    "identifiers": [
+      "shared-vocabularies"
+    ],
+    "impact-hypothesis": [
+      "simple-canvas"
+    ],
+    "information-flow-map": [
+      "understand-governance-data-and-infrastructure"
+    ],
+    "infrastructure-gaps": [
+      "understand-governance-data-and-infrastructure"
+    ],
+    "infrastructure-map": [
+      "understand-governance-data-and-infrastructure"
+    ],
+    "initial-opportunity-frame": [
+      "simple-canvas"
+    ],
+    "initial-standard-concept": [
+      "simple-canvas"
+    ],
+    "initial-test-intent": [
+      "decide-on-aims-and-objectives"
+    ],
+    "initial-use-cases": [
+      "simple-canvas"
+    ],
+    "interface-map": [
+      "understand-governance-data-and-infrastructure"
+    ],
+    "interfaces": [
+      "information-exchange"
+    ],
+    "interoperability-intent": [
+      "decide-on-aims-and-objectives"
+    ],
+    "interoperability-requirements": [
+      "interoperability-intent"
+    ],
+    "learning-questions": [
+      "minimal-theory-of-change"
+    ],
+    "maintenance-model": [
+      "think-about-sustainability"
+    ],
+    "mechanisms": [
+      "minimal-theory-of-change"
+    ],
+    "methods": [
+      "provide-guidance"
+    ],
+    "missing-actor-questions": [
+      "identify-people-and-groups"
+    ],
+    "no-new-standard-option": [
+      "what-can-be-used-instead"
+    ],
+    "objectives": [
+      "decide-on-aims-and-objectives"
+    ],
+    "ontologies": [
+      "shared-vocabularies"
+    ],
+    "open-standard-canvas": [
+      "simple-canvas"
+    ],
+    "opening-opportunities": [
+      "what-can-be-opened-up"
+    ],
+    "opportunity-frame": [
+      "frame-the-opportunity"
+    ],
+    "optional-feature-hypotheses": [
+      "identify-core-features"
+    ],
+    "participant-cohort": [
+      "decide-who-to-work-with"
+    ],
+    "participant-map": [
+      "simple-canvas"
+    ],
+    "participation-barriers": [
+      "accessibility-and-translation"
+    ],
+    "participation-candidates": [
+      "understand-ecosystem"
+    ],
+    "participation-rationale": [
+      "decide-who-to-work-with"
+    ],
+    "procedural-commitments": [
+      "development-principles"
+    ],
+    "proceed-reframe-exit-decision": [
+      "frame-the-opportunity"
+    ],
+    "process-models": [
+      "provide-guidance"
+    ],
+    "protocols": [
+      "provide-guidance"
+    ],
+    "readiness-decision": [
+      "the-development-method"
+    ],
+    "registers": [
+      "shared-vocabularies"
+    ],
+    "relationship-map": [
+      "understand-ecosystem",
+      "understand-relationships-between-people-and-groups"
+    ],
+    "representation-gaps": [
+      "identify-community-stakeholders"
+    ],
+    "resource-hypothesis": [
+      "simple-canvas"
+    ],
+    "resource-model": [
+      "think-about-sustainability"
+    ],
+    "reuse-candidates": [
+      "identify-current-ecosystem-standards",
+      "interoperability-intent"
+    ],
+    "review-triggers": [
+      "scope-and-start-phase-gate"
+    ],
+    "risk-hypothesis": [
+      "simple-canvas"
+    ],
+    "schemas": [
+      "information-exchange"
+    ],
+    "scope-and-start-bundle": [
+      "scope-and-start-phase-gate"
+    ],
+    "specification-options": [
+      "types-of-standards"
+    ],
+    "specifications": [
+      "information-exchange"
+    ],
+    "stability-boundaries": [
+      "adaptability-and-extensibility"
+    ],
+    "stakeholder-map": [
+      "understand-ecosystem",
+      "identify-community-stakeholders"
+    ],
+    "standard-type-classification": [
+      "types-of-standards"
+    ],
+    "standards-inventory": [
+      "identify-current-ecosystem-standards"
+    ],
+    "standards-landscape": [
+      "understand-ecosystem"
+    ],
+    "stewardship-model": [
+      "think-about-sustainability"
+    ],
+    "success-hypotheses": [
+      "decide-on-aims-and-objectives"
+    ],
+    "support-model": [
+      "think-about-sustainability"
+    ],
+    "sustainability-conditions": [
+      "think-about-sustainability"
+    ],
+    "sustainability-model": [
+      "think-about-sustainability"
+    ],
+    "taxonomies": [
+      "shared-vocabularies"
+    ],
+    "templates": [
+      "information-exchange"
+    ],
+    "test-hypotheses": [
+      "real-world-testnet"
+    ],
+    "testing-plan": [
+      "the-development-method"
+    ],
+    "theory-of-change": [
+      "decide-on-aims-and-objectives"
+    ],
+    "translation-intent": [
+      "accessibility-and-translation"
+    ],
+    "trust-boundaries": [
+      "understand-relationships-between-people-and-groups"
+    ],
+    "unintended-effects": [
+      "minimal-theory-of-change"
+    ],
+    "unresolved-disagreements": [
+      "review-research-and-feedback"
+    ],
+    "unresolved-questions": [
+      "scope-and-start-phase-gate"
+    ],
+    "validation-rules": [
+      "information-exchange"
+    ],
+    "variation-boundaries": [
+      "adaptability-and-extensibility"
+    ],
+    "vocabularies": [
+      "shared-vocabularies"
+    ],
+    "work-phases": [
+      "the-development-method"
+    ]
+  },
+  "canvases": [
+    {
+      "path": "framework/Open Standards Main Map/Updated Open Governance Standards Map.canvas",
+      "nodes": 71,
+      "notes": 57,
+      "edges": 85
+    },
+    {
+      "path": "framework/Open Standards Simple Canvas/Simple Canvas For Open Standards.canvas",
+      "nodes": 58,
+      "notes": 4,
+      "edges": 30
+    },
+    {
+      "path": "framework/Theory of Change/Theory of change - Four principles of Change.canvas",
+      "nodes": 195,
+      "notes": 0,
+      "edges": 164
+    }
+  ],
+  "warnings": [
+    "30 canvas edges between notes have no label (indexed as 'connects')"
+  ]
+}

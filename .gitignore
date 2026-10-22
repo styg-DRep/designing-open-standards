@@ -1,0 +1,20 @@
+# Your efforts stay local unless you choose otherwise (see workspace/README.md)
+workspace/*
+!workspace/README.md
+
+# Personal Obsidian state
+framework/.obsidian/workspace.json
+framework/.obsidian/workspace-mobile.json
+framework/.obsidian/cache
+framework/.trash/
+
+# Claude Code personal settings
+.claude/settings.local.json
+CLAUDE.local.md
+
+# OS / Python
+.DS_Store
+Thumbs.db
+__pycache__/
+*.pyc
+.venv/

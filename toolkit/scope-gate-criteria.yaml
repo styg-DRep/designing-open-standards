@@ -1,0 +1,291 @@
+# Scope and Start gate — criteria crosswalk
+#
+# `criterion` text is verbatim from framework/Open Standards Main Map/Scope and Start (Phase Gate).md
+# ("Scope and Start Gate Criteria"). Everything else here — the stable ids, which nodes to
+# consult, and which node to return to — is an INTERPRETATION LAYER derived from the gate note
+# and the returns-to routes on the main canvas. Where the two disagree, the framework wins;
+# fix this file.
+#
+# Criterion ids are stable: audit records cite them. Deprecate rather than renumber.
+#
+# Node ids are filename slugs (see map/INDEX.md).
+
+version: 1
+phase: scope
+gate_node: scope-and-start-phase-gate
+
+statuses:
+  met: Sufficient evidence the criterion is true for this effort.
+  partial: Some evidence, but material gaps remain.
+  not-met: Evidence shows the criterion is not true.
+  not-evidenced: No evidence either way was found in the sources examined.
+  not-applicable: Genuinely does not apply; say why.
+
+# From "Frame the Opportunity" (Evidence Before Resolution) and "Ecosystem Map" (Map Claims With Confidence)
+evidence_tags: [observed, reported, inferred, assumed, contested, unknown]
+
+# From "Pattern: Readiness Is Sufficient, Not Complete"
+resolve_options:
+  before-development: An uncertainty we must resolve before development.
+  through-development: An uncertainty development is intended to resolve.
+
+# From "Pattern: Open Questions Travel With the Work"
+open_question_dispositions: [development-task, test-hypothesis, monitoring-condition, review-trigger, accepted-uncertainty]
+
+# From "Possible Gate Outcomes"
+gate_outcomes:
+  - enter-development
+  - enter-development-conditionally
+  - return-to-frame-the-opportunity
+  - return-to-understand-the-ecosystem
+  - return-to-aims-and-objectives
+  - return-to-development-planning
+  - reuse-or-extend
+  - use-another-intervention
+  - pause
+  - stop
+
+domains:
+  - domain: Opportunity
+    criteria:
+      - id: opportunity.current-condition
+        criterion: The current condition is clearly described.
+        consult: [frame-the-opportunity, simple-canvas]
+        returns_to: frame-the-opportunity
+      - id: opportunity.coordination-need
+        criterion: The coordination need is plausible.
+        consult: [frame-the-opportunity, types-of-standards]
+        returns_to: frame-the-opportunity
+      - id: opportunity.affected-actors
+        criterion: The intended beneficiaries and affected actors are known.
+        consult: [frame-the-opportunity, identify-people-and-groups, actor-map]
+        returns_to: frame-the-opportunity
+      - id: opportunity.competing-frames
+        criterion: Competing interpretations have been considered.
+        consult: [frame-the-opportunity, review-research-and-feedback]
+        returns_to: frame-the-opportunity
+
+  - domain: Ecosystem
+    criteria:
+      - id: ecosystem.actors-and-infrastructure
+        criterion: Relevant actors and infrastructure have been mapped.
+        consult: [identify-people-and-groups, producers-of-governance-activity, users-of-governance-infrastructure,
+                  exchanging-of-governance-information, understand-governance-data-and-infrastructure, actor-map, ecosystem-map]
+        returns_to: understand-ecosystem
+      - id: ecosystem.relationships-and-dependencies
+        criterion: Important relationships and dependencies are visible.
+        consult: [understand-relationships-between-people-and-groups, ecosystem-map]
+        returns_to: understand-ecosystem
+      - id: ecosystem.existing-standards
+        criterion: Existing standards have been investigated.
+        consult: [identify-current-ecosystem-standards, what-can-be-used-instead, what-can-be-extended, what-can-be-opened-up]
+        returns_to: identify-current-ecosystem-standards
+      - id: ecosystem.power-and-control
+        criterion: Major power and control considerations have been surfaced.
+        consult: [surface-ecosystem-tensions]
+        returns_to: understand-ecosystem
+
+  - domain: Justification
+    criteria:
+      - id: justification.reason-to-standardize
+        criterion: There is a defensible reason to standardize.
+        consult: [frame-the-opportunity, what-can-be-used-instead]
+        returns_to: frame-the-opportunity
+      - id: justification.existing-insufficient
+        criterion: Existing standards are insufficient or require explicit extension.
+        consult: [identify-current-ecosystem-standards, what-can-be-extended, what-can-be-opened-up, what-can-be-used-instead]
+        returns_to: identify-current-ecosystem-standards
+      - id: justification.standardization-surface
+        criterion: The proposed standardization surface is clear.
+        consult: [types-of-standards, frame-the-opportunity, shared-vocabularies, information-exchange, provide-guidance]
+        returns_to: frame-the-opportunity
+      - id: justification.scope-bounded
+        criterion: The scope is bounded.
+        consult: [identify-core-features, scope-and-start-phase-gate]
+        returns_to: identify-core-features
+
+  - domain: Participation
+    criteria:
+      - id: participation.stakeholders-identified
+        criterion: Relevant stakeholders have been identified.
+        consult: [identify-community-stakeholders]
+        returns_to: identify-community-stakeholders
+      - id: participation.participants-available
+        criterion: Meaningful participants are available for development.
+        consult: [decide-who-to-work-with, identify-community-stakeholders]
+        returns_to: identify-community-stakeholders
+      - id: participation.early-adopters
+        criterion: Early adopters or testers have been identified.
+        consult: [decide-who-to-work-with, simple-canvas]
+        returns_to: identify-community-stakeholders
+      - id: participation.representation-gaps
+        criterion: Important representation gaps are acknowledged.
+        consult: [identify-community-stakeholders]
+        returns_to: identify-community-stakeholders
+
+  - domain: Purpose
+    criteria:
+      - id: purpose.aim
+        criterion: The aim is clear.
+        consult: [decide-on-aims-and-objectives]
+        returns_to: decide-on-aims-and-objectives
+      - id: purpose.objectives-are-change
+        criterion: Objectives describe meaningful change rather than outputs.
+        consult: [decide-on-aims-and-objectives]
+        returns_to: decide-on-aims-and-objectives
+      - id: purpose.causal-logic
+        criterion: The causal logic is plausible.
+        consult: [minimal-theory-of-change]
+        returns_to: minimal-theory-of-change
+      - id: purpose.assumptions-explicit
+        criterion: Important assumptions are explicit.
+        consult: [minimal-theory-of-change, frame-the-opportunity]
+        returns_to: minimal-theory-of-change
+
+  - domain: Design Intent
+    criteria:
+      - id: design.core-capabilities
+        criterion: Core capabilities are identified.
+        consult: [identify-core-features]
+        returns_to: identify-core-features
+      - id: design.interoperability
+        criterion: Interoperability expectations are visible.
+        consult: [interoperability-intent]
+        returns_to: identify-current-ecosystem-standards
+      - id: design.extensibility
+        criterion: Extensibility boundaries are understood.
+        consult: [adaptability-and-extensibility]
+        returns_to: decide-on-aims-and-objectives
+      - id: design.accessibility
+        criterion: Accessibility needs have been considered.
+        consult: [accessibility-and-translation]
+        returns_to: decide-on-aims-and-objectives
+
+  - domain: Development
+    criteria:
+      - id: development.method
+        criterion: A development method has been selected.
+        consult: [1-choose-the-development-method, the-development-method]
+        returns_to: 1-choose-the-development-method
+      - id: development.plan
+        criterion: A practical development plan exists.
+        consult: [2-plan-the-development]
+        returns_to: 2-plan-the-development
+      - id: development.testing
+        criterion: Testing is embedded.
+        consult: [2-plan-the-development, real-world-testnet]
+        returns_to: 2-plan-the-development
+      - id: development.infrastructure
+        criterion: Development infrastructure exists or is ready.
+        consult: [2-plan-the-development]
+        returns_to: 2-plan-the-development
+      - id: development.decision-rights
+        criterion: Decision rights are explicit.
+        consult: [2-plan-the-development]
+        returns_to: 2-plan-the-development
+
+  - domain: Openness
+    criteria:
+      - id: openness.contribution-conditions
+        criterion: Contribution conditions are clear.
+        consult: [2-plan-the-development, development-principles]
+        returns_to: 2-plan-the-development
+      - id: openness.licensing
+        criterion: Licensing is appropriate.
+        consult: [2-plan-the-development, scope-and-start-phase-gate]
+        returns_to: 2-plan-the-development
+      - id: openness.provenance
+        criterion: Provenance can be preserved.
+        consult: [development-principles, knowledge-sustainability]
+        returns_to: 2-plan-the-development
+      - id: openness.inspectable
+        criterion: Development is inspectable.
+        consult: [development-principles, 2-plan-the-development]
+        returns_to: 2-plan-the-development
+
+  - domain: Sustainability
+    criteria:
+      - id: sustainability.initial-resources
+        criterion: Initial resources are credible.
+        consult: [resource-sustainability, sustainability-gate]
+        returns_to: think-about-sustainability
+      - id: sustainability.ongoing-burdens
+        criterion: Ongoing burdens are visible.
+        consult: [think-about-sustainability, resource-sustainability]
+        returns_to: think-about-sustainability
+      - id: sustainability.stewardship
+        criterion: Stewardship is plausible.
+        consult: [governance-sustainability, community-sustainability]
+        returns_to: think-about-sustainability
+      - id: sustainability.adoption-burden
+        criterion: Adoption burden is proportionate.
+        consult: [adoption-sustainability, operational-guidance-for-producers]
+        returns_to: think-about-sustainability
+      - id: sustainability.survives-contributors
+        criterion: The standard can survive individual contributors.
+        consult: [community-sustainability, knowledge-sustainability, technical-sustainability]
+        returns_to: think-about-sustainability
+
+  - domain: Mandate
+    criteria:
+      - id: mandate.progression-accepted
+        criterion: The relevant actors have approved, consented to, or otherwise accepted progression.
+        consult: [3-approve-development]
+        returns_to: 3-approve-development
+      - id: mandate.conditions-preserved
+        criterion: Approval conditions and objections are preserved.
+        consult: [3-approve-development]
+        returns_to: 3-approve-development
+
+# The Scope and Start Bundle components (gate note, "Bundle Component: ..."), with the
+# workspace template that holds each one.
+bundle_components:
+  - {component: Opportunity Frame, template: opportunity-frame.yaml, nodes: [frame-the-opportunity]}
+  - {component: Ecosystem Understanding, template: ecosystem.yaml, nodes: [understand-ecosystem, ecosystem-map]}
+  - {component: Actor Map, template: ecosystem.yaml, nodes: [identify-people-and-groups, actor-map]}
+  - {component: Standards Landscape, template: ecosystem.yaml, nodes: [identify-current-ecosystem-standards]}
+  - {component: New-standard rationale (Earn the Right to Create), template: ecosystem.yaml, nodes: [what-can-be-used-instead, scope-and-start-phase-gate]}
+  - {component: Standard Classification, template: standard-classification.yaml, nodes: [types-of-standards]}
+  - {component: Stakeholder and Participation Model, template: ecosystem.yaml, nodes: [identify-community-stakeholders, decide-who-to-work-with]}
+  - {component: Aim and Objectives, template: aims-and-objectives.yaml, nodes: [decide-on-aims-and-objectives]}
+  - {component: Minimal Theory of Change, template: aims-and-objectives.yaml, nodes: [minimal-theory-of-change]}
+  - {component: Core Scope (incl. out of scope), template: aims-and-objectives.yaml, nodes: [identify-core-features]}
+  - {component: Use Cases, template: simple-canvas.yaml, nodes: [simple-canvas]}
+  - {component: Development Method, template: development.yaml, nodes: [1-choose-the-development-method]}
+  - {component: Development Plan, template: development.yaml, nodes: [2-plan-the-development]}
+  - {component: Contribution and Intellectual Property Model, template: development.yaml, nodes: [2-plan-the-development]}
+  - {component: Governance and Change Model, template: development.yaml, nodes: [2-plan-the-development, governance-sustainability]}
+  - {component: Sustainability Model, template: sustainability-model.yaml, nodes: [think-about-sustainability]}
+  - {component: Development Infrastructure, template: development.yaml, nodes: [2-plan-the-development]}
+  - {component: Engagement Channels, template: simple-canvas.yaml, nodes: [simple-canvas]}
+  - {component: Testing Intent, template: development.yaml, nodes: [real-world-testnet, 2-plan-the-development]}
+  - {component: Risks and Open Questions, template: effort.yaml, nodes: [scope-and-start-phase-gate]}
+
+# Framework patterns that make useful audit red flags. Each names the note it comes from.
+red_flags:
+  - {flag: "The opportunity can only be described as 'we need a standard for X'", source: frame-the-opportunity}
+  - {flag: "No new-standard rationale naming the alternatives examined and why they fall short", source: scope-and-start-phase-gate}
+  - {flag: "'No new standard' / reuse / stop was never a live outcome", source: what-can-be-used-instead}
+  - {flag: "Need and demand are not distinguished", source: frame-the-opportunity}
+  - {flag: "A stakeholder list is presented as evidence of engagement or consent", source: identify-community-stakeholders}
+  - {flag: "Objectives are deliverables (outputs), not changes", source: decide-on-aims-and-objectives}
+  - {flag: "Causal language claims control ('ensure', 'guarantee') the effort does not have", source: decide-on-aims-and-objectives}
+  - {flag: "No explicit out-of-scope list", source: scope-and-start-phase-gate}
+  - {flag: "Interoperability stated as a generic quality, not 'with what, for what purpose'", source: interoperability-intent}
+  - {flag: "Licensing or IP treated as a launch-stage afterthought", source: scope-and-start-phase-gate}
+  - {flag: "Repository access presented as an open contribution process; contribution and decision rights conflated", source: 2-plan-the-development}
+  - {flag: "Continuity depends on one person who understands everything (heroic maintenance)", source: community-sustainability}
+  - {flag: "Maintenance cost shifted onto adopters", source: adoption-sustainability}
+  - {flag: "Approval recorded without its basis, conditions or objections", source: 3-approve-development}
+  - {flag: "Open questions disappear at the gate instead of travelling with the work", source: scope-and-start-phase-gate}
+
+# For efforts already past Scope ("Pattern: The Bundle Is the First Audit Boundary")
+baseline_questions:
+  - Did the scope change?
+  - Did the intended users change?
+  - Did the theory of change change?
+  - Did the core features expand?
+  - Did sustainability assumptions prove false?
+  - Did new power relationships emerge?
+  - Were approval conditions satisfied?
+  - Are we still building the standard that was justified at the end of Scope?

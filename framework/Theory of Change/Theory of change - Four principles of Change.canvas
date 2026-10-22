@@ -1,0 +1,3253 @@
+{
+	"nodes": [
+		{
+			"type": "text",
+			"text": "Who are the agents involved in the pattern?",
+			"id": "4c55c89bca15592d",
+			"x": -660,
+			"y": -927,
+			"width": 250,
+			"height": 60,
+			"color": "3"
+		},
+		{
+			"type": "text",
+			"text": "What’s bothering you? ",
+			"id": "54d2da8a1765f015",
+			"x": -346,
+			"y": -1083,
+			"width": 250,
+			"height": 60
+		},
+		{
+			"type": "text",
+			"text": "What’s getting in the way?",
+			"id": "93005f60553f37f3",
+			"x": -346,
+			"y": -963,
+			"width": 250,
+			"height": 60
+		},
+		{
+			"type": "text",
+			"text": "What behaviors are shaping current patterns?",
+			"id": "7fb14665700e4af1",
+			"x": -535,
+			"y": -758,
+			"width": 250,
+			"height": 60,
+			"color": "3"
+		},
+		{
+			"type": "text",
+			"text": "Who should be involved?",
+			"id": "28b74a8ecc08ca0c",
+			"x": -346,
+			"y": -843,
+			"width": 250,
+			"height": 60
+		},
+		{
+			"type": "text",
+			"text": "What are the patterns I see that are not working for us? ",
+			"id": "4181d79c01a50313",
+			"x": -384,
+			"y": -595,
+			"width": 288,
+			"height": 60,
+			"color": "3"
+		},
+		{
+			"type": "text",
+			"text": "Laws",
+			"id": "7a175c0a7c0bb554",
+			"x": -717,
+			"y": -2355,
+			"width": 250,
+			"height": 60,
+			"color": "5"
+		},
+		{
+			"type": "text",
+			"text": "They are influenced by multiple, often unknown forces",
+			"id": "e225e56a79224b04",
+			"x": -660,
+			"y": -1696,
+			"width": 284,
+			"height": 60,
+			"color": "4"
+		},
+		{
+			"type": "text",
+			"text": " They interact in nonlinear, unpredictable ways",
+			"id": "c444c9ba6b6e8a96",
+			"x": -660,
+			"y": -1517,
+			"width": 250,
+			"height": 60,
+			"color": "4"
+		},
+		{
+			"type": "text",
+			"text": "They are highly diverse",
+			"id": "ee0c1a02a762e97d",
+			"x": -660,
+			"y": -1606,
+			"width": 250,
+			"height": 60,
+			"color": "4"
+		},
+		{
+			"type": "text",
+			"text": "Consider the current pattern",
+			"id": "443c815fc6b9f90e",
+			"x": -785,
+			"y": -1083,
+			"width": 250,
+			"height": 60,
+			"color": "3"
+		},
+		{
+			"type": "text",
+			"text": "Now what can we do to shape patterns we want to create?",
+			"id": "9c296ca3b4e3db15",
+			"x": -1811,
+			"y": -565,
+			"width": 250,
+			"height": 60,
+			"color": "4"
+		},
+		{
+			"type": "text",
+			"text": "So what is same or different from past patterns?",
+			"id": "ad3a71540887ce65",
+			"x": -1960,
+			"y": -445,
+			"width": 250,
+			"height": 60,
+			"color": "4"
+		},
+		{
+			"type": "text",
+			"text": "So what conditions shape these patterns?",
+			"id": "e04f400f9914a12c",
+			"x": -1894,
+			"y": -505,
+			"width": 250,
+			"height": 60,
+			"color": "4"
+		},
+		{
+			"type": "text",
+			"text": "Individual agents are highly interdependent at all scales",
+			"id": "323d98a362086062",
+			"x": -963,
+			"y": -1666,
+			"width": 250,
+			"height": 60,
+			"color": "4"
+		},
+		{
+			"type": "text",
+			"text": "Humans form complex adaptive systems",
+			"id": "2b82a461a55f950f",
+			"x": -963,
+			"y": -1606,
+			"width": 250,
+			"height": 60,
+			"color": "4"
+		},
+		{
+			"type": "text",
+			"text": "And it is those same characteristics that make it impossible for the whole to change if the individual agents don’t.",
+			"id": "190e7b6c36e927e7",
+			"x": -887,
+			"y": -1352,
+			"width": 477,
+			"height": 60,
+			"color": "4"
+		},
+		{
+			"type": "text",
+			"text": "Start with what you can see",
+			"id": "0c4f04b1e2ab5df3",
+			"x": -430,
+			"y": -1143,
+			"width": 250,
+			"height": 60
+		},
+		{
+			"type": "text",
+			"text": "These characteristics, which define the system as both complex and adaptive, also make it possible for individual agents to take action that will shift the whole.",
+			"id": "8a2e73c48f86ca44",
+			"x": -323,
+			"y": -1673,
+			"width": 250,
+			"height": 195,
+			"color": "4"
+		},
+		{
+			"type": "text",
+			"text": "Communities",
+			"id": "c201ad6d84bfb808",
+			"x": -408,
+			"y": -2355,
+			"width": 250,
+			"height": 60,
+			"color": "5"
+		},
+		{
+			"type": "text",
+			"text": "What patterns generate the tension?",
+			"id": "2b395d0083edf03b",
+			"x": -1871,
+			"y": -325,
+			"width": 250,
+			"height": 60,
+			"color": "4"
+		},
+		{
+			"type": "text",
+			"text": "**MEMORY** \nThe difference between current reality and what I remember causes tension",
+			"id": "59aa1fd2d58ac401",
+			"x": -2371,
+			"y": -355,
+			"width": 250,
+			"height": 120,
+			"color": "4"
+		},
+		{
+			"type": "text",
+			"text": "### Functional ",
+			"id": "f7d0d1d226274cca",
+			"x": -2210,
+			"y": -535,
+			"width": 250,
+			"height": 60
+		},
+		{
+			"type": "text",
+			"text": "What is the tension in the system?",
+			"id": "c2cf07494c339ee4",
+			"x": -2121,
+			"y": -325,
+			"width": 250,
+			"height": 60,
+			"color": "4"
+		},
+		{
+			"type": "text",
+			"text": "Sometimes, you recognize a difference between your current reality and what you remember. ",
+			"id": "b00e7cfe0a5cc023",
+			"x": -3018,
+			"y": -359,
+			"width": 250,
+			"height": 124,
+			"color": "5"
+		},
+		{
+			"type": "text",
+			"text": "If patterns you remember from your past are unhealthy, painful, or not productive, the tension you feel emerges from your desire to change those patterns or to avoid them in the future.  ",
+			"id": "98e56dbbc1233702",
+			"x": -2716,
+			"y": -535,
+			"width": 250,
+			"height": 130,
+			"color": "5"
+		},
+		{
+			"type": "text",
+			"text": "So what prevents us from moving toward our goals?",
+			"id": "46acddfceccc0772",
+			"x": -1960,
+			"y": -265,
+			"width": 250,
+			"height": 60,
+			"color": "4"
+		},
+		{
+			"type": "text",
+			"text": "So what are the ways the tension helps us move toward our goals?",
+			"id": "dac7068e2cf327d2",
+			"x": -2036,
+			"y": -385,
+			"width": 250,
+			"height": 60,
+			"color": "4"
+		},
+		{
+			"type": "text",
+			"text": "Tension, by definition is neither good nor bad. ",
+			"id": "1b1f266c2b46f077",
+			"x": -3413,
+			"y": -235,
+			"width": 250,
+			"height": 60,
+			"color": "6"
+		},
+		{
+			"type": "text",
+			"text": "So what patterns will mitigate that risk?",
+			"id": "df899090b9c8b07e",
+			"x": -1960,
+			"y": 1015,
+			"width": 250,
+			"height": 60,
+			"color": "4"
+		},
+		{
+			"type": "text",
+			"text": "So what conditions will shape those patterns?",
+			"id": "0c9384cb23086768",
+			"x": -1894,
+			"y": 1075,
+			"width": 250,
+			"height": 60,
+			"color": "4"
+		},
+		{
+			"type": "text",
+			"text": "### Dysfunctional",
+			"id": "b88636deb62e3bcc",
+			"x": -2210,
+			"y": 1112,
+			"width": 250,
+			"height": 60
+		},
+		{
+			"type": "text",
+			"text": "Now what do we need to do to set those conditions? ",
+			"id": "d436640091c5dd9c",
+			"x": -1818,
+			"y": 1135,
+			"width": 250,
+			"height": 60,
+			"color": "4"
+		},
+		{
+			"type": "text",
+			"text": "What action can you take to move toward those best hopes? What action can you take to avert those worst fears?                 ",
+			"id": "361fcffd4f3ad57c",
+			"x": -2716,
+			"y": 1082,
+			"width": 250,
+			"height": 90,
+			"color": "5"
+		},
+		{
+			"type": "text",
+			"text": "**IMAGINATION** \nThe difference between what I know and what I can imagine causes tension",
+			"id": "39aa3d195940f5b7",
+			"x": -2371,
+			"y": 865,
+			"width": 250,
+			"height": 120,
+			"color": "4"
+		},
+		{
+			"type": "text",
+			"text": "What possible risk/danger do we see in current patterns?",
+			"id": "38dabc2be40317d5",
+			"x": -2036,
+			"y": 955,
+			"width": 250,
+			"height": 60,
+			"color": "4"
+		},
+		{
+			"type": "text",
+			"text": "So what conditions shape the dysfunctional patterns?",
+			"id": "08ba0d1d2a877cfa",
+			"x": -1894,
+			"y": -205,
+			"width": 250,
+			"height": 60,
+			"color": "4"
+		},
+		{
+			"type": "text",
+			"text": "### Dysfunctional",
+			"id": "77f386708ce1847d",
+			"x": -2210,
+			"y": 461,
+			"width": 250,
+			"height": 60
+		},
+		{
+			"type": "text",
+			"text": "### Functional ",
+			"id": "8c9651aab367a6f3",
+			"x": -2210,
+			"y": 685,
+			"width": 250,
+			"height": 60
+		},
+		{
+			"type": "text",
+			"text": "So what can we learn about changing the pattern?",
+			"id": "c96155e76d8babad",
+			"x": -1894,
+			"y": 71,
+			"width": 250,
+			"height": 60,
+			"color": "4"
+		},
+		{
+			"type": "text",
+			"text": "So what do we do to explore the potential of that knowledge?",
+			"id": "87fea163aef81974",
+			"x": -1960,
+			"y": 131,
+			"width": 250,
+			"height": 60,
+			"color": "4"
+		},
+		{
+			"type": "text",
+			"text": "So what do we need to know to shift the patterns?",
+			"id": "8b6009c2f7697735",
+			"x": -1894,
+			"y": 431,
+			"width": 250,
+			"height": 60,
+			"color": "4"
+		},
+		{
+			"type": "text",
+			"text": "Now what will shape those patterns to reduce the tension?",
+			"id": "5cf8d38fe27ae677",
+			"x": -1818,
+			"y": -145,
+			"width": 250,
+			"height": 60,
+			"color": "4"
+		},
+		{
+			"type": "text",
+			"text": "Now what can we do to apply fully the information we have in the system?",
+			"id": "a79b5c28b9325bf6",
+			"x": -1818,
+			"y": 11,
+			"width": 250,
+			"height": 60,
+			"color": "4"
+		},
+		{
+			"type": "text",
+			"text": "So what conditions will shift the patterns to reduce the tension?",
+			"id": "bf4caf9f04bda4cd",
+			"x": -1961,
+			"y": 371,
+			"width": 250,
+			"height": 60,
+			"color": "4"
+		},
+		{
+			"type": "text",
+			"text": "What is the tension in the system?",
+			"id": "3913bea6b8351fd3",
+			"x": -2121,
+			"y": 895,
+			"width": 250,
+			"height": 60,
+			"color": "4"
+		},
+		{
+			"type": "text",
+			"text": "### Dysfunctional",
+			"id": "0e9a442efc5431e1",
+			"x": -2210,
+			"y": -158,
+			"width": 250,
+			"height": 60
+		},
+		{
+			"type": "text",
+			"text": "### Functional ",
+			"id": "fce8a89686792fae",
+			"x": -2210,
+			"y": 41,
+			"width": 250,
+			"height": 60
+		},
+		{
+			"type": "text",
+			"text": "So what conditions shape the current patterns?",
+			"id": "30aa1ef48908631d",
+			"x": -1894,
+			"y": 715,
+			"width": 250,
+			"height": 60,
+			"color": "4"
+		},
+		{
+			"type": "text",
+			"text": "So what is the difference between what we imagine and what we have?",
+			"id": "9e756b5cca4b9777",
+			"x": -1960,
+			"y": 775,
+			"width": 250,
+			"height": 60,
+			"color": "4"
+		},
+		{
+			"type": "text",
+			"text": "**KNOWLEDGE** \nThe difference between what I know and what I need to know causes tension",
+			"id": "5d4d32f67d2d0e1f",
+			"x": -2371,
+			"y": 222,
+			"width": 250,
+			"height": 120,
+			"color": "4"
+		},
+		{
+			"type": "text",
+			"text": "What is the tension in the system?",
+			"id": "cf8cee8d11ddb18d",
+			"x": -2121,
+			"y": 251,
+			"width": 250,
+			"height": 60,
+			"color": "4"
+		},
+		{
+			"type": "text",
+			"text": "What additional knowledge is currently in the system that will further inform our work?",
+			"id": "fb4f5c14d001e377",
+			"x": -2036,
+			"y": 192,
+			"width": 250,
+			"height": 60,
+			"color": "4"
+		},
+		{
+			"type": "text",
+			"text": "What image or vision is the tension moving us toward?",
+			"id": "cd2dbf378a3dd645",
+			"x": -2036,
+			"y": 835,
+			"width": 250,
+			"height": 60,
+			"color": "4"
+		},
+		{
+			"type": "text",
+			"text": "Now how will we learn what we need to know?",
+			"id": "985a9e66e464c41b",
+			"x": -1818,
+			"y": 491,
+			"width": 250,
+			"height": 60,
+			"color": "4"
+		},
+		{
+			"type": "text",
+			"text": "Now what actions might shift our patterns to move us closer to what we can imagine?",
+			"id": "62ba28297bfa3b55",
+			"x": -1818,
+			"y": 655,
+			"width": 250,
+			"height": 60,
+			"color": "4"
+		},
+		{
+			"type": "text",
+			"text": "you may remember earlier experiences as simpler or enjoyable, and the tension you feel emerges from a desire to re-create those past times.",
+			"id": "8c343b179ba6d8da",
+			"x": -2716,
+			"y": -143,
+			"width": 250,
+			"height": 90,
+			"color": "5"
+		},
+		{
+			"type": "text",
+			"text": "The second question to ask about the tension is how the knowledge you do have can further inform your actions to shape or influence the patterns toward greatest fit.",
+			"id": "7da5df279c90c57d",
+			"x": -2716,
+			"y": 442,
+			"width": 250,
+			"height": 95,
+			"color": "5"
+		},
+		{
+			"type": "text",
+			"text": "Considering the patterns that currently exist, how do they compare to the best hopes or worst fears that come from how you can imagine your future?",
+			"id": "17732d2927bf2b8a",
+			"x": -2716,
+			"y": 692,
+			"width": 250,
+			"height": 90,
+			"color": "5"
+		},
+		{
+			"type": "text",
+			"text": "What do we need to know more about to shift the pattern?",
+			"id": "2fca8141e5ac0bbe",
+			"x": -2036,
+			"y": 312,
+			"width": 250,
+			"height": 60,
+			"color": "4"
+		},
+		{
+			"type": "text",
+			"text": "Too little tension leaves you under-constrained, without cues or feedback you need to maintain productive, healthy connections in your environment.",
+			"id": "925d0ab9e93f770a",
+			"x": -3413,
+			"y": 368,
+			"width": 250,
+			"height": 114,
+			"color": "6"
+		},
+		{
+			"type": "text",
+			"text": "Sometimes, tension comes from the difference between what you know and what you need to know in a given current situation.",
+			"id": "38596506df99fb11",
+			"x": -3018,
+			"y": 210,
+			"width": 250,
+			"height": 142,
+			"color": "5"
+		},
+		{
+			"type": "text",
+			"text": "There are many sources of tension in human systems, but three sources stand out in terms of self-organization and emergence within governance.             \n\nThese sources contribute to both increased fitness (functional tension) and decreased fitness (dysfunctional tension).",
+			"id": "e759833eaa369179",
+			"x": -3413,
+			"y": 601,
+			"width": 250,
+			"height": 324,
+			"color": "6"
+		},
+		{
+			"type": "text",
+			"text": "You experience too much tension as over-constraint and limitations.",
+			"id": "17ef8f71831d3cff",
+			"x": -3413,
+			"y": 286,
+			"width": 250,
+			"height": 82,
+			"color": "6"
+		},
+		{
+			"type": "text",
+			"text": "On the one hand, functional tension fuels the work of living, growing, and sustaining. On the other hand, too little or too much tension creates dysfunction.",
+			"id": "5f32b6251f61ceaf",
+			"x": -3413,
+			"y": -72,
+			"width": 250,
+			"height": 203,
+			"color": "6"
+		},
+		{
+			"type": "text",
+			"text": "Sometimes, there is a difference between what you are experiencing and what you can imagine.",
+			"id": "4ee5a55c25dab53b",
+			"x": -3018,
+			"y": 857,
+			"width": 250,
+			"height": 128,
+			"color": "5"
+		},
+		{
+			"type": "text",
+			"text": " The first question to ask about the tension is whether or not you have the knowledge or information you need",
+			"id": "ad160a81eceb2560",
+			"x": -2716,
+			"y": 41,
+			"width": 250,
+			"height": 90,
+			"color": "5"
+		},
+		{
+			"type": "text",
+			"text": "*Does the work require (fit) the skills and available resources of the team?*",
+			"id": "78328beb90d7b80a",
+			"x": -3760,
+			"y": 686,
+			"width": 250,
+			"height": 91,
+			"color": "6"
+		},
+		{
+			"type": "text",
+			"text": "*Does the work of a team match (fit) the needs of the greater organization?*",
+			"id": "a89146a15c0e520d",
+			"x": -3712,
+			"y": 579,
+			"width": 250,
+			"height": 105,
+			"color": "6"
+		},
+		{
+			"type": "text",
+			"text": "Fitness is defined as the ability to thrive in the given environment.",
+			"id": "6f31bd9c1a0c35e8",
+			"x": -3962,
+			"y": 588,
+			"width": 250,
+			"height": 87,
+			"color": "6"
+		},
+		{
+			"type": "text",
+			"text": "Tension emerges as the degree of fitness decreases, and tension dissipates as fitness increases.",
+			"id": "fe74ccdc9ab25b60",
+			"x": -3760,
+			"y": 197,
+			"width": 250,
+			"height": 130,
+			"color": "6"
+		},
+		{
+			"type": "text",
+			"text": "*Do your words and actions align (fit) with each other and with what is important to you?*",
+			"id": "129298b5f21076c6",
+			"x": -3760,
+			"y": 461,
+			"width": 250,
+			"height": 120,
+			"color": "6"
+		},
+		{
+			"type": "text",
+			"text": "This tension comes from the degree of fitness you experience at all scales of the system. ",
+			"id": "8d0f9ffd56b297f2",
+			"x": -4151,
+			"y": 361,
+			"width": 250,
+			"height": 121,
+			"color": "6"
+		},
+		{
+			"type": "text",
+			"text": " We say that something is “fit to purpose” when there is a balance of tension that keeps the system moving forward and functioning productively.",
+			"id": "7c1de632dee55687",
+			"x": -3760,
+			"y": -76,
+			"width": 250,
+			"height": 170,
+			"color": "6"
+		},
+		{
+			"type": "text",
+			"text": " *Patterns of dynamic tension*\n- conflict\n- excitement\n- fear\n- etc",
+			"id": "62ad6fdb8ef2168e",
+			"x": -4151,
+			"y": 43,
+			"width": 250,
+			"height": 185,
+			"color": "6"
+		},
+		{
+			"type": "text",
+			"text": "The ***potential for change*** of a system is held in its dynamic tensions         ",
+			"id": "866059889330d9d4",
+			"x": -4569,
+			"y": 230,
+			"width": 227,
+			"height": 122,
+			"color": "1"
+		},
+		{
+			"type": "text",
+			"text": "Ask **SO WHAT?**",
+			"id": "b3e37425ca88e72c",
+			"x": -68,
+			"y": 1630,
+			"width": 175,
+			"height": 60,
+			"color": "3"
+		},
+		{
+			"type": "text",
+			"text": "Make sense of the information you have, exploring the conditions that shape current patterns and those that can shape future patterns.",
+			"id": "e9722563c892f85d",
+			"x": -151,
+			"y": 1458,
+			"width": 341,
+			"height": 113,
+			"color": "3"
+		},
+		{
+			"type": "text",
+			"text": "Describe the patterns you see and the patterns you want, naming the forces at work, the differences that are important, and the contributions of past learning.",
+			"id": "5e129376e7ebc9c3",
+			"x": -558,
+			"y": 1389,
+			"width": 308,
+			"height": 139,
+			"color": "3"
+		},
+		{
+			"type": "text",
+			"text": "Ask **WHAT?**",
+			"id": "f7afc49dc4a1870b",
+			"x": -587,
+			"y": 1630,
+			"width": 175,
+			"height": 60,
+			"color": "3"
+		},
+		{
+			"type": "text",
+			"text": "Ultimately you select one action that can move you forward.",
+			"id": "9f3d883bd217a769",
+			"x": -425,
+			"y": 1127,
+			"width": 350,
+			"height": 91,
+			"color": "3"
+		},
+		{
+			"type": "text",
+			"text": "Often, it is these structures that we refer to as “the system.”",
+			"id": "ff9aa732746463e4",
+			"x": -207,
+			"y": -2267,
+			"width": 465,
+			"height": 60,
+			"color": "5"
+		},
+		{
+			"type": "text",
+			"text": "These may be formally structured organizational systems",
+			"id": "b06f9fbe66b25839",
+			"x": -126,
+			"y": -2003,
+			"width": 310,
+			"height": 60,
+			"color": "5"
+		},
+		{
+			"type": "text",
+			"text": "The performance of the whole system is intimately tied to the performance of and actions of the individual parts, while the whole establishes conditions for the changing of the parts.",
+			"id": "64f36d65efe1b20a",
+			"x": -359,
+			"y": -1911,
+			"width": 776,
+			"height": 60,
+			"color": "4"
+		},
+		{
+			"type": "text",
+			"text": "Families",
+			"id": "41322ba0c782f965",
+			"x": -595,
+			"y": -2610,
+			"width": 250,
+			"height": 60,
+			"color": "5"
+		},
+		{
+			"type": "text",
+			"text": "Organizations",
+			"id": "e8b9380a3df1d8a5",
+			"x": -286,
+			"y": -2610,
+			"width": 250,
+			"height": 60,
+			"color": "5"
+		},
+		{
+			"type": "text",
+			"text": "Cultural Traditions",
+			"id": "4f02da3f2b6c61ab",
+			"x": 84,
+			"y": -2610,
+			"width": 250,
+			"height": 60,
+			"color": "5"
+		},
+		{
+			"type": "text",
+			"text": "Procedures",
+			"id": "1fa51bfb39b5681c",
+			"x": 396,
+			"y": -2610,
+			"width": 250,
+			"height": 60,
+			"color": "5"
+		},
+		{
+			"type": "text",
+			"text": "### Functional Tension",
+			"id": "fbcc488cf8cb2344",
+			"x": -1102,
+			"y": 9,
+			"width": 250,
+			"height": 62,
+			"color": "3"
+		},
+		{
+			"type": "text",
+			"text": "Build on functional tension",
+			"id": "1ebaf16433b2f68e",
+			"x": -1102,
+			"y": 71,
+			"width": 250,
+			"height": 60,
+			"color": "3"
+		},
+		{
+			"type": "text",
+			"text": "Shift patterns of dysfunctional tension",
+			"id": "0f4c886512bef100",
+			"x": -1102,
+			"y": 431,
+			"width": 250,
+			"height": 60,
+			"color": "3"
+		},
+		{
+			"type": "text",
+			"text": "### Dysfunctional Tension",
+			"id": "d954a5a27256dbae",
+			"x": -1102,
+			"y": 491,
+			"width": 250,
+			"height": 63,
+			"color": "3"
+		},
+		{
+			"type": "text",
+			"text": "## Change Paradigms",
+			"id": "6866e19c7df0535b",
+			"x": -106,
+			"y": 229,
+			"width": 250,
+			"height": 75,
+			"color": "1"
+		},
+		{
+			"type": "text",
+			"text": "Global change is a reflection of local change",
+			"id": "242bc9b1599cb778",
+			"x": -106,
+			"y": -48,
+			"width": 250,
+			"height": 84,
+			"color": "2"
+		},
+		{
+			"type": "text",
+			"text": "Individual actions make necessary adjustments in response to shifting demands and opportunities.",
+			"id": "fb7bcfe228383954",
+			"x": 472,
+			"y": 1833,
+			"width": 432,
+			"height": 60,
+			"color": "4"
+		},
+		{
+			"type": "text",
+			"text": "Ask **NOW WHAT?**",
+			"id": "3bf2800ffbac30c1",
+			"x": 456,
+			"y": 1630,
+			"width": 175,
+			"height": 60,
+			"color": "3"
+		},
+		{
+			"type": "text",
+			"text": "Based on this exploration and meaning making, you identify possible options for action to move the system toward greater fitness. ",
+			"id": "98b5b99cec6af5bf",
+			"x": 233,
+			"y": 1364,
+			"width": 311,
+			"height": 120,
+			"color": "3"
+		},
+		{
+			"type": "text",
+			"text": "In complex, adaptive systems all you can do is take small, iterative steps",
+			"id": "328058bd850f9bb3",
+			"x": 569,
+			"y": 2149,
+			"width": 432,
+			"height": 60,
+			"color": "4"
+		},
+		{
+			"type": "text",
+			"text": "As you take action, you observe the impact, collecting data and gathering information.                     ",
+			"id": "85790dd953357368",
+			"x": 178,
+			"y": 1127,
+			"width": 331,
+			"height": 91,
+			"color": "3"
+		},
+		{
+			"type": "text",
+			"text": "What’s important to us?",
+			"id": "d24bd8c891881bb7",
+			"x": 704,
+			"y": 237,
+			"width": 250,
+			"height": 60,
+			"color": "3"
+		},
+		{
+			"type": "text",
+			"text": "Change occurs through iterative cycles of evolutionary action.               ",
+			"id": "4d4449031cf5346e",
+			"x": -106,
+			"y": 491,
+			"width": 250,
+			"height": 88,
+			"color": "2"
+		},
+		{
+			"type": "text",
+			"text": "Coherence comes from short lists of simple rules",
+			"id": "ecadd98f158e3a84",
+			"x": 355,
+			"y": 222,
+			"width": 250,
+			"height": 90,
+			"color": "2"
+		},
+		{
+			"type": "text",
+			"text": "Systems change in response to systems tension",
+			"id": "ddc41aa44d6ed665",
+			"x": -539,
+			"y": 221,
+			"width": 250,
+			"height": 90,
+			"color": "2"
+		},
+		{
+			"type": "text",
+			"text": "You cycle, in a nonlinear path, into the next **What?** where your answers feed into your next decisions in the system.",
+			"id": "6609d99dfa3f0041",
+			"x": -153,
+			"y": 691,
+			"width": 344,
+			"height": 94,
+			"color": "3"
+		},
+		{
+			"type": "text",
+			"text": "Open",
+			"id": "31325e5e146b1376",
+			"x": 156,
+			"y": 3881,
+			"width": 125,
+			"height": 60,
+			"color": "6"
+		},
+		{
+			"type": "text",
+			"text": "Non-linear",
+			"id": "10843362cd91c6d4",
+			"x": -235,
+			"y": 3881,
+			"width": 141,
+			"height": 60,
+			"color": "6"
+		},
+		{
+			"type": "text",
+			"text": "Your only real course of action is to be able to identify those forces you can have some influence over, and take action to shape the impact those forces have in your system.",
+			"id": "be29286d777de565",
+			"x": 424,
+			"y": 2469,
+			"width": 527,
+			"height": 98,
+			"color": "5"
+		},
+		{
+			"type": "text",
+			"text": "The nature of these permeable boundaries allows your system to be shaped and influenced by multiple and unknown forces.                 ",
+			"id": "32d12304b0d6b0a9",
+			"x": 326,
+			"y": 2998,
+			"width": 357,
+			"height": 108,
+			"color": "5"
+		},
+		{
+			"type": "text",
+			"text": "Your ability to navigate those differences shapes your evolutionary capacity to find fitness.",
+			"id": "81c81915684cc647",
+			"x": -166,
+			"y": 2746,
+			"width": 392,
+			"height": 79,
+			"color": "5"
+		},
+		{
+			"type": "text",
+			"text": "These forces act on each other and on your system, leaving you at the mercy of unknown influences that have unpredictable impacts and surprising effects.",
+			"id": "4e6f8c48c17d985d",
+			"x": 346,
+			"y": 2746,
+			"width": 439,
+			"height": 106,
+			"color": "5"
+		},
+		{
+			"type": "text",
+			"text": "As a human, you have memory and imagination that create the tension for shaping the future. ",
+			"id": "35259b4348996dad",
+			"x": -596,
+			"y": 2998,
+			"width": 325,
+			"height": 108,
+			"color": "5"
+		},
+		{
+			"type": "text",
+			"text": " Cycles are used to reduce tension in the system as it moves toward longer-range goals of greater fit.",
+			"id": "f047c7951f124a25",
+			"x": -222,
+			"y": 1893,
+			"width": 486,
+			"height": 68,
+			"color": "4"
+		},
+		{
+			"type": "text",
+			"text": "Each action informs the next in nonlinear ways",
+			"id": "84bd88798b683ea9",
+			"x": -135,
+			"y": 2021,
+			"width": 313,
+			"height": 60,
+			"color": "4"
+		},
+		{
+			"type": "text",
+			"text": "Many dimensions",
+			"id": "8d4d266e06675120",
+			"x": -94,
+			"y": 3941,
+			"width": 250,
+			"height": 60,
+			"color": "6"
+		},
+		{
+			"type": "text",
+			"text": "Change is a constant in our lives that emerges from the very nature of a complex adaptive system.",
+			"id": "cfe38caebd0e6be3",
+			"x": -69,
+			"y": 4198,
+			"width": 200,
+			"height": 202,
+			"color": "1"
+		},
+		{
+			"type": "text",
+			"text": "Evolutionary Action",
+			"id": "3a843a84993eb6a6",
+			"x": -95,
+			"y": 2325,
+			"width": 250,
+			"height": 60,
+			"color": "4"
+		},
+		{
+			"type": "text",
+			"text": "Your only option to move forward is to identify differences that are most impactful and negotiate their relative impact to ensure greatest fit across the system.",
+			"id": "1635a0b969b6cd5b",
+			"x": -260,
+			"y": 2469,
+			"width": 580,
+			"height": 98,
+			"color": "5"
+		},
+		{
+			"type": "text",
+			"text": "The system’s dimensionality--the kinds of difference, as well as the degrees of difference--contributes to its complexity, shaping the dominant patterns that characterize the system as a whole.",
+			"id": "bba07aec4ae8cbed",
+			"x": -179,
+			"y": 2998,
+			"width": 419,
+			"height": 108,
+			"color": "5"
+		},
+		{
+			"type": "text",
+			"text": "When these differences come together, those differences that are most important come to the surface to shape the interactions of the whole.",
+			"id": "85e6bb4e6d086b8d",
+			"x": -179,
+			"y": 3282,
+			"width": 419,
+			"height": 90,
+			"color": "5"
+		},
+		{
+			"type": "text",
+			"text": "In complex adaptive systems you can neither control nor predict",
+			"id": "f6a54241a485e111",
+			"x": -994,
+			"y": 2144,
+			"width": 432,
+			"height": 65,
+			"color": "4"
+		},
+		{
+			"type": "text",
+			"text": " Long-range planning sets system direction",
+			"id": "7859f7991637c63f",
+			"x": -869,
+			"y": 1833,
+			"width": 432,
+			"height": 60,
+			"color": "4"
+		},
+		{
+			"type": "text",
+			"text": "**High dimension** systems are diverse, bringing together known, unknown, and unknowable differences.",
+			"id": "a46d853f117cadd8",
+			"x": -94,
+			"y": 3608,
+			"width": 250,
+			"height": 136,
+			"color": "6"
+		},
+		{
+			"type": "text",
+			"text": "They exist with permeable boundaries to segment the parts of the system from each other, and to differentiate your system from its larger environment.",
+			"id": "a4ede83bf0a313f5",
+			"x": 293,
+			"y": 3303,
+			"width": 321,
+			"height": 139,
+			"color": "5"
+		},
+		{
+			"type": "text",
+			"text": "**Open systems** are connected internally and externally in ways that contribute to complexity.",
+			"id": "4679ec158df0a4cf",
+			"x": 219,
+			"y": 3562,
+			"width": 287,
+			"height": 152,
+			"color": "6"
+		},
+		{
+			"type": "text",
+			"text": "**Nonlinear systems** build on the past.",
+			"id": "647a46a2870b202b",
+			"x": -406,
+			"y": 3578,
+			"width": 250,
+			"height": 60,
+			"color": "6"
+		},
+		{
+			"type": "text",
+			"text": "At any given time in a human system, there are so many differences present there is no way to track or attend to them all.",
+			"id": "23aa7eb8b494d6d8",
+			"x": -125,
+			"y": 3432,
+			"width": 312,
+			"height": 130,
+			"color": "5"
+		},
+		{
+			"type": "text",
+			"text": "What happens today is informed by yesterday’s experiences, and in turn, shapes tomorrow’s responses.",
+			"id": "99b140a0e17d02c9",
+			"x": -556,
+			"y": 3303,
+			"width": 321,
+			"height": 139,
+			"color": "5"
+		},
+		{
+			"type": "text",
+			"text": "The “system” can’t change unless the individual agents change",
+			"id": "83a734aac43acd89",
+			"x": -101,
+			"y": -3758,
+			"width": 250,
+			"height": 86,
+			"color": "1"
+		},
+		{
+			"type": "text",
+			"text": "In their purest sense, \"systems\" are made up of:",
+			"id": "3fbc2f55e6e54a77",
+			"x": -163,
+			"y": -3560,
+			"width": 375,
+			"height": 69,
+			"color": "6"
+		},
+		{
+			"type": "text",
+			"text": "Similarities between the agents of the system",
+			"id": "b9a5aa2394e76c9e",
+			"x": -286,
+			"y": -3354,
+			"width": 250,
+			"height": 60,
+			"color": "6"
+		},
+		{
+			"type": "text",
+			"text": "Differences among the agents of a system",
+			"id": "d46aba5504dfc1f7",
+			"x": 89,
+			"y": -3354,
+			"width": 250,
+			"height": 60,
+			"color": "6"
+		},
+		{
+			"type": "text",
+			"text": "The connections that allow them to exchange information and other resources",
+			"id": "bad713f04e741d1d",
+			"x": -101,
+			"y": -3294,
+			"width": 250,
+			"height": 131,
+			"color": "6"
+		},
+		{
+			"type": "text",
+			"text": "As they interact over time, the individual agents create patterns of interaction that come to characterize that system.",
+			"id": "43fd38209dd01ea8",
+			"x": -408,
+			"y": -3021,
+			"width": 865,
+			"height": 60,
+			"color": "6"
+		},
+		{
+			"type": "text",
+			"text": "Otherwise everyone makes decisions and takes action in ways that create multiple and diverse patterns that limit the system’s ability to respond and adapt in the most effective ways.",
+			"id": "7d33dbd9972559c2",
+			"x": 1953,
+			"y": 453,
+			"width": 351,
+			"height": 114,
+			"color": "4"
+		},
+		{
+			"type": "text",
+			"text": "When everyone in a group uses a common guideline, you generate shared patterns of decision making and interaction that build coherence across the whole of the group, as well as among and between the parts.",
+			"id": "1ed186de166cd881",
+			"x": 2253,
+			"y": 1011,
+			"width": 515,
+			"height": 114,
+			"color": "4"
+		},
+		{
+			"type": "text",
+			"text": "This additional diversity in the system increases the tension in the system in unproductive ways, rather than leveraging it for positive change.",
+			"id": "24a0eccdfb4f6aa0",
+			"x": 2106,
+			"y": 750,
+			"width": 405,
+			"height": 114,
+			"color": "4"
+		},
+		{
+			"type": "text",
+			"text": "You don’t have to change in identical ways as others, but you do need a shared guide that informs  your decisions and actions.",
+			"id": "0604083a85e2e848",
+			"x": 1855,
+			"y": 211,
+			"width": 351,
+			"height": 114,
+			"color": "4"
+		},
+		{
+			"type": "text",
+			"text": "This is what you want when you move through change.",
+			"id": "8bb0c868bf999c04",
+			"x": 2350,
+			"y": 217,
+			"width": 250,
+			"height": 102,
+			"color": "5"
+		},
+		{
+			"type": "text",
+			"text": "Because of the complex nature of change in human systems, it’s impossible to codify all aspects of a change process, and then expect that you and other agents in the system will be able to abide by those expectations in all the parts.",
+			"id": "e262ff4db3fbfb85",
+			"x": 2253,
+			"y": -565,
+			"width": 515,
+			"height": 114,
+			"color": "4"
+		},
+		{
+			"type": "text",
+			"text": "In complex systems that go through change, you have to be changing in the same direction as others in the system.",
+			"id": "a12638b0f6f39622",
+			"x": 2106,
+			"y": -300,
+			"width": 405,
+			"height": 114,
+			"color": "4"
+		},
+		{
+			"type": "text",
+			"text": "Coherence across the whole and in the parts is particularly critical in times when you are experiencing dynamical or complex change.",
+			"id": "39618bb2aca4a14c",
+			"x": 1953,
+			"y": -30,
+			"width": 352,
+			"height": 114,
+			"color": "4"
+		},
+		{
+			"type": "text",
+			"text": "This self-similarity of patterns across a system is visible evidence of underlying system coherence.",
+			"id": "b89bf6cef50172fc",
+			"x": 2837,
+			"y": 231,
+			"width": 464,
+			"height": 74,
+			"color": "6"
+		},
+		{
+			"type": "text",
+			"text": "Throughout history, communities have developed expectations about distinctive patterns of interaction and decision making that characterize their ways of life.",
+			"id": "96deb937f6e85b53",
+			"x": 3426,
+			"y": -51,
+			"width": 367,
+			"height": 110,
+			"color": "6"
+		},
+		{
+			"type": "text",
+			"text": "The parts work together in logical and consistent ways to create a unified and complete system.",
+			"id": "fa3f9d2175d8672f",
+			"x": 2898,
+			"y": 369,
+			"width": 343,
+			"height": 84,
+			"color": "6"
+		},
+		{
+			"type": "text",
+			"text": "They make sense together.",
+			"id": "29744249c65ff78b",
+			"x": 2945,
+			"y": 506,
+			"width": 250,
+			"height": 60,
+			"color": "6"
+		},
+		{
+			"type": "text",
+			"text": "There is enough similarity that they can work together well",
+			"id": "501215c605159a34",
+			"x": 2773,
+			"y": 644,
+			"width": 250,
+			"height": 81,
+			"color": "6"
+		},
+		{
+			"type": "text",
+			"text": "You want some guide so that you know you are doing what needs to be done",
+			"id": "b5c847d60864c51e",
+			"x": 2782,
+			"y": 807,
+			"width": 483,
+			"height": 72,
+			"color": "5"
+		},
+		{
+			"type": "text",
+			"text": "There is enough difference that they are not unnecessarily redundant.",
+			"id": "689317bbed7a094e",
+			"x": 3149,
+			"y": 644,
+			"width": 250,
+			"height": 81,
+			"color": "6"
+		},
+		{
+			"type": "text",
+			"text": "We define coherence as _**the degree to which parts of a system “fit” each other or the external environment**_",
+			"id": "edd472dfadba97e7",
+			"x": 2837,
+			"y": 27,
+			"width": 329,
+			"height": 102,
+			"color": "6"
+		},
+		{
+			"type": "text",
+			"text": "You don't want to be so overly constrained that you can’t make decisions that make sense in the moment",
+			"id": "0a973223b062bf15",
+			"x": 2783,
+			"y": -322,
+			"width": 483,
+			"height": 79,
+			"color": "5"
+		},
+		{
+			"type": "text",
+			"text": "Dictionary.com offers one definition of coherence as “the quality of being logical and consistent; of forming a unified whole.”",
+			"id": "06c08addf54c5c17",
+			"x": 3149,
+			"y": -200,
+			"width": 250,
+			"height": 143,
+			"color": "6"
+		},
+		{
+			"type": "text",
+			"text": "There are traditions that celebrate or mark the milestones for individuals and for the community.",
+			"id": "dbff0b1bb838952f",
+			"x": 3426,
+			"y": 129,
+			"width": 367,
+			"height": 102,
+			"color": "6"
+		},
+		{
+			"type": "text",
+			"text": "In organizations there are recognizable ways of interacting and making decisions that generalize across the system in recognizable and characteristic patterns.",
+			"id": "7f14a76ac4c34f12",
+			"x": 3426,
+			"y": 277,
+			"width": 367,
+			"height": 120,
+			"color": "6"
+		},
+		{
+			"type": "text",
+			"text": "Each family or group has its own unique pattern of expectations and role-definitions that shape the dynamics of interactions and relationships.",
+			"id": "fcf44334de906b2b",
+			"x": 3426,
+			"y": 453,
+			"width": 367,
+			"height": 113,
+			"color": "6"
+		},
+		{
+			"type": "text",
+			"text": "When you are going through change, how can you be sure that the decisions you make today align with the decisions you made a week ago or those you will make in the next month?",
+			"id": "d19da739033060cb",
+			"x": 3793,
+			"y": 59,
+			"width": 381,
+			"height": 110,
+			"color": "6"
+		},
+		{
+			"type": "text",
+			"text": "Remember the “rules” about simple rules:",
+			"id": "abbcc7e6a40bb0f4",
+			"x": 1458,
+			"y": 453,
+			"width": 365,
+			"height": 60,
+			"color": "4"
+		},
+		{
+			"type": "text",
+			"text": "1.  The list is short so people can remember them. Five to seven rules is ideal, and you shouldn’t have more than nine.",
+			"id": "d823bdea6441fceb",
+			"x": 1391,
+			"y": 552,
+			"width": 384,
+			"height": 102,
+			"color": "4"
+		},
+		{
+			"type": "text",
+			"text": "2.  The rules are stated in the positive. They are about what you will do, rather than what you won’t do.",
+			"id": "bd3c1ba008ccaed1",
+			"x": 1528,
+			"y": 690,
+			"width": 363,
+			"height": 91,
+			"color": "4"
+		},
+		{
+			"type": "text",
+			"text": "3.  The rules start with action verbs because they are about taking action.",
+			"id": "4879aea62127f3d5",
+			"x": 1391,
+			"y": 807,
+			"width": 384,
+			"height": 89,
+			"color": "4"
+		},
+		{
+			"type": "text",
+			"text": " If you are part of a large group, how can you know that the decisions you make in your contributions match the decisions your peers make in their areas?",
+			"id": "1fdd5baab15c19df",
+			"x": 3795,
+			"y": 340,
+			"width": 379,
+			"height": 113,
+			"color": "6"
+		},
+		{
+			"type": "text",
+			"text": "Reflect on your system to consider what changes need to happen for individuals to change the system-wide patterns.",
+			"id": "341eb6a8990799af",
+			"x": 154,
+			"y": -1113,
+			"width": 250,
+			"height": 150
+		},
+		{
+			"type": "text",
+			"text": "Who do the agents need to be?  Do I need to bring others in? Focus on a small subset?",
+			"id": "f9dd9b62b03e0a87",
+			"x": 430,
+			"y": -927,
+			"width": 292,
+			"height": 89,
+			"color": "3"
+		},
+		{
+			"type": "text",
+			"text": "What behaviors can I invite/encourage that have a chance of changing the pattern?",
+			"id": "562984c873290470",
+			"x": 279,
+			"y": -758,
+			"width": 302,
+			"height": 95,
+			"color": "3"
+		},
+		{
+			"type": "text",
+			"text": "What are the patterns I want?",
+			"id": "7097f6c606cb2d29",
+			"x": 154,
+			"y": -595,
+			"width": 250,
+			"height": 60,
+			"color": "3"
+		},
+		{
+			"type": "text",
+			"text": "4.  The rules have to be general enough that they can be applied all across the system in all possible scenarios, and they have to be specific enough that people know the boundaries for what they need to do.",
+			"id": "148786766a505203",
+			"x": 1528,
+			"y": 925,
+			"width": 425,
+			"height": 143,
+			"color": "4"
+		},
+		{
+			"type": "text",
+			"text": "Talk about who you are as a group as you move toward your big-picture ideal. What one- or two-word phrase will capture the essence of who you will be together?",
+			"id": "1364da547bb04f32",
+			"x": 954,
+			"y": -117,
+			"width": 309,
+			"height": 144,
+			"color": "3"
+		},
+		{
+			"type": "text",
+			"text": "Define a short list of simple rules that will shape your behavior and decision making so that you are able to create the patterns you want. Make sure you have at least one rule that focuses on each of these three questions.",
+			"id": "12ad138b4a67d5cf",
+			"x": 1443,
+			"y": 169,
+			"width": 332,
+			"height": 198,
+			"color": "4"
+		},
+		{
+			"type": "text",
+			"text": "Identify the big-picture, ideal one- or two-word description of the overall outcome you want.",
+			"id": "20e86fcf03a9e001",
+			"x": 1356,
+			"y": -427,
+			"width": 675,
+			"height": 60,
+			"color": "4"
+		},
+		{
+			"type": "text",
+			"text": "Reflect on and articulate your responses to three major questions that will shape the patterns you want. Be succinct and concise; get your responses down to the one- to two-word phrases that best represent your responses.\n",
+			"id": "663b55da4b4e3756",
+			"x": 1446,
+			"y": -78,
+			"width": 412,
+			"height": 144,
+			"color": "4"
+		},
+		{
+			"type": "text",
+			"text": "Agree on the patterns of interaction and decision making that will be most present when you are working toward that outcome.",
+			"id": "649728b6a7fa7aae",
+			"x": 1362,
+			"y": -237,
+			"width": 496,
+			"height": 102,
+			"color": "4"
+		},
+		{
+			"type": "text",
+			"text": "Consider the pattern you want",
+			"id": "4e1231b42d9c554e",
+			"x": 608,
+			"y": -1083,
+			"width": 250,
+			"height": 60,
+			"color": "3"
+		},
+		{
+			"type": "text",
+			"text": "Local choices shape the patterns of the whole. ",
+			"id": "4fb41f9885558ac8",
+			"x": -96,
+			"y": -1203,
+			"width": 250,
+			"height": 60,
+			"color": "4"
+		},
+		{
+			"type": "text",
+			"text": "However, unless and until those external expectations, rules, or regulations help you deal with your own challenges or needs, you will continue to seek other ways to get what you need in less public, more private ways.",
+			"id": "97a737e42d342776",
+			"x": 135,
+			"y": -1516,
+			"width": 549,
+			"height": 110,
+			"color": "4"
+		},
+		{
+			"type": "text",
+			"text": "individual system agents must be engaged and supported on their own terms.",
+			"id": "16e6d72804da734c",
+			"x": 550,
+			"y": -1352,
+			"width": 456,
+			"height": 60,
+			"color": "4"
+		},
+		{
+			"type": "text",
+			"text": "Policies",
+			"id": "bd01ee9e1c51f5d2",
+			"x": -100,
+			"y": -2355,
+			"width": 250,
+			"height": 60,
+			"color": "5"
+		},
+		{
+			"type": "text",
+			"text": "Expectations",
+			"id": "704ef2a4f680f562",
+			"x": 214,
+			"y": -2355,
+			"width": 250,
+			"height": 60,
+			"color": "5"
+		},
+		{
+			"type": "text",
+			"text": "Who are we?",
+			"id": "4ce9e60c6ffa125b",
+			"x": 770,
+			"y": 84,
+			"width": 250,
+			"height": 60,
+			"color": "3"
+		},
+		{
+			"type": "text",
+			"text": "How do we connect? ",
+			"id": "22f389975c0859c8",
+			"x": 770,
+			"y": 393,
+			"width": 250,
+			"height": 60,
+			"color": "3"
+		},
+		{
+			"type": "text",
+			"text": "What one idea represents the one most defining characteristic or focus for your group?",
+			"id": "4a33541eda6b68ea",
+			"x": 1020,
+			"y": 195,
+			"width": 309,
+			"height": 144,
+			"color": "3"
+		},
+		{
+			"type": "text",
+			"text": "What one or two words describe how we want to share information and resources across our system? ",
+			"id": "a8ee6cb5a65ef97f",
+			"x": 954,
+			"y": 510,
+			"width": 309,
+			"height": 144,
+			"color": "3"
+		},
+		{
+			"type": "text",
+			"text": "What are people complaining about?",
+			"id": "bdcc647bf0fb080e",
+			"x": -258,
+			"y": -1023,
+			"width": 250,
+			"height": 60
+		},
+		{
+			"type": "text",
+			"text": "Who are the actors?",
+			"id": "33fc137627e07ff5",
+			"x": -258,
+			"y": -903,
+			"width": 250,
+			"height": 60
+		},
+		{
+			"type": "text",
+			"text": "As a member of an informal system, like a family or neighborhood, you may conform to economic or social pressure in public settings.",
+			"id": "e8afaa092a15ed77",
+			"x": 135,
+			"y": -1606,
+			"width": 549,
+			"height": 60,
+			"color": "4"
+		},
+		{
+			"type": "text",
+			"text": "As a member of a formal organization or community, you may respond to rules or mandates by ***complying*** with the “letter of the law”.",
+			"id": "976a2921a00d7000",
+			"x": 135,
+			"y": -1696,
+			"width": 549,
+			"height": 60,
+			"color": "4"
+		},
+		{
+			"type": "text",
+			"text": "What do you want? ",
+			"id": "2221d6ae47c6f4b0",
+			"x": -254,
+			"y": -783,
+			"width": 250,
+			"height": 60
+		},
+		{
+			"type": "text",
+			"text": "This principle explains why ***external demands for change***, even incented change, will not shift the underlying dynamics of the system.",
+			"id": "e4af000df66fae31",
+			"x": 778,
+			"y": -1651,
+			"width": 250,
+			"height": 167,
+			"color": "4"
+		},
+		{
+			"type": "text",
+			"text": " Ultimately how can you set conditions that will invite and encourage the agents to shift their interactions to create more effective patterns? ",
+			"id": "26386c617b49aa30",
+			"x": 74,
+			"y": -963,
+			"width": 250,
+			"height": 180
+		},
+		{
+			"type": "text",
+			"text": "Help individuals grapple with their challenges, even as you help others set conditions for system-wide and systemic change.",
+			"id": "177b0c875278a834",
+			"x": -240,
+			"y": -405,
+			"width": 519,
+			"height": 60,
+			"color": "3"
+		},
+		{
+			"type": "text",
+			"text": "Regulations",
+			"id": "470ecae0a6eeea18",
+			"x": 524,
+			"y": -2355,
+			"width": 250,
+			"height": 60,
+			"color": "5"
+		},
+		{
+			"type": "text",
+			"text": "Your best option for taking action is to pay attention to the meaning your history brings to decision making and action to shape your future.",
+			"id": "6fe2615439882ac6",
+			"x": -933,
+			"y": 2469,
+			"width": 560,
+			"height": 68,
+			"color": "5"
+		},
+		{
+			"type": "text",
+			"text": "You can remember a past that was different from today, and you work to recreate the parts of that past you can bring forth.",
+			"id": "c3f8244a303cb929",
+			"x": -869,
+			"y": 2709,
+			"width": 360,
+			"height": 97,
+			"color": "5"
+		},
+		{
+			"type": "text",
+			"text": "You can imagine a future that will increase fitness across your system.",
+			"id": "b7a0b2a413db0c2f",
+			"x": -593,
+			"y": 2806,
+			"width": 322,
+			"height": 89,
+			"color": "5"
+		},
+		{
+			"type": "text",
+			"text": "The may be informal, emergent systems",
+			"id": "7abb422bc86e68a2",
+			"x": -713,
+			"y": -2033,
+			"width": 250,
+			"height": 60,
+			"color": "5"
+		},
+		{
+			"type": "text",
+			"text": "These may be more loosely coupled, but established cultural systems",
+			"id": "b88a4ec7e0aca34d",
+			"x": 410,
+			"y": -2033,
+			"width": 385,
+			"height": 60,
+			"color": "5"
+		},
+		{
+			"type": "text",
+			"text": "How do large groups of loosely connected individuals generate system-wide patterns of similar activity across space and time?",
+			"id": "9630c40baa1267f7",
+			"x": 4280,
+			"y": 208,
+			"width": 351,
+			"height": 121,
+			"color": "1"
+		}
+	],
+	"edges": [
+		{
+			"id": "8740e0bee5fd1ea4",
+			"fromNode": "ddc41aa44d6ed665",
+			"fromSide": "right",
+			"toNode": "6866e19c7df0535b",
+			"toSide": "left",
+			"color": "1"
+		},
+		{
+			"id": "603e867cebfbaf76",
+			"fromNode": "242bc9b1599cb778",
+			"fromSide": "bottom",
+			"toNode": "6866e19c7df0535b",
+			"toSide": "top",
+			"color": "1"
+		},
+		{
+			"id": "925f97f2ed9efe05",
+			"fromNode": "ecadd98f158e3a84",
+			"fromSide": "left",
+			"toNode": "6866e19c7df0535b",
+			"toSide": "right",
+			"color": "1"
+		},
+		{
+			"id": "1b03c9fa588d5893",
+			"fromNode": "4d4449031cf5346e",
+			"fromSide": "top",
+			"toNode": "6866e19c7df0535b",
+			"toSide": "bottom",
+			"color": "1"
+		},
+		{
+			"id": "e72e2f5670f08c55",
+			"fromNode": "fbcc488cf8cb2344",
+			"fromSide": "right",
+			"toNode": "ddc41aa44d6ed665",
+			"toSide": "left",
+			"color": "2"
+		},
+		{
+			"id": "76eea6e1d72674a7",
+			"fromNode": "d954a5a27256dbae",
+			"fromSide": "right",
+			"toNode": "ddc41aa44d6ed665",
+			"toSide": "left",
+			"color": "2"
+		},
+		{
+			"id": "40df4666255dde57",
+			"fromNode": "9c296ca3b4e3db15",
+			"fromSide": "right",
+			"toNode": "fbcc488cf8cb2344",
+			"toSide": "left",
+			"color": "3"
+		},
+		{
+			"id": "623d11daa4dd16df",
+			"fromNode": "5cf8d38fe27ae677",
+			"fromSide": "right",
+			"toNode": "d954a5a27256dbae",
+			"toSide": "left",
+			"color": "3"
+		},
+		{
+			"id": "eac113a3e60b1aea",
+			"fromNode": "a79b5c28b9325bf6",
+			"fromSide": "right",
+			"toNode": "fbcc488cf8cb2344",
+			"toSide": "left",
+			"color": "3"
+		},
+		{
+			"id": "b6b92ddeb06392dc",
+			"fromNode": "985a9e66e464c41b",
+			"fromSide": "right",
+			"toNode": "d954a5a27256dbae",
+			"toSide": "left",
+			"color": "3"
+		},
+		{
+			"id": "dd46e6a2f1727cbd",
+			"fromNode": "62ba28297bfa3b55",
+			"fromSide": "right",
+			"toNode": "fbcc488cf8cb2344",
+			"toSide": "left",
+			"color": "3"
+		},
+		{
+			"id": "d366de159c54c3ed",
+			"fromNode": "d436640091c5dd9c",
+			"fromSide": "right",
+			"toNode": "d954a5a27256dbae",
+			"toSide": "left",
+			"color": "3"
+		},
+		{
+			"id": "4475abbbd1a7959d",
+			"fromNode": "866059889330d9d4",
+			"fromSide": "right",
+			"toNode": "62ad6fdb8ef2168e",
+			"toSide": "left",
+			"color": "6"
+		},
+		{
+			"id": "a6c8303909a09cad",
+			"fromNode": "866059889330d9d4",
+			"fromSide": "right",
+			"toNode": "8d0f9ffd56b297f2",
+			"toSide": "left",
+			"color": "6"
+		},
+		{
+			"id": "c9b6fda5f6c1a439",
+			"fromNode": "8d0f9ffd56b297f2",
+			"fromSide": "bottom",
+			"toNode": "6f31bd9c1a0c35e8",
+			"toSide": "top",
+			"color": "6"
+		},
+		{
+			"id": "1a6637f196e734b2",
+			"fromNode": "8d0f9ffd56b297f2",
+			"fromSide": "top",
+			"toNode": "fe74ccdc9ab25b60",
+			"toSide": "left",
+			"color": "6"
+		},
+		{
+			"id": "03f35a6622b0c711",
+			"fromNode": "fe74ccdc9ab25b60",
+			"fromSide": "top",
+			"toNode": "7c1de632dee55687",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "3617497ce16cdb33",
+			"fromNode": "fe74ccdc9ab25b60",
+			"fromSide": "right",
+			"toNode": "1b1f266c2b46f077",
+			"toSide": "left",
+			"color": "6"
+		},
+		{
+			"id": "aae4e2b63364e31c",
+			"fromNode": "5f32b6251f61ceaf",
+			"fromSide": "bottom",
+			"toNode": "17ef8f71831d3cff",
+			"toSide": "top",
+			"color": "6"
+		},
+		{
+			"id": "dc67202e597e333f",
+			"fromNode": "925d0ab9e93f770a",
+			"fromSide": "bottom",
+			"toNode": "e759833eaa369179",
+			"toSide": "top",
+			"color": "6"
+		},
+		{
+			"id": "786b81cbf77991d1",
+			"fromNode": "e759833eaa369179",
+			"fromSide": "right",
+			"toNode": "b00e7cfe0a5cc023",
+			"toSide": "left",
+			"color": "5"
+		},
+		{
+			"id": "885727287c0bc5f5",
+			"fromNode": "b00e7cfe0a5cc023",
+			"fromSide": "right",
+			"toNode": "59aa1fd2d58ac401",
+			"toSide": "left",
+			"color": "4"
+		},
+		{
+			"id": "5e5dbaa1abca0c4c",
+			"fromNode": "e759833eaa369179",
+			"fromSide": "right",
+			"toNode": "38596506df99fb11",
+			"toSide": "left",
+			"color": "5"
+		},
+		{
+			"id": "d55536c5ccd1b98b",
+			"fromNode": "38596506df99fb11",
+			"fromSide": "right",
+			"toNode": "5d4d32f67d2d0e1f",
+			"toSide": "left",
+			"color": "4"
+		},
+		{
+			"id": "9d76f9d716b34912",
+			"fromNode": "e759833eaa369179",
+			"fromSide": "right",
+			"toNode": "4ee5a55c25dab53b",
+			"toSide": "left",
+			"color": "5"
+		},
+		{
+			"id": "2df8b86b3562f1a0",
+			"fromNode": "38596506df99fb11",
+			"fromSide": "top",
+			"toNode": "ad160a81eceb2560",
+			"toSide": "left",
+			"color": "5"
+		},
+		{
+			"id": "b8d8454d874b95b3",
+			"fromNode": "b00e7cfe0a5cc023",
+			"fromSide": "top",
+			"toNode": "98e56dbbc1233702",
+			"toSide": "left",
+			"color": "5"
+		},
+		{
+			"id": "e29e1b22eb89491c",
+			"fromNode": "b00e7cfe0a5cc023",
+			"fromSide": "bottom",
+			"toNode": "8c343b179ba6d8da",
+			"toSide": "left",
+			"color": "5"
+		},
+		{
+			"id": "a3ce3dc6b6be8aa2",
+			"fromNode": "38596506df99fb11",
+			"fromSide": "bottom",
+			"toNode": "7da5df279c90c57d",
+			"toSide": "left",
+			"color": "5"
+		},
+		{
+			"id": "1f9ff4409f49f50e",
+			"fromNode": "4ee5a55c25dab53b",
+			"fromSide": "top",
+			"toNode": "17732d2927bf2b8a",
+			"toSide": "left",
+			"color": "5"
+		},
+		{
+			"id": "710b3d5d8158647b",
+			"fromNode": "4ee5a55c25dab53b",
+			"fromSide": "bottom",
+			"toNode": "361fcffd4f3ad57c",
+			"toSide": "left",
+			"color": "5"
+		},
+		{
+			"id": "d0cdb428e92336da",
+			"fromNode": "4ee5a55c25dab53b",
+			"fromSide": "right",
+			"toNode": "39aa3d195940f5b7",
+			"toSide": "left",
+			"color": "4"
+		},
+		{
+			"id": "32fdcbfff7129e46",
+			"fromNode": "83a734aac43acd89",
+			"fromSide": "bottom",
+			"toNode": "3fbc2f55e6e54a77",
+			"toSide": "top",
+			"color": "6"
+		},
+		{
+			"id": "9c53603f60ef9678",
+			"fromNode": "3fbc2f55e6e54a77",
+			"fromSide": "bottom",
+			"toNode": "b9a5aa2394e76c9e",
+			"toSide": "top",
+			"color": "6"
+		},
+		{
+			"id": "04c0ff68fea1c728",
+			"fromNode": "3fbc2f55e6e54a77",
+			"fromSide": "bottom",
+			"toNode": "d46aba5504dfc1f7",
+			"toSide": "top",
+			"color": "6"
+		},
+		{
+			"id": "952e176d61de407d",
+			"fromNode": "3fbc2f55e6e54a77",
+			"fromSide": "bottom",
+			"toNode": "bad713f04e741d1d",
+			"toSide": "top",
+			"color": "6"
+		},
+		{
+			"id": "07e17dc84b6d143b",
+			"fromNode": "b9a5aa2394e76c9e",
+			"fromSide": "bottom",
+			"toNode": "43fd38209dd01ea8",
+			"toSide": "top",
+			"color": "6"
+		},
+		{
+			"id": "3e14f7443ea64d17",
+			"fromNode": "d46aba5504dfc1f7",
+			"fromSide": "bottom",
+			"toNode": "43fd38209dd01ea8",
+			"toSide": "top",
+			"color": "6"
+		},
+		{
+			"id": "07067c4af03bda98",
+			"fromNode": "bad713f04e741d1d",
+			"fromSide": "bottom",
+			"toNode": "43fd38209dd01ea8",
+			"toSide": "top",
+			"color": "6"
+		},
+		{
+			"id": "8c655ac0ed4aee25",
+			"fromNode": "43fd38209dd01ea8",
+			"fromSide": "bottom",
+			"toNode": "41322ba0c782f965",
+			"toSide": "top",
+			"color": "5"
+		},
+		{
+			"id": "05a6c06be068b166",
+			"fromNode": "43fd38209dd01ea8",
+			"fromSide": "bottom",
+			"toNode": "e8b9380a3df1d8a5",
+			"toSide": "top",
+			"color": "5"
+		},
+		{
+			"id": "e34430a02093371b",
+			"fromNode": "43fd38209dd01ea8",
+			"fromSide": "bottom",
+			"toNode": "4f02da3f2b6c61ab",
+			"toSide": "top",
+			"color": "5"
+		},
+		{
+			"id": "e5da9db8746c38f7",
+			"fromNode": "43fd38209dd01ea8",
+			"fromSide": "bottom",
+			"toNode": "1fa51bfb39b5681c",
+			"toSide": "top",
+			"color": "5"
+		},
+		{
+			"id": "df9208dc0387062c",
+			"fromNode": "43fd38209dd01ea8",
+			"fromSide": "bottom",
+			"toNode": "7a175c0a7c0bb554",
+			"toSide": "top",
+			"color": "5"
+		},
+		{
+			"id": "505400d9a7886de9",
+			"fromNode": "43fd38209dd01ea8",
+			"fromSide": "bottom",
+			"toNode": "c201ad6d84bfb808",
+			"toSide": "top",
+			"color": "5"
+		},
+		{
+			"id": "08fe36e97ccc4c5d",
+			"fromNode": "43fd38209dd01ea8",
+			"fromSide": "bottom",
+			"toNode": "bd01ee9e1c51f5d2",
+			"toSide": "top",
+			"color": "5"
+		},
+		{
+			"id": "e74759880c67b345",
+			"fromNode": "43fd38209dd01ea8",
+			"fromSide": "bottom",
+			"toNode": "704ef2a4f680f562",
+			"toSide": "top",
+			"color": "5"
+		},
+		{
+			"id": "a4ba5d34b03909da",
+			"fromNode": "43fd38209dd01ea8",
+			"fromSide": "bottom",
+			"toNode": "470ecae0a6eeea18",
+			"toSide": "top",
+			"color": "5"
+		},
+		{
+			"id": "48a5b0bf895723a7",
+			"fromNode": "ff9aa732746463e4",
+			"fromSide": "bottom",
+			"toNode": "7abb422bc86e68a2",
+			"toSide": "top",
+			"color": "5"
+		},
+		{
+			"id": "77c1437886cc0bf7",
+			"fromNode": "ff9aa732746463e4",
+			"fromSide": "bottom",
+			"toNode": "b06f9fbe66b25839",
+			"toSide": "top",
+			"color": "5"
+		},
+		{
+			"id": "f74d41b0da5150c1",
+			"fromNode": "ff9aa732746463e4",
+			"fromSide": "bottom",
+			"toNode": "b88a4ec7e0aca34d",
+			"toSide": "top",
+			"color": "5"
+		},
+		{
+			"id": "f444c4128ad3fdb9",
+			"fromNode": "2b82a461a55f950f",
+			"fromSide": "right",
+			"toNode": "e225e56a79224b04",
+			"toSide": "left",
+			"color": "4"
+		},
+		{
+			"id": "43f9c70a763e4675",
+			"fromNode": "2b82a461a55f950f",
+			"fromSide": "right",
+			"toNode": "ee0c1a02a762e97d",
+			"toSide": "left",
+			"color": "4"
+		},
+		{
+			"id": "18fe2618d25650fa",
+			"fromNode": "2b82a461a55f950f",
+			"fromSide": "right",
+			"toNode": "c444c9ba6b6e8a96",
+			"toSide": "left",
+			"color": "4"
+		},
+		{
+			"id": "b422e88fcdf52724",
+			"fromNode": "e225e56a79224b04",
+			"fromSide": "right",
+			"toNode": "8a2e73c48f86ca44",
+			"toSide": "left",
+			"color": "4"
+		},
+		{
+			"id": "c5909e9bd60c2c29",
+			"fromNode": "ee0c1a02a762e97d",
+			"fromSide": "right",
+			"toNode": "8a2e73c48f86ca44",
+			"toSide": "left",
+			"color": "4"
+		},
+		{
+			"id": "f7fe44542c3aa647",
+			"fromNode": "c444c9ba6b6e8a96",
+			"fromSide": "right",
+			"toNode": "8a2e73c48f86ca44",
+			"toSide": "left",
+			"color": "4"
+		},
+		{
+			"id": "68716c7a0c3cb10f",
+			"fromNode": "64f36d65efe1b20a",
+			"fromSide": "left",
+			"toNode": "323d98a362086062",
+			"toSide": "top",
+			"color": "4"
+		},
+		{
+			"id": "8f32a71fa9453ee1",
+			"fromNode": "8a2e73c48f86ca44",
+			"fromSide": "bottom",
+			"toNode": "190e7b6c36e927e7",
+			"toSide": "top",
+			"color": "4"
+		},
+		{
+			"id": "21e12f5ebbbd4cb7",
+			"fromNode": "64f36d65efe1b20a",
+			"fromSide": "bottom",
+			"toNode": "4fb41f9885558ac8",
+			"toSide": "top",
+			"color": "4"
+		},
+		{
+			"id": "bdd966d9be3f02cb",
+			"fromNode": "64f36d65efe1b20a",
+			"fromSide": "right",
+			"toNode": "e4af000df66fae31",
+			"toSide": "top",
+			"color": "4"
+		},
+		{
+			"id": "ce4c2de935e35404",
+			"fromNode": "e4af000df66fae31",
+			"fromSide": "left",
+			"toNode": "976a2921a00d7000",
+			"toSide": "right",
+			"color": "4"
+		},
+		{
+			"id": "304d7020ad2159e9",
+			"fromNode": "e4af000df66fae31",
+			"fromSide": "left",
+			"toNode": "e8afaa092a15ed77",
+			"toSide": "right",
+			"color": "4"
+		},
+		{
+			"id": "20cd094fd87e41a3",
+			"fromNode": "e8afaa092a15ed77",
+			"fromSide": "bottom",
+			"toNode": "97a737e42d342776",
+			"toSide": "top",
+			"color": "4"
+		},
+		{
+			"id": "79d593611424d8b1",
+			"fromNode": "976a2921a00d7000",
+			"fromSide": "bottom",
+			"toNode": "e8afaa092a15ed77",
+			"toSide": "top",
+			"color": "4"
+		},
+		{
+			"id": "8ba54c5ead7006a1",
+			"fromNode": "e4af000df66fae31",
+			"fromSide": "bottom",
+			"toNode": "16e6d72804da734c",
+			"toSide": "top",
+			"color": "4"
+		},
+		{
+			"id": "0837f4c1c3fc0aee",
+			"fromNode": "190e7b6c36e927e7",
+			"fromSide": "right",
+			"toNode": "4fb41f9885558ac8",
+			"toSide": "top",
+			"color": "4"
+		},
+		{
+			"id": "aa3a2b300ffd28dd",
+			"fromNode": "16e6d72804da734c",
+			"fromSide": "left",
+			"toNode": "4fb41f9885558ac8",
+			"toSide": "top",
+			"color": "4"
+		},
+		{
+			"id": "bccbd7d6a7f7cfd3",
+			"fromNode": "4fb41f9885558ac8",
+			"fromSide": "bottom",
+			"toNode": "177b0c875278a834",
+			"toSide": "top",
+			"color": "3"
+		},
+		{
+			"id": "cb1a8a15b3567e81",
+			"fromNode": "443c815fc6b9f90e",
+			"fromSide": "bottom",
+			"toNode": "4c55c89bca15592d",
+			"toSide": "left",
+			"color": "3"
+		},
+		{
+			"id": "82251f2006685b07",
+			"fromNode": "4c55c89bca15592d",
+			"fromSide": "bottom",
+			"toNode": "7fb14665700e4af1",
+			"toSide": "left",
+			"color": "3"
+		},
+		{
+			"id": "e9df30fba67a4ff8",
+			"fromNode": "7fb14665700e4af1",
+			"fromSide": "bottom",
+			"toNode": "4181d79c01a50313",
+			"toSide": "left",
+			"color": "3"
+		},
+		{
+			"id": "684f8fca75133917",
+			"fromNode": "4e1231b42d9c554e",
+			"fromSide": "bottom",
+			"toNode": "f9dd9b62b03e0a87",
+			"toSide": "right",
+			"color": "3"
+		},
+		{
+			"id": "d91421bcb64d3f0b",
+			"fromNode": "f9dd9b62b03e0a87",
+			"fromSide": "bottom",
+			"toNode": "562984c873290470",
+			"toSide": "right",
+			"color": "3"
+		},
+		{
+			"id": "3afcc1489902c800",
+			"fromNode": "562984c873290470",
+			"fromSide": "bottom",
+			"toNode": "7097f6c606cb2d29",
+			"toSide": "right",
+			"color": "3"
+		},
+		{
+			"id": "78bccd06374aac79",
+			"fromNode": "4fb41f9885558ac8",
+			"fromSide": "left",
+			"toNode": "443c815fc6b9f90e",
+			"toSide": "top",
+			"color": "3"
+		},
+		{
+			"id": "597f3509e53f9f99",
+			"fromNode": "4fb41f9885558ac8",
+			"fromSide": "right",
+			"toNode": "4e1231b42d9c554e",
+			"toSide": "top",
+			"color": "3"
+		},
+		{
+			"id": "aa9224231a7f3bce",
+			"fromNode": "177b0c875278a834",
+			"fromSide": "bottom",
+			"toNode": "242bc9b1599cb778",
+			"toSide": "top",
+			"color": "2"
+		},
+		{
+			"id": "b6fd37be0683a7ad",
+			"fromNode": "96deb937f6e85b53",
+			"fromSide": "left",
+			"toNode": "b89bf6cef50172fc",
+			"toSide": "right",
+			"color": "6"
+		},
+		{
+			"id": "709a112ee992314a",
+			"fromNode": "7f14a76ac4c34f12",
+			"fromSide": "left",
+			"toNode": "b89bf6cef50172fc",
+			"toSide": "right",
+			"color": "6"
+		},
+		{
+			"id": "13bcf030140644bd",
+			"fromNode": "fcf44334de906b2b",
+			"fromSide": "left",
+			"toNode": "b89bf6cef50172fc",
+			"toSide": "right",
+			"color": "6"
+		},
+		{
+			"id": "e2415e52555d2ff5",
+			"fromNode": "dbff0b1bb838952f",
+			"fromSide": "left",
+			"toNode": "b89bf6cef50172fc",
+			"toSide": "right",
+			"color": "6"
+		},
+		{
+			"id": "4fe76afec1975f71",
+			"fromNode": "06c08addf54c5c17",
+			"fromSide": "bottom",
+			"toNode": "edd472dfadba97e7",
+			"toSide": "top",
+			"color": "6"
+		},
+		{
+			"id": "779390c314f41e47",
+			"fromNode": "edd472dfadba97e7",
+			"fromSide": "bottom",
+			"toNode": "b89bf6cef50172fc",
+			"toSide": "top",
+			"color": "6"
+		},
+		{
+			"id": "09ac18982758e424",
+			"fromNode": "b89bf6cef50172fc",
+			"fromSide": "bottom",
+			"toNode": "fa3f9d2175d8672f",
+			"toSide": "top",
+			"color": "6"
+		},
+		{
+			"id": "fb197d54e1b9c9ba",
+			"fromNode": "fa3f9d2175d8672f",
+			"fromSide": "bottom",
+			"toNode": "29744249c65ff78b",
+			"toSide": "top",
+			"color": "6"
+		},
+		{
+			"id": "505329373b1625c6",
+			"fromNode": "29744249c65ff78b",
+			"fromSide": "bottom",
+			"toNode": "501215c605159a34",
+			"toSide": "top",
+			"color": "6"
+		},
+		{
+			"id": "f3003d17f7c92efb",
+			"fromNode": "29744249c65ff78b",
+			"fromSide": "bottom",
+			"toNode": "689317bbed7a094e",
+			"toSide": "top",
+			"color": "6"
+		},
+		{
+			"id": "e288fd94ad746e2a",
+			"fromNode": "8bb0c868bf999c04",
+			"fromSide": "left",
+			"toNode": "0604083a85e2e848",
+			"toSide": "right",
+			"color": "4"
+		},
+		{
+			"id": "e69bca5117c8c6fc",
+			"fromNode": "0604083a85e2e848",
+			"fromSide": "top",
+			"toNode": "39618bb2aca4a14c",
+			"toSide": "bottom",
+			"color": "4"
+		},
+		{
+			"id": "1e648e2007e50b49",
+			"fromNode": "39618bb2aca4a14c",
+			"fromSide": "top",
+			"toNode": "a12638b0f6f39622",
+			"toSide": "bottom",
+			"color": "4"
+		},
+		{
+			"id": "800b28a601b1597a",
+			"fromNode": "a12638b0f6f39622",
+			"fromSide": "top",
+			"toNode": "e262ff4db3fbfb85",
+			"toSide": "bottom",
+			"color": "4"
+		},
+		{
+			"id": "c79dad7379bae529",
+			"fromNode": "0604083a85e2e848",
+			"fromSide": "bottom",
+			"toNode": "7d33dbd9972559c2",
+			"toSide": "top",
+			"color": "4"
+		},
+		{
+			"id": "21c33e10c2752e11",
+			"fromNode": "7d33dbd9972559c2",
+			"fromSide": "bottom",
+			"toNode": "24a0eccdfb4f6aa0",
+			"toSide": "top",
+			"color": "4"
+		},
+		{
+			"id": "e55636d617b20323",
+			"fromNode": "24a0eccdfb4f6aa0",
+			"fromSide": "bottom",
+			"toNode": "1ed186de166cd881",
+			"toSide": "top",
+			"color": "4"
+		},
+		{
+			"id": "c6afed7e4663fb9e",
+			"fromNode": "4ce9e60c6ffa125b",
+			"fromSide": "left",
+			"toNode": "ecadd98f158e3a84",
+			"toSide": "right",
+			"color": "2"
+		},
+		{
+			"id": "47a96895030bbd36",
+			"fromNode": "d24bd8c891881bb7",
+			"fromSide": "left",
+			"toNode": "ecadd98f158e3a84",
+			"toSide": "right",
+			"color": "2"
+		},
+		{
+			"id": "d1767d369cc476ba",
+			"fromNode": "22f389975c0859c8",
+			"fromSide": "left",
+			"toNode": "ecadd98f158e3a84",
+			"toSide": "right",
+			"color": "2"
+		},
+		{
+			"id": "d3e8b3deb52c12c5",
+			"fromNode": "a8ee6cb5a65ef97f",
+			"fromSide": "left",
+			"toNode": "22f389975c0859c8",
+			"toSide": "bottom",
+			"color": "3"
+		},
+		{
+			"id": "c0551550ca07fcf7",
+			"fromNode": "1364da547bb04f32",
+			"fromSide": "left",
+			"toNode": "4ce9e60c6ffa125b",
+			"toSide": "top",
+			"color": "3"
+		},
+		{
+			"id": "c38daf63f13e8a42",
+			"fromNode": "4a33541eda6b68ea",
+			"fromSide": "left",
+			"toNode": "d24bd8c891881bb7",
+			"toSide": "right",
+			"color": "3"
+		},
+		{
+			"id": "f480ae97c1ed0681",
+			"fromNode": "12ad138b4a67d5cf",
+			"fromSide": "left",
+			"toNode": "4a33541eda6b68ea",
+			"toSide": "right",
+			"color": "3"
+		},
+		{
+			"id": "b7f853c2c249d622",
+			"fromNode": "12ad138b4a67d5cf",
+			"fromSide": "left",
+			"toNode": "a8ee6cb5a65ef97f",
+			"toSide": "right",
+			"color": "3"
+		},
+		{
+			"id": "b4b84569a24f1f11",
+			"fromNode": "12ad138b4a67d5cf",
+			"fromSide": "left",
+			"toNode": "1364da547bb04f32",
+			"toSide": "right",
+			"color": "3"
+		},
+		{
+			"id": "a2312ba4351e7d96",
+			"fromNode": "0604083a85e2e848",
+			"fromSide": "left",
+			"toNode": "12ad138b4a67d5cf",
+			"toSide": "right",
+			"color": "4"
+		},
+		{
+			"id": "30512ca143bb15a1",
+			"fromNode": "20e86fcf03a9e001",
+			"fromSide": "bottom",
+			"toNode": "649728b6a7fa7aae",
+			"toSide": "top",
+			"color": "4"
+		},
+		{
+			"id": "3fc68404f81aea73",
+			"fromNode": "649728b6a7fa7aae",
+			"fromSide": "bottom",
+			"toNode": "663b55da4b4e3756",
+			"toSide": "top",
+			"color": "4"
+		},
+		{
+			"id": "460ee61fb7c52728",
+			"fromNode": "663b55da4b4e3756",
+			"fromSide": "bottom",
+			"toNode": "12ad138b4a67d5cf",
+			"toSide": "top",
+			"color": "4"
+		},
+		{
+			"id": "6f12231e3a7a62c1",
+			"fromNode": "abbcc7e6a40bb0f4",
+			"fromSide": "bottom",
+			"toNode": "d823bdea6441fceb",
+			"toSide": "top",
+			"color": "4"
+		},
+		{
+			"id": "9147cce8b47c4215",
+			"fromNode": "d823bdea6441fceb",
+			"fromSide": "bottom",
+			"toNode": "bd3c1ba008ccaed1",
+			"toSide": "top",
+			"color": "4"
+		},
+		{
+			"id": "127331dd7ab8e15c",
+			"fromNode": "bd3c1ba008ccaed1",
+			"fromSide": "bottom",
+			"toNode": "4879aea62127f3d5",
+			"toSide": "top",
+			"color": "4"
+		},
+		{
+			"id": "7b2ec99e855e9326",
+			"fromNode": "4879aea62127f3d5",
+			"fromSide": "bottom",
+			"toNode": "148786766a505203",
+			"toSide": "top",
+			"color": "4"
+		},
+		{
+			"id": "96862659c7d4ada3",
+			"fromNode": "9630c40baa1267f7",
+			"fromSide": "left",
+			"toNode": "d19da739033060cb",
+			"toSide": "right",
+			"color": "6"
+		},
+		{
+			"id": "ebfc8614bc4a6b3b",
+			"fromNode": "9630c40baa1267f7",
+			"fromSide": "left",
+			"toNode": "1fdd5baab15c19df",
+			"toSide": "right",
+			"color": "6"
+		},
+		{
+			"id": "c6af7c272c2bd42e",
+			"fromNode": "1b1f266c2b46f077",
+			"fromSide": "bottom",
+			"toNode": "5f32b6251f61ceaf",
+			"toSide": "top",
+			"color": "6"
+		},
+		{
+			"id": "94937de8296afa09",
+			"fromNode": "abbcc7e6a40bb0f4",
+			"fromSide": "top",
+			"toNode": "12ad138b4a67d5cf",
+			"toSide": "bottom",
+			"color": "4"
+		},
+		{
+			"id": "2a4ebd07ef925509",
+			"fromNode": "cfe38caebd0e6be3",
+			"fromSide": "top",
+			"toNode": "10843362cd91c6d4",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "8ad1d6501c40acbb",
+			"fromNode": "cfe38caebd0e6be3",
+			"fromSide": "top",
+			"toNode": "8d4d266e06675120",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "a12960ee0ad06909",
+			"fromNode": "cfe38caebd0e6be3",
+			"fromSide": "top",
+			"toNode": "31325e5e146b1376",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "228570acd4322639",
+			"fromNode": "31325e5e146b1376",
+			"fromSide": "top",
+			"toNode": "4679ec158df0a4cf",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "80a3141787cedf33",
+			"fromNode": "4679ec158df0a4cf",
+			"fromSide": "top",
+			"toNode": "a4ede83bf0a313f5",
+			"toSide": "bottom",
+			"color": "5"
+		},
+		{
+			"id": "453f122b4299bdf7",
+			"fromNode": "a4ede83bf0a313f5",
+			"fromSide": "top",
+			"toNode": "32d12304b0d6b0a9",
+			"toSide": "bottom",
+			"color": "5"
+		},
+		{
+			"id": "ccf605dda8a03b7b",
+			"fromNode": "32d12304b0d6b0a9",
+			"fromSide": "top",
+			"toNode": "4e6f8c48c17d985d",
+			"toSide": "bottom",
+			"color": "5"
+		},
+		{
+			"id": "0e407d7a86f6e234",
+			"fromNode": "4e6f8c48c17d985d",
+			"fromSide": "top",
+			"toNode": "be29286d777de565",
+			"toSide": "bottom",
+			"color": "5"
+		},
+		{
+			"id": "28818b0f3c072e22",
+			"fromNode": "8d4d266e06675120",
+			"fromSide": "top",
+			"toNode": "a46d853f117cadd8",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "af24835b0bc3d0a7",
+			"fromNode": "a46d853f117cadd8",
+			"fromSide": "top",
+			"toNode": "23aa7eb8b494d6d8",
+			"toSide": "bottom",
+			"color": "5"
+		},
+		{
+			"id": "141779aec89b72cf",
+			"fromNode": "23aa7eb8b494d6d8",
+			"fromSide": "top",
+			"toNode": "85e6bb4e6d086b8d",
+			"toSide": "bottom",
+			"color": "5"
+		},
+		{
+			"id": "74e9ea729e8d73da",
+			"fromNode": "85e6bb4e6d086b8d",
+			"fromSide": "top",
+			"toNode": "bba07aec4ae8cbed",
+			"toSide": "bottom",
+			"color": "5"
+		},
+		{
+			"id": "576dee307fae5c2e",
+			"fromNode": "bba07aec4ae8cbed",
+			"fromSide": "top",
+			"toNode": "81c81915684cc647",
+			"toSide": "bottom",
+			"color": "5"
+		},
+		{
+			"id": "41e6b3d9c32c76cf",
+			"fromNode": "81c81915684cc647",
+			"fromSide": "top",
+			"toNode": "1635a0b969b6cd5b",
+			"toSide": "bottom",
+			"color": "5"
+		},
+		{
+			"id": "3ecf89d126cc2dc9",
+			"fromNode": "10843362cd91c6d4",
+			"fromSide": "top",
+			"toNode": "647a46a2870b202b",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "06274ce0e7aa370f",
+			"fromNode": "647a46a2870b202b",
+			"fromSide": "top",
+			"toNode": "99b140a0e17d02c9",
+			"toSide": "bottom",
+			"color": "5"
+		},
+		{
+			"id": "ee454812a0b6c5e6",
+			"fromNode": "99b140a0e17d02c9",
+			"fromSide": "top",
+			"toNode": "35259b4348996dad",
+			"toSide": "bottom",
+			"color": "5"
+		},
+		{
+			"id": "96e24f06d79a2ff8",
+			"fromNode": "35259b4348996dad",
+			"fromSide": "top",
+			"toNode": "c3f8244a303cb929",
+			"toSide": "bottom",
+			"color": "5"
+		},
+		{
+			"id": "82f41e2f060538ae",
+			"fromNode": "c3f8244a303cb929",
+			"fromSide": "top",
+			"toNode": "6fe2615439882ac6",
+			"toSide": "bottom",
+			"color": "5"
+		},
+		{
+			"id": "212f48f28f60e0c3",
+			"fromNode": "b7a0b2a413db0c2f",
+			"fromSide": "top",
+			"toNode": "6fe2615439882ac6",
+			"toSide": "bottom",
+			"color": "5"
+		},
+		{
+			"id": "fa291a994c758d6b",
+			"fromNode": "6fe2615439882ac6",
+			"fromSide": "top",
+			"toNode": "3a843a84993eb6a6",
+			"toSide": "bottom",
+			"color": "4"
+		},
+		{
+			"id": "2c7f3671c75d12c3",
+			"fromNode": "1635a0b969b6cd5b",
+			"fromSide": "top",
+			"toNode": "3a843a84993eb6a6",
+			"toSide": "bottom",
+			"color": "4"
+		},
+		{
+			"id": "e150c1925d2af3b8",
+			"fromNode": "be29286d777de565",
+			"fromSide": "top",
+			"toNode": "3a843a84993eb6a6",
+			"toSide": "bottom",
+			"color": "4"
+		},
+		{
+			"id": "fd9855c505f3e271",
+			"fromNode": "3a843a84993eb6a6",
+			"fromSide": "left",
+			"toNode": "f6a54241a485e111",
+			"toSide": "right",
+			"color": "4"
+		},
+		{
+			"id": "8617c4f7a733f52b",
+			"fromNode": "3a843a84993eb6a6",
+			"fromSide": "right",
+			"toNode": "328058bd850f9bb3",
+			"toSide": "left",
+			"color": "4"
+		},
+		{
+			"id": "2bae69195b7553e7",
+			"fromNode": "f6a54241a485e111",
+			"fromSide": "top",
+			"toNode": "84bd88798b683ea9",
+			"toSide": "bottom",
+			"color": "4"
+		},
+		{
+			"id": "cef81918b2a0fb51",
+			"fromNode": "328058bd850f9bb3",
+			"fromSide": "top",
+			"toNode": "84bd88798b683ea9",
+			"toSide": "bottom",
+			"color": "4"
+		},
+		{
+			"id": "8068683eac9d9f0e",
+			"fromNode": "84bd88798b683ea9",
+			"fromSide": "left",
+			"toNode": "7859f7991637c63f",
+			"toSide": "bottom",
+			"color": "4"
+		},
+		{
+			"id": "d8636f05304e8057",
+			"fromNode": "84bd88798b683ea9",
+			"fromSide": "right",
+			"toNode": "fb7bcfe228383954",
+			"toSide": "bottom",
+			"color": "4"
+		},
+		{
+			"id": "a1a6df193e51e56b",
+			"fromNode": "84bd88798b683ea9",
+			"fromSide": "top",
+			"toNode": "f047c7951f124a25",
+			"toSide": "bottom",
+			"color": "4"
+		},
+		{
+			"id": "8ec62ea6db574c19",
+			"fromNode": "f047c7951f124a25",
+			"fromSide": "top",
+			"toNode": "f7afc49dc4a1870b",
+			"toSide": "bottom",
+			"color": "3"
+		},
+		{
+			"id": "53ac1899c82a1991",
+			"fromNode": "f047c7951f124a25",
+			"fromSide": "top",
+			"toNode": "b3e37425ca88e72c",
+			"toSide": "bottom",
+			"color": "3"
+		},
+		{
+			"id": "596fa73da44286a6",
+			"fromNode": "f047c7951f124a25",
+			"fromSide": "top",
+			"toNode": "3bf2800ffbac30c1",
+			"toSide": "bottom",
+			"color": "3"
+		},
+		{
+			"id": "04c2cb9526d8c339",
+			"fromNode": "f7afc49dc4a1870b",
+			"fromSide": "top",
+			"toNode": "5e129376e7ebc9c3",
+			"toSide": "bottom",
+			"color": "3"
+		},
+		{
+			"id": "40ecdff56df96626",
+			"fromNode": "b3e37425ca88e72c",
+			"fromSide": "top",
+			"toNode": "e9722563c892f85d",
+			"toSide": "bottom",
+			"color": "3"
+		},
+		{
+			"id": "6d7194a2decbabec",
+			"fromNode": "5e129376e7ebc9c3",
+			"fromSide": "top",
+			"toNode": "9f3d883bd217a769",
+			"toSide": "bottom",
+			"color": "3"
+		},
+		{
+			"id": "bea93514252fe47b",
+			"fromNode": "e9722563c892f85d",
+			"fromSide": "top",
+			"toNode": "9f3d883bd217a769",
+			"toSide": "bottom",
+			"color": "3"
+		},
+		{
+			"id": "737d5e04325b6a56",
+			"fromNode": "3bf2800ffbac30c1",
+			"fromSide": "top",
+			"toNode": "98b5b99cec6af5bf",
+			"toSide": "bottom",
+			"color": "3"
+		},
+		{
+			"id": "cc415003fd352b0d",
+			"fromNode": "85790dd953357368",
+			"fromSide": "top",
+			"toNode": "6609d99dfa3f0041",
+			"toSide": "bottom",
+			"color": "3"
+		},
+		{
+			"id": "253e30d30f959879",
+			"fromNode": "9f3d883bd217a769",
+			"fromSide": "top",
+			"toNode": "6609d99dfa3f0041",
+			"toSide": "bottom",
+			"color": "3"
+		},
+		{
+			"id": "02d69a74d41020e1",
+			"fromNode": "6609d99dfa3f0041",
+			"fromSide": "top",
+			"toNode": "4d4449031cf5346e",
+			"toSide": "bottom",
+			"color": "2"
+		},
+		{
+			"id": "4c37f4b3b762858b",
+			"fromNode": "35259b4348996dad",
+			"fromSide": "top",
+			"toNode": "b7a0b2a413db0c2f",
+			"toSide": "bottom",
+			"color": "5"
+		},
+		{
+			"id": "6005fec6abd8953e",
+			"fromNode": "fb7bcfe228383954",
+			"fromSide": "left",
+			"toNode": "f047c7951f124a25",
+			"toSide": "right",
+			"color": "4"
+		},
+		{
+			"id": "4d8142819ecb0b1e",
+			"fromNode": "7859f7991637c63f",
+			"fromSide": "right",
+			"toNode": "f047c7951f124a25",
+			"toSide": "left",
+			"color": "4"
+		},
+		{
+			"id": "9a922f24d4913f4f",
+			"fromNode": "8bb0c868bf999c04",
+			"fromSide": "right",
+			"toNode": "0a973223b062bf15",
+			"toSide": "left",
+			"color": "5"
+		},
+		{
+			"id": "da37d3031606e10c",
+			"fromNode": "8bb0c868bf999c04",
+			"fromSide": "right",
+			"toNode": "b5c847d60864c51e",
+			"toSide": "left",
+			"color": "5"
+		},
+		{
+			"id": "cd7b537660b344cc",
+			"fromNode": "98b5b99cec6af5bf",
+			"fromSide": "left",
+			"toNode": "9f3d883bd217a769",
+			"toSide": "right",
+			"color": "3"
+		},
+		{
+			"id": "d6a816c3b507762c",
+			"fromNode": "9f3d883bd217a769",
+			"fromSide": "right",
+			"toNode": "85790dd953357368",
+			"toSide": "left",
+			"color": "3"
+		}
+	]
+}

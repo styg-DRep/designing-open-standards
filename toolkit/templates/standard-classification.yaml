@@ -1,0 +1,12 @@
+# source: framework/Open Standards Main Map/Types of Standards.md ("Classification output")
+# Classify by purpose before artifact. Provisional during scoping.
+
+coordination_need:
+standardization_surface:   # meaning | representation | transfer | practice | evaluation | identity | record | process
+primary_type:              # shared-vocabulary | exchange | guidance
+secondary_types: []
+possible_products: []
+required_strength:         # shared suggestion → recommended practice → common vocabulary → structured template
+                           # → formal specification → machine-validatable rule → protocol requirement
+existing_reference_points: []
+open_questions: []

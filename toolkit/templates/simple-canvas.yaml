@@ -1,0 +1,33 @@
+# source: framework/Open Standards Main Map/Simple Canvas.md
+# A shared, revisable hypothesis — placeholders and visible uncertainty are valid entries.
+# Tag claims: observed | reported | inferred | assumed | contested | unknown
+
+start:
+  vision:                  # 1. a short "What if...?" — intelligible without accepting the proposed standard
+  high_level_details:      # 2.
+    working_name:
+    initiators:
+    stewards_or_conveners:
+why:
+  standard:                # 3. what kind of reusable agreement might be needed (provisional)
+  opportunity:             # 4. the condition worth exploring — intelligible without the asset
+    statement:
+    evidence: []
+    assumptions: []
+    evidence_needs: []
+  asset:                   # 5. what others could do with it that is difficult now
+  use_cases: []            # 6. each: {actor, context_or_need, interaction, outcome}
+who:
+  key_participants: []     # 7. distinguish affected vs authority; development vs representing a community
+  participation_gaps: []
+  early_adopters: []       # 8. specific names or identifiable groups
+  engagement:              # 9. where the effort can listen, not only tell
+    channels: []
+    feedback_channels: []
+how:
+  key_impacts: []          # 10. per participant: what becomes possible / easier / constrained; who bears cost
+  major_risks: []          # 11. each: {risk, type, mitigation_or_question}; include success risks
+  key_resources: []        # 12. including resources not controlled by the initiators
+  resource_gaps: []
+completion_check:          # the nine questions in "Completion condition" — note disagreements
+  notes:

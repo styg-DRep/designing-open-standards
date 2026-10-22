@@ -1,0 +1,30 @@
+# source: framework/Open Standards Main Map/Frame the Opportunity.md ("Opportunity frame artifact")
+# Working template: [Actors] encounter [condition] when [context], resulting in [consequence].
+# Improving [coordination capability] could enable [desired difference], but we still need to
+# determine whether [standardization or alternatives] provide the most appropriate intervention.
+
+statement:
+current_condition:
+affected_actors: []        # experiencing / downstream / contributing / maintainers / institutions
+context:
+consequences: []
+coordination_need:         # what must become more consistent, comparable, repeatable, interoperable, understandable
+desired_difference:
+benefit_hypotheses: []     # each: {participant, benefit, must_be_true}
+need_vs_demand:            # "Separate Need From Demand"
+  observed_need:
+  expressed_demand:
+  predicted_benefit:
+  willingness_to_participate:
+  willingness_to_adopt:
+existing_coordination: []
+possible_interventions: [] # several intervention classes, not only "new standard"
+counterfactual:            # what happens if we do not create a standard?
+candidate_standardization_surface:
+candidate_standard_types: []
+existing_standards: []
+competing_frames: []       # each: {frame, held_by, evidence_needed}
+evidence: []               # each: {claim, tag, source}
+assumptions: []
+open_questions: []
+gate_outcome:              # proceed | reframe | adopt-or-extend | another-intervention | stop

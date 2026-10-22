@@ -1,0 +1,44 @@
+# source: framework/Open Standards Main Map/Think about sustainability.md ("Sustainability Model")
+# "If this standard succeeds, can the ecosystem actually carry it?"
+
+resource_model:
+  startup:
+  ongoing:
+  likely_sources:
+  dependency_risks:
+technical_model:
+  critical_dependencies: []
+  portability:
+  reproducibility:
+  continuity_plan:
+stewardship_model:
+  current_stewards: []
+  replacement_process:
+  decision_process:
+  escalation_path:
+community_model:
+  contributor_base:
+  knowledge_distribution:
+  onboarding:
+  concentration_risks:
+adoption_model:
+  implementation_cost:
+  support_needs:
+  migration_burden:
+  likely_adopter_capacity:
+knowledge_model:
+  documentation:
+  decision_records:
+  archives:
+  provenance:
+maintenance_surface:       # each item → who maintains it? unknown = sustainability gap
+  - item:
+    maintainer:
+    component_class:       # stable | living | generated | external
+minimum_sustainable_standard:
+stewardship_transfer:
+retirement_path:           # how would we stop maintaining this responsibly?
+sustainability_gate: {}    # the 13 questions in Sustainability Gate
+sustainability_outcome:    # proceed | reduce-scope | simplify-governance | strengthen-stewardship | reuse-or-extend | pause
+review_triggers: []
+open_questions: []

@@ -1,0 +1,21 @@
+# source: framework/Open Standards Main Map/Scope and Start (Phase Gate).md ("Development Readiness Record")
+# The gate decision, recorded separately from the bundle. Made and recorded by the people with
+# standing to make it — an agent may draft it, never decide it.
+
+decision:                  # enter-development | enter-development-conditionally | return-to-... | reuse-or-extend
+                           # | use-another-intervention | pause | stop
+decision_date:
+decision_participants: []
+decision_method:
+
+approved_scope:
+development_method:
+initial_release_target:
+
+conditions: []
+known_risks: []
+open_questions: []
+required_followups: []
+
+review_triggers: []
+returns_to:                # node id, if the decision is a return

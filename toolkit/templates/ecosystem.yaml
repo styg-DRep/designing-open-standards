@@ -1,0 +1,76 @@
+# sources: Understand Ecosystem and its cluster (framework/Open Standards Main Map/)
+# Tag important claims: observed | reported | inferred | assumed | contested | unknown
+# "A blank area that has been noticed is more valuable than false completeness."
+
+actors:                    # Identify People and Groups — Actor → activity → governance object
+  - actor:
+    activity:
+    governance_object:
+    lenses: []             # producing | using | exchanging
+    tag:
+producers:                 # Producers of Governance Activity — "What stops existing if this actor stops producing?"
+  - actor:
+    produces:
+    formal_or_informal:
+    cadence:               # continuous | episodic | event-driven
+    dependents: []
+    substitutable:
+    constraining_conventions: []
+    canonical_where:
+users:                     # Users of Governance Infrastructure — Actor → task → interface → dependency
+  - group:
+    trying_to_accomplish:
+    infrastructure: []
+    mandatory:
+    required_knowledge_or_access:
+    friction:
+    workarounds:
+    exclusion_type:        # technical | economic | linguistic | institutional | social | informational
+exchanges:                 # Exchanging of Governance Information — where does information change hands and cease to be the same thing?
+  - source:
+    recipient:
+    information_object:
+    format:
+    channel:
+    transformation:
+    frequency:
+    provenance_survives:
+    machine_readable:
+    open:
+    recipient_can_verify:
+    filtering_point:
+relationships: []          # each: {from, relation, to, tag} — e.g. depends upon, funds, verifies, contests, blocks
+infrastructure:            # Understand Governance Data and Infrastructure — trace one governance object
+  traced_object:
+  transitions: []          # each: {step, carrier, representation_change, controlled_by, information_lost, standards_applying}
+standards_landscape:       # Identify Current Ecosystem Standards — standards archaeology
+  - name:
+    kind:                  # formal spec | CIP convention | schema | API | procedure | template | vocabulary | de facto practice ...
+    origin:
+    documented:
+    maintainer:
+    dependents: []
+    can_change:
+    open_participation:
+    breaks_if_changed:
+    use_directly:          # What Can Be Used Instead
+    extend:                # What Can Be Extended
+    open_up:               # What Can Be Opened Up
+    building_blocks:
+new_standard_rationale:    # "Earn the Right to Create": we examined A, B, C ... therefore ...
+tensions:                  # Surface Ecosystem Tensions
+  political: []
+  syndicating_actors: []
+  control: []              # each: {relationship, who_can_change, who_can_refuse, who_can_fork, who_can_leave}
+participation:             # Identify Community Stakeholders + Decide Who To Work With
+  stakeholders:
+    - who:
+      why_matters:
+      state: identified    # identified → contacted → engaged → contributing → testing → stewarding
+  cohort:
+    shapers: []
+    testers_and_early_adopters: []
+    advocates: []
+  representation_gaps: []
+unknowns: []               # missing communities, unclear infrastructure, conflicting accounts, suspected dependencies
+gate_answers: {}           # the 11 questions in Understand Ecosystem's gate condition

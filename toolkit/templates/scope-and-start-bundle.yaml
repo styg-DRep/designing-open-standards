@@ -1,0 +1,64 @@
+# source: framework/Open Standards Main Map/Scope and Start (Phase Gate).md ("Phase Output")
+# Not necessarily the storage format — it expresses the conceptual completeness of the phase.
+# In a workspace, fill each field with a short summary plus a pointer to the artifact file that holds the detail.
+
+scope_and_start:
+  opportunity:
+    current_condition:
+    coordination_need:
+    desired_difference:
+    evidence:
+    competing_frames:
+  ecosystem:
+    actor_map:
+    relationship_map:
+    infrastructure_map:
+    standards_landscape:
+    power_and_control_findings:
+    stakeholder_map:
+  standard:
+    standardization_surface:
+    primary_type:
+    secondary_types:
+    use_cases:
+    in_scope:
+    out_of_scope:
+    core_features:
+    interoperability:
+    extensibility:
+    accessibility:
+  impact:
+    aim:
+    objectives:
+    theory_of_change:
+    assumptions:
+    intended_impacts:
+  participation:
+    shapers:
+    early_adopters:
+    testers:
+    advocates:
+    stewards:
+    participation_gaps:
+  development:
+    method:
+    phases:
+    infrastructure:
+    contribution_model:
+    decision_rights:
+    test_plan:
+  openness:
+    licensing:
+    intellectual_property:
+    provenance:
+  sustainability:
+    resource_model:
+    stewardship_model:
+    maintenance_surface:
+    adopter_burden:
+    continuity_risks:
+  readiness:
+    decision:
+    conditions:
+    open_questions:
+    review_triggers:

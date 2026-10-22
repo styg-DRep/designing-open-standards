@@ -1,0 +1,44 @@
+# Audit record — produced by the audit-standard playbook.
+# Structured so every finding is a checkable claim: criterion → evidence → status → who said so, when.
+# An audit assesses evidence. It is not an approval, a mandate, or a certification.
+
+audit:
+  id:                      # YYYY-MM-DD-<effort-slug>-scope
+  effort:
+  phase: scope
+  mode:                    # pre-gate | retroactive-baseline | partial
+  framework_version:       # git tag or commit of this repo used
+  criteria_version:        # toolkit/scope-gate-criteria.yaml `version`
+  auditors: []             # people, and the agent if one assisted
+  independence:            # e.g. "self-assessment: the auditor helped author the bundle"
+  date:
+  scope_of_audit:          # what was examined, and what was not
+sources:
+  - id: S1
+    title:
+    location:              # path or URL
+    retrieved:             # YYYY-MM-DD
+findings:
+  - criterion_id:          # from toolkit/scope-gate-criteria.yaml
+    status:                # met | partial | not-met | not-evidenced | not-applicable
+    evidence:
+      - source: S1
+        locator:           # section, line, heading
+        tag:               # observed | reported | inferred | assumed | contested | unknown
+        note:
+    finding:
+    resolve:               # before-development | through-development (for partial / not-met / not-evidenced)
+    returns_to:            # node id
+bundle_components: []      # each: {component, present: yes|partial|no, source}
+red_flags: []              # each: {flag, source, evidence}
+baseline_checks: []        # retroactive mode: each: {question, answer, evidence}
+summary:
+  domains: {}              # domain: status + one-line rationale
+  recommended_outcome:     # one of gate_outcomes in the criteria file
+  conditions: []
+  returns_to: []
+  open_questions: []       # each: {question, resolve, disposition}
+limitations: []
+statement: >-
+  This record reports what the listed sources evidence against the Scope and Start gate
+  criteria as of the audit date. It does not approve, authorize, or certify the effort.

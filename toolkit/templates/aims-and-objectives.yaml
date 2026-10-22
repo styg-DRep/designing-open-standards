@@ -1,0 +1,50 @@
+# sources: Decide On Aims and Objectives ("Aim and Objectives Artifact"), Minimal Theory of Change,
+#          Identify Core Features, Interoperability Intent, Adaptability and Extensibility,
+#          Accessibility and Translation, Real-World Testnet, Development Principles
+# Aim at change, not delivery. Prefer "contribute to / enable / reduce barriers to" over "ensure / guarantee".
+
+aim:
+objectives:
+  - objective:
+    intended_change:
+    affected_actors: []
+    evidence:
+    mechanism:
+    required_capabilities: []
+    success_signal:
+    assumptions: []
+theory_of_change:          # CURRENT PATTERN → INTERVENTION → MECHANISM → NEAR-TERM OUTCOME → PATTERN CHANGE → IMPACT
+  current_pattern:
+  intervention:
+  mechanisms: []
+  outcomes: []
+  intended_impact:
+  enabling_conditions: []
+  assumptions: []          # weak or untested links → learning questions
+  unintended_effects: []
+  learning_questions: []
+  strongest_critic_would_say:
+core_features:             # traceability: aim → objective → required capability → feature
+  - feature:
+    enables_objective:
+    priority:              # essential | desirable | optional | deferred
+in_scope: []
+out_of_scope: []           # "Scope Is Also Exclusion"
+interoperability_intent:   # always: interoperable with what, for what purpose?
+  - with:
+    purpose:
+adaptability_intent:
+  stable_core: []
+  open_edge: []
+  harmful_variation: []
+accessibility_intent:
+  who_could_use_but_cannot: []
+  translation_needs: []    # spoken language, technical↔nontechnical, human↔machine, expert↔newcomer, ...
+test_intent:
+  claims_to_test: []
+  environments: []
+  testers: []
+  failure_looks_like: []
+development_principles: []
+open_questions: []
+gate_outcome:              # proceed | refine | return-to-opportunity | return-to-ecosystem | reconsider-intervention

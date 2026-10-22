@@ -1,0 +1,38 @@
+# Effort tracker — one per standards effort, at workspace/<effort-slug>/effort.yaml
+# Holds where the effort is on the map, an append-only log, and open questions.
+# Node ids are filename slugs from map/INDEX.md.
+
+effort:
+  name:
+  slug:
+  started:                 # YYYY-MM-DD
+  framework_version:       # git tag or commit of this repo when the effort started
+  initiators: []
+  stewards: []
+  mode: guide              # guide | audit | both
+  current_node:            # where the work is now
+
+# Status per node. not-started | in-progress | sufficient | returned-to | not-applicable
+nodes: {}
+#  simple-canvas:
+#    status: in-progress
+#    artifact: simple-canvas.yaml
+#    updated:
+#    note:
+
+# Append-only. Never rewrite past entries; add a correcting entry instead.
+log: []
+#  - date:
+#    event: started | node-updated | node-sufficient | returned-to | gate-decision | audit | note
+#    node:
+#    summary:
+#    by:                   # person (and agent, if one assisted)
+
+# "Open Questions Travel With the Work" — every unresolved question gets a disposition.
+open_questions: []
+#  - id: Q1
+#    question:
+#    raised_at:            # node id
+#    resolve: before-development | through-development
+#    disposition: development-task | test-hypothesis | monitoring-condition | review-trigger | accepted-uncertainty | unresolved
+#    status: open | closed

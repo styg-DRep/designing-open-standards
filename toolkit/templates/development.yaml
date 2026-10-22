@@ -1,0 +1,52 @@
+# sources: The Development Method, 1- Choose the Development Method, 2- Plan the Development,
+#          3- Approve Development (framework/Open Standards Main Map/)
+
+method:
+  selected:                # exploratory | iterative | consensus-led | formal-sequential | hybrid
+  sequence: []             # for hybrids, e.g. discovery → iterative prototypes → community testing → consensus on core → formal release
+  rationale:               # requirements, participation, risk, learning, legitimacy, resources
+  least_heavy_process_check:
+plan:
+  core_priorities:         # essential | desirable | optional | explicitly deferred
+    essential: []
+    desirable: []
+    optional: []
+    deferred: []
+  development_units: []    # vocabulary, conceptual model, schema, protocol, API, guide, validator, process, examples, fixtures
+  phases_or_cycles: []     # each: {name, trying_to_learn, artifacts, evidence_to_progress}
+  testing: []              # each: {phase, type: semantic|exchange|process|adoption|governance, what, who, scenario, evidence, failure, interpreted_by}
+  contribution_rules:
+    how_proposed:
+    who_can_contribute:
+    discussion_where:
+    review:
+    decisions_recorded:
+    dissent_preserved:
+    ip_licensing:
+    provenance:
+  infrastructure: []       # version control, issue tracking, decision records, validators, archives ...
+  decision_rights:         # separate contribution from decision
+    accept_changes:
+    reject_changes:
+    request_revisions:
+    declare_release:
+    change_scope:
+    alter_method:
+    resolve_deadlock:
+    transfer_authority:
+  engagement_channels:
+    broadcast: []
+    participation: []
+approval:                  # "Approval Is a Record, Not a Ceremony"
+  form:                    # steward | funder | working-group consent | institutional mandate | community legitimacy | combined
+  approval_basis:
+  approving_parties: []
+  decision_method:
+  scope_approved:
+  resources_committed:
+  conditions: []
+  objections: []
+  unresolved_questions: []
+  date:
+  review_trigger:
+readiness_gate: {}         # the 12 conditions in The Development Method's readiness gate
