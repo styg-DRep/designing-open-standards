@@ -8,29 +8,111 @@ Every note in the framework, what it is for, what it produces, and how it connec
 | Phase | Key | Status |
 |---|---|---|
 | Scope and Start | `scope` | mapped (phase gate present) |
-| Development | `develop` | referenced by notes, not yet mapped |
-| Launch and Adoption | `launch` | referenced by notes, not yet mapped |
-| Review | `review` | referenced by notes, not yet mapped |
+| Development | `develop` | mapped (phase gate present) |
+| Launch and Adoption | `launch` | mapped (phase gate present) |
+| Review | `review` | mapped (phase gate present) |
 
-### Phase gate: [Scope and Start (Phase Gate)](<../framework/Open Standards Main Map/Scope and Start (Phase Gate).md>)
+### Phase gate: [Scope and Start (Phase Gate)](<../framework/Open Standards Main Map/Phase 1 Scope and Start/Scope and Start (Phase Gate).md>)
 
-When the gate is not passed, it **returns to**:
+- moves to next phase → [Develop the Standard](<../framework/Open Standards Main Map/Phase 2 Development/Develop the Standard.md>)
+
+When the gate is not passed, it **returns to** (wired on the canvas):
 
 | Condition | Returns to |
 |---|---|
-| When the selected development approach does not match uncertainty, risk, participation needs, or legitimacy requirements | [1- Choose the Development Method](<../framework/Open Standards Main Map/1- Choose the Development Method.md>) |
-| When the standard appears justified but phases, testing, infrastructure, roles, decision rights, or release logic are not ready | [2- Plan the Development](<../framework/Open Standards Main Map/2- Plan the Development.md>) |
-| When the work is technically ready but lacks sufficient consent, authorization, commitment, or recorded conditions for progression | [3- Approve Development](<../framework/Open Standards Main Map/3- Approve Development.md>) |
-| When the intended change is unclear, objectives conflict, or the proposed standard no longer plausibly supports the stated aim | [Decide On Aims and Objectives](<../framework/Open Standards Main Map/Decide On Aims and Objectives.md>) |
-| When the problem/opportunity remains vague, competing frames are unresolved, or new evidence contradicts the original framing | [Frame the Opportunity](<../framework/Open Standards Main Map/Frame the Opportunity.md>) |
-| When participation is too narrow, representation gaps are material, or there are no credible shapers/testers/early adopters | [Identify Community Stakeholders](<../framework/Open Standards Main Map/Identify Community Stakeholders.md>) |
-| When scope is too broad, too vague, or the essential feature set is not yet distinguishable from optional work | [Identify Core Features](<../framework/Open Standards Main Map/Identify Core Features.md>) |
-| When reuse, extension, interoperability, or “use something else” questions remain unresolved | [Identify Current Ecosystem Standards](<../framework/Open Standards Main Map/Identify Current Ecosystem Standards.md>) |
-| When the causal pathway is weak, assumptions are doing too much work, or the standard’s expected mechanism of change is unclear | [Minimal Theory of Change](<../framework/Open Standards Main Map/Minimal Theory of Change.md>) |
-| When the maintenance burden, stewardship model, funding assumptions, adopter cost, or continuity plan are not credible | [Think about sustainability](<../framework/Open Standards Main Map/Think about sustainability.md>) |
-| When important actors, relationships, infrastructure, standards, control points, or dependencies are still poorly understood | [Understand Ecosystem](<../framework/Open Standards Main Map/Understand Ecosystem.md>) |
+| When the selected development approach does not match uncertainty, risk, participation needs, or legitimacy requirements | [1- Choose the Development Method](<../framework/Open Standards Main Map/Phase 1 Scope and Start/1- Choose the Development Method.md>) |
+| When the standard appears justified but phases, testing, infrastructure, roles, decision rights, or release logic are not ready | [2- Plan the Development](<../framework/Open Standards Main Map/Phase 1 Scope and Start/2- Plan the Development.md>) |
+| When the work is technically ready but lacks sufficient consent, authorization, commitment, or recorded conditions for progression | [3- Approve Development](<../framework/Open Standards Main Map/Phase 1 Scope and Start/3- Approve Development.md>) |
+| When the intended change is unclear, objectives conflict, or the proposed standard no longer plausibly supports the stated aim | [Decide On Aims and Objectives](<../framework/Open Standards Main Map/Phase 1 Scope and Start/Decide On Aims and Objectives.md>) |
+| When the problem/opportunity remains vague, competing frames are unresolved, or new evidence contradicts the original framing | [Frame the Opportunity](<../framework/Open Standards Main Map/Phase 1 Scope and Start/Frame the Opportunity.md>) |
+| When participation is too narrow, representation gaps are material, or there are no credible shapers/testers/early adopters | [Identify Community Stakeholders](<../framework/Open Standards Main Map/Phase 1 Scope and Start/Identify Community Stakeholders.md>) |
+| When scope is too broad, too vague, or the essential feature set is not yet distinguishable from optional work | [Identify Core Features](<../framework/Open Standards Main Map/Phase 1 Scope and Start/Identify Core Features.md>) |
+| When reuse, extension, interoperability, or “use something else” questions remain unresolved | [Identify Current Ecosystem Standards](<../framework/Open Standards Main Map/Phase 1 Scope and Start/Identify Current Ecosystem Standards.md>) |
+| When the causal pathway is weak, assumptions are doing too much work, or the standard’s expected mechanism of change is unclear | [Minimal Theory of Change](<../framework/Open Standards Main Map/Phase 1 Scope and Start/Minimal Theory of Change.md>) |
+| When the maintenance burden, stewardship model, funding assumptions, adopter cost, or continuity plan are not credible | [Think about sustainability](<../framework/Open Standards Main Map/Phase 1 Scope and Start/Think about sustainability.md>) |
+| When important actors, relationships, infrastructure, standards, control points, or dependencies are still poorly understood | [Understand Ecosystem](<../framework/Open Standards Main Map/Phase 1 Scope and Start/Understand Ecosystem.md>) |
 
-Next: **Development** (placeholder on the canvas; not yet mapped).
+### Phase gate: [Development Outcomes (Phase Gate)](<../framework/Open Standards Main Map/Phase 2 Development/Development Outcomes (Phase Gate).md>)
+
+- moves to next phase → [Launch and Adoption](<../framework/Open Standards Main Map/Phase 3 Launch and Adoption/Launch and Adoption.md>)
+
+When the gate is not passed, it **returns to** (wired on the canvas):
+
+| Condition | Returns to |
+|---|---|
+| When the standard works technically but does not plausibly create the intended change | [Decide On Aims and Objectives](<../framework/Open Standards Main Map/Phase 1 Scope and Start/Decide On Aims and Objectives.md>) |
+| When specification defects remain, important features are incomplete, or major ambiguities remain | [Develop the Standard](<../framework/Open Standards Main Map/Phase 2 Development/Develop the Standard.md>) |
+| When provenance is incomplete, decisions cannot be traced, tests or releases cannot be reproduced, or artifacts are fragmented | [Development Platform](<../framework/Open Standards Main Map/Phase 2 Development/Development Platform.md>) |
+| When implementation needs author assistance, normative and informative material conflict, key audiences cannot use the standard, or examples are inadequate | [Documentation](<../framework/Open Standards Main Map/Phase 2 Development/Documentation.md>) |
+| When critical responsibilities are unfilled, editorial or testing capacity is insufficient, decision authority is unclear, or development depends on one person | [Roles and Responsibilities](<../framework/Open Standards Main Map/Phase 2 Development/Roles and Responsibilities.md>) |
+| When Development has materially altered the development case itself | [Scope and Start (Phase Gate)](<../framework/Open Standards Main Map/Phase 1 Scope and Start/Scope and Start (Phase Gate).md>) |
+| When stakeholders have not seen the candidate, review windows were insufficient, changes were not communicated, or feedback remains ungathered | [Share Progress](<../framework/Open Standards Main Map/Phase 2 Development/Share Progress.md>) |
+| When evidence is too weak, interoperability is unproven, important scenarios are unexercised, or regression confidence is insufficient | [Testing](<../framework/Open Standards Main Map/Phase 2 Development/Testing.md>) |
+| When the candidate works but maintenance is too expensive, adoption burden is excessive, stewardship is fragile, or tooling is unsustainable | [Think about sustainability](<../framework/Open Standards Main Map/Phase 1 Scope and Start/Think about sustainability.md>) |
+| When Development reveals missing actors, unseen infrastructure, a new control dependency, or materially different stakeholder impacts | [Understand Ecosystem](<../framework/Open Standards Main Map/Phase 1 Scope and Start/Understand Ecosystem.md>) |
+
+### Phase gate: [Launch and Adoption Outcomes (Phase Gate)](<../framework/Open Standards Main Map/Phase 3 Launch and Adoption/Launch and Adoption Outcomes (Phase Gate).md>)
+
+- moves to next phase → [Review](<../framework/Open Standards Main Map/Phase 4 Review and Update/Review.md>)
+
+When the gate is not passed, it **returns to** (wired on the canvas):
+
+| Condition | Returns to |
+|---|---|
+| When harm, incompatibility, governance failure, or major ecosystem change warrants immediate review | [Deciding To Review](<../framework/Open Standards Main Map/Phase 4 Review and Update/Deciding To Review.md>) |
+| When a serious defect requires corrective work before waiting for formal Review | [Develop the Standard](<../framework/Open Standards Main Map/Phase 2 Development/Develop the Standard.md>) |
+| When adoption friction is primarily explanatory rather than structural | [Documentation](<../framework/Open Standards Main Map/Phase 2 Development/Documentation.md>) |
+| When the standard has launched but evidence is still too thin for meaningful Review | [Monitor Adoption](<../framework/Open Standards Main Map/Phase 3 Launch and Adoption/Monitor Adoption.md>) |
+
+### Phase gate: [Update or Retire (Phase Gate)](<../framework/Open Standards Main Map/Phase 4 Review and Update/Update or Retire (Phase Gate).md>)
+
+- minor update → [Develop the Standard](<../framework/Open Standards Main Map/Phase 2 Development/Develop the Standard.md>)
+- rescope → [Frame the Opportunity](<../framework/Open Standards Main Map/Phase 1 Scope and Start/Frame the Opportunity.md>)
+- produces → [Lifecycle Decision Record](<../framework/Open Standards Main Map/Phase 4 Review and Update/Lifecycle Decision Record.md>)
+- maintain → [Monitor Adoption](<../framework/Open Standards Main Map/Phase 3 Launch and Adoption/Monitor Adoption.md>)
+- major update → [Scope and Start (Phase Gate)](<../framework/Open Standards Main Map/Phase 1 Scope and Start/Scope and Start (Phase Gate).md>)
+
+_No returns-to routes wired on the canvas yet; see the note's Possible Outcomes._
+
+### Other returns-to routes
+
+From [Development Phase](<../framework/Open Standards Main Map/Phase 2 Development/Development Phase.md>):
+
+| Condition | Returns to |
+|---|---|
+| When testing reveals that an intended use case is impossible | [Decide On Aims and Objectives](<../framework/Open Standards Main Map/Phase 1 Scope and Start/Decide On Aims and Objectives.md>) |
+| When implementers reveal that another existing standard solves the issue | [Identify Current Ecosystem Standards](<../framework/Open Standards Main Map/Phase 1 Scope and Start/Identify Current Ecosystem Standards.md>) |
+| When the standard's adoption burden becomes unsustainable | [Think about sustainability](<../framework/Open Standards Main Map/Phase 1 Scope and Start/Think about sustainability.md>) |
+| When a new affected group becomes visible | [Understand Ecosystem](<../framework/Open Standards Main Map/Phase 1 Scope and Start/Understand Ecosystem.md>) |
+
+From [Launch and Adoption](<../framework/Open Standards Main Map/Phase 3 Launch and Adoption/Launch and Adoption.md>):
+
+| Condition | Returns to |
+|---|---|
+| When adoption reveals specification defects | [Develop the Standard](<../framework/Open Standards Main Map/Phase 2 Development/Develop the Standard.md>) |
+| When adopters cannot understand or implement the standard | [Documentation](<../framework/Open Standards Main Map/Phase 2 Development/Documentation.md>) |
+| In exceptional cases, when real-world evidence undermines the original premise | [Frame the Opportunity](<../framework/Open Standards Main Map/Phase 1 Scope and Start/Frame the Opportunity.md>) |
+| When adoption occurs but expected effects do not | [Minimal Theory of Change](<../framework/Open Standards Main Map/Phase 1 Scope and Start/Minimal Theory of Change.md>) |
+| When new real-world scenarios expose gaps | [Testing](<../framework/Open Standards Main Map/Phase 2 Development/Testing.md>) |
+| When support or maintenance burden becomes unexpectedly high | [Think about sustainability](<../framework/Open Standards Main Map/Phase 1 Scope and Start/Think about sustainability.md>) |
+| When new actors, infrastructure, or control relationships emerge | [Understand Ecosystem](<../framework/Open Standards Main Map/Phase 1 Scope and Start/Understand Ecosystem.md>) |
+
+From [Review Outcomes (Gate)](<../framework/Open Standards Main Map/Phase 4 Review and Update/Review Outcomes (Gate).md>):
+
+| Condition | Returns to |
+|---|---|
+| When real-world evidence remains too thin | [Monitor Adoption](<../framework/Open Standards Main Map/Phase 3 Launch and Adoption/Monitor Adoption.md>) |
+| When evidence is weak or important perspectives are missing | [Review Process](<../framework/Open Standards Main Map/Phase 4 Review and Update/Review Process.md>) |
+| When the review reveals that the underlying problem, aim, or intervention requires reframing | [Scope and Start (Phase Gate)](<../framework/Open Standards Main Map/Phase 1 Scope and Start/Scope and Start (Phase Gate).md>) |
+
+From [Testing](<../framework/Open Standards Main Map/Phase 2 Development/Testing.md>):
+
+| Condition | Returns to |
+|---|---|
+| if evidence reveals the standard cannot plausibly achieve an objective | [Decide On Aims and Objectives](<../framework/Open Standards Main Map/Phase 1 Scope and Start/Decide On Aims and Objectives.md>) |
+| for specification defects | [Develop the Standard](<../framework/Open Standards Main Map/Phase 2 Development/Develop the Standard.md>) |
+| for comprehension or implementation guidance defects | [Documentation](<../framework/Open Standards Main Map/Phase 2 Development/Documentation.md>) |
+| in exceptional cases where implementation evidence exposes a faulty original premise | [Frame the Opportunity](<../framework/Open Standards Main Map/Phase 1 Scope and Start/Frame the Opportunity.md>) |
 
 ## Nodes
 
@@ -38,7 +120,26 @@ Roles: `entry-point` start here · `orientation` context · `checkpoint` has a g
 
 ### entry-point
 
-#### [Simple Canvas](<../framework/Open Standards Main Map/Simple Canvas.md>)
+#### [Deciding To Review](<../framework/Open Standards Main Map/Phase 4 Review and Update/Deciding To Review.md>)
+`deciding-to-review` · phase: review · status: draft
+
+Determine whether a formal review should begin, why it is needed, and what should be examined.
+
+- **Produces:** `review-trigger`, `review-scope`, `review-mandate`, `review-priority`
+- **Domains:** governance, lifecycle
+- **Out:** connects → Reviewing the Standard
+
+#### [Develop the Standard](<../framework/Open Standards Main Map/Phase 2 Development/Develop the Standard.md>)
+`develop-the-standard` · phase: develop · status: draft
+
+Transform the approved scope, use cases, objectives, and core-feature hypotheses into a concrete reusable agreement.
+
+- **Produces:** `working-drafts`, `candidate-specifications`, `vocabularies`, `schemas`, `protocols`, `guidance`, `models`, `implementation-artifacts`
+- **Domains:** standards-development
+- **Out:** Is the main work of → Development Phase
+- **In:** Development Platform (supports); Documentation (logs); Lifecycle Decision Record (is the baseline for); Scope and Start (Phase Gate) (moves to next phase); Share Progress (supports); Team (supports); Testing (supports); Update or Retire (Phase Gate) (minor update)
+
+#### [Simple Canvas](<../framework/Open Standards Main Map/Phase 1 Scope and Start/Simple Canvas.md>)
 `simple-canvas` · phase: scope · status: draft
 
 Create a shared, revisable first view of a proposed open governance standard before substantial development begins.
@@ -50,7 +151,7 @@ Create a shared, revisable first view of a proposed open governance standard bef
 
 ### orientation
 
-#### [On a Governance Open Standard](<../framework/Open Standards Main Map/On a Governance Open Standard.md>)
+#### [On a Governance Open Standard](<../framework/Open Standards Main Map/Phase 1 Scope and Start/On a Governance Open Standard.md>)
 `on-a-governance-open-standard` · phase: scope · status: draft
 
 An open standard for governance should make it easier for individuals and groups to create, access, share, develop and implement better quality suggestions.
@@ -60,7 +161,7 @@ An open standard for governance should make it easier for individuals and groups
 
 ### checkpoint
 
-#### [Decide On Aims and Objectives](<../framework/Open Standards Main Map/Decide On Aims and Objectives.md>)
+#### [Decide On Aims and Objectives](<../framework/Open Standards Main Map/Phase 1 Scope and Start/Decide On Aims and Objectives.md>)
 `decide-on-aims-and-objectives` · phase: scope · status: draft
 
 Translate the framed opportunity and ecosystem understanding into a clear statement of what the standards effort intends to accomplish.
@@ -68,9 +169,39 @@ Translate the framed opportunity and ecosystem understanding into a clear statem
 - **Produces:** `aim`, `objectives`, `theory-of-change`, `core-feature-hypotheses`, `interoperability-intent`, `adaptability-intent`, `accessibility-intent`, `initial-test-intent`, `development-principles`, `success-hypotheses`
 - **Domains:** purpose, impact, design-intent
 - **Out:** Follows through → Development Principles
-- **In:** Accessibility and Translation (connects); Adaptability and Extensibility (Describes); Identify Core Features (connects); Interoperability Intent (connects); Minimal Theory of Change (Informs); Real-World Testnet (connects)
+- **In:** Adaptability and Extensibility (Describes); Identify Core Features (connects); Inclusivity (connects); Interoperability Intent (connects); Minimal Theory of Change (Informs); Real-World Testnet (connects)
 
-#### [Frame the Opportunity](<../framework/Open Standards Main Map/Frame the Opportunity.md>)
+#### [Deciding Next Steps](<../framework/Open Standards Main Map/Phase 4 Review and Update/Deciding Next Steps.md>)
+`deciding-next-steps` · phase: review · status: draft
+
+Translate the findings of Review into a clear lifecycle decision for the standard.
+
+- **Produces:** `lifecycle-decision`, `update-scope`, `maintenance-decision`, `retirement-plan`, `communication-plan`, `transition-plan`
+- **Domains:** lifecycle, governance, change-management, retirement
+- **Out:** connects → Update or Retire (Phase Gate)
+- **In:** Review Outcomes (Gate) (connects)
+
+#### [Development Outcomes (Phase Gate)](<../framework/Open Standards Main Map/Phase 2 Development/Development Outcomes (Phase Gate).md>)
+`development-outcomes-phase-gate` · phase: develop · status: draft · gate: phase
+
+Determine whether the developing standard has matured enough to move from active construction into preparation for broader launch, adoption, and operational use.
+
+- **Produces:** `development-outcomes-bundle`, `candidate-standard`, `release-readiness-record`, `known-limitations`, `unresolved-objections`, `launch-entry-conditions`, `review-triggers`
+- **Domains:** standards-development, testing, implementation, documentation, participation, release-readiness
+- **Out:** moves to next phase → Launch and Adoption
+- **In:** Development Phase (generates)
+
+#### [Development Phase](<../framework/Open Standards Main Map/Phase 2 Development/Development Phase.md>)
+`development-phase` · phase: develop · status: draft
+
+Turn the justified development case produced during Scope and Start into a tested, documented, implementable open governance standard.
+
+- **Produces:** `development-outcomes-bundle`, `candidate-standard`, `test-evidence`, `implementation-evidence`, `documentation-set`, `development-record`
+- **Domains:** standards-development, implementation, testing, collaboration
+- **Out:** generates → Development Outcomes (Phase Gate)
+- **In:** Develop the Standard (Is the main work of)
+
+#### [Frame the Opportunity](<../framework/Open Standards Main Map/Phase 1 Scope and Start/Frame the Opportunity.md>)
 `frame-the-opportunity` · phase: scope · status: draft
 
 Develop a shared, evidence-informed understanding of the condition the standards effort may attempt to change.
@@ -78,27 +209,77 @@ Develop a shared, evidence-informed understanding of the condition the standards
 - **Produces:** `opportunity-frame`, `coordination-need`, `affected-participant-frame`, `benefit-hypotheses`, `candidate-interventions`, `candidate-standard-type`, `framing-assumptions`, `evidence-gaps`, `proceed-reframe-exit-decision`
 - **Domains:** framing, opportunity, standards-landscape
 - **Out:** Feeds → Review Research and Feedback; Informs and updates → Understand Ecosystem
-- **In:** Simple Canvas (Starts and Supports); Types of Standards (References/Consults)
+- **In:** Lifecycle Decision Record (is the baseline for); Simple Canvas (Starts and Supports); Types of Standards (References/Consults); Update or Retire (Phase Gate) (rescope)
 
-#### [Scope and Start (Phase Gate)](<../framework/Open Standards Main Map/Scope and Start (Phase Gate).md>)
+#### [Launch and Adoption](<../framework/Open Standards Main Map/Phase 3 Launch and Adoption/Launch and Adoption.md>)
+`launch-and-adoption` · phase: launch · status: draft
+
+Move a sufficiently stable standard from controlled development into broader ecosystem use, while creating the support and observation needed to learn from adoption.
+
+- **Produces:** `launch-record`, `adoption-support-system`, `adoption-evidence`, `updated-ecosystem-map`, `updated-stakeholder-map`, `refreshed-scope-artifacts`, `launch-and-adoption-outcomes-bundle`
+- **Domains:** launch, adoption, engagement, implementation, monitoring
+- **Out:** requires → Monitor Adoption; requires → Plan and Launch; requires → Support Adoption
+- **In:** Development Outcomes (Phase Gate) (moves to next phase)
+
+#### [Launch and Adoption Outcomes (Phase Gate)](<../framework/Open Standards Main Map/Phase 3 Launch and Adoption/Launch and Adoption Outcomes (Phase Gate).md>)
+`launch-and-adoption-outcomes-phase-gate` · phase: launch · status: draft · gate: phase
+
+Determine whether enough real-world experience with the standard exists to justify a structured Review of its fitness, impact, governance, and future.
+
+- **Produces:** `launch-and-adoption-outcomes-bundle`, `operational-evidence`, `adoption-profile`, `ecosystem-change-record`, `impact-evidence`, `review-readiness-record`, `review-triggers`
+- **Domains:** adoption, impact, operations, ecosystem
+- **Out:** moves to next phase → Review
+- **In:** Monitor Adoption (Feeds); Plan and Launch (generates); Support Adoption (supports)
+
+#### [Review](<../framework/Open Standards Main Map/Phase 4 Review and Update/Review.md>)
+`review` · phase: review · status: draft
+
+Assess whether an open governance standard remains fit for purpose in light of actual adoption, ecosystem change, implementation evidence, governance experience, and observed impact.
+
+- **Produces:** `review-plan`, `review-evidence`, `review-findings`, `review-outcomes-bundle`, `next-step-options`
+- **Domains:** review, governance, impact, adoption, sustainability, change-management
+- **Out:** connects → Reviewing the Standard
+- **In:** Launch and Adoption Outcomes (Phase Gate) (moves to next phase)
+
+#### [Review Outcomes (Gate)](<../framework/Open Standards Main Map/Phase 4 Review and Update/Review Outcomes (Gate).md>)
+`review-outcomes-gate` · phase: review · status: draft
+
+Determine whether the review has produced enough evidence and sufficiently clear findings to support a consequential lifecycle decision.
+
+- **Produces:** `review-outcomes-bundle`, `fitness-assessment`, `next-step-options`, `change-priorities`, `decision-conditions`
+- **Domains:** evaluation, lifecycle
+- **Out:** connects → Deciding Next Steps
+- **In:** Reviewing the Standard (connects)
+
+#### [Scope and Start (Phase Gate)](<../framework/Open Standards Main Map/Phase 1 Scope and Start/Scope and Start (Phase Gate).md>)
 `scope-and-start-phase-gate` · phase: scope · status: draft · gate: phase
 
 Determine whether a proposed open governance standard is sufficiently understood, justified, scoped, supported, and sustainable to move from exploration into committed development.
 
 - **Produces:** `scope-and-start-bundle`, `development-case`, `development-readiness-record`, `approved-scope`, `development-entry-conditions`, `unresolved-questions`, `review-triggers`
 - **Domains:** framing, ecosystem, participation, impact, standards, development, sustainability
-- **In:** Development Principles (Checkpoint for); The Development Method (Delivers)
+- **Out:** moves to next phase → Develop the Standard
+- **In:** Development Principles (Checkpoint for); Lifecycle Decision Record (is the baseline for); The Development Method (Delivers); Update or Retire (Phase Gate) (major update)
 
-#### [Sustainability Gate](<../framework/Open Standards Main Map/Sustainability Gate.md>)
+#### [Sustainability Gate](<../framework/Open Standards Main Map/Phase 1 Scope and Start/Sustainability Gate.md>)
 `sustainability-gate` · phase: scope · status: draft
 
-A standards effort has considered sustainability sufficiently when it can answer:
+A standards effort has considered sustainability sufficiently when it can answer: 1. What ongoing work will exist after initial development?
 
 - **Domains:** sustainability
 - **Out:** connects → 3- Approve Development
 - **In:** 2- Plan the Development (connects); Adoption Sustainability (connects); Community Sustainability (connects); Governance Sustainability (connects); Knowledge Sustainability (connects); Resource Sustainability (connects); Technical Sustainability (connects)
 
-#### [The Development Method](<../framework/Open Standards Main Map/The Development Method.md>)
+#### [Testing](<../framework/Open Standards Main Map/Phase 2 Development/Testing.md>)
+`testing` · phase: develop · status: draft
+
+Expose the developing standard to enough independent reality that confidence rests on evidence rather than internal agreement.
+
+- **Produces:** `test-suite`, `implementation-evidence`, `interoperability-evidence`, `failure-register`, `conformance-criteria`, `test-results`
+- **Domains:** testing, validation, implementation
+- **Out:** supports → Develop the Standard
+
+#### [The Development Method](<../framework/Open Standards Main Map/Phase 1 Scope and Start/The Development Method.md>)
 `the-development-method` · phase: scope · status: draft
 
 Choose and make explicit the way the standard will be developed, tested, changed, and prepared for release.
@@ -108,7 +289,7 @@ Choose and make explicit the way the standard will be developed, tested, changed
 - **Out:** Delivers → Scope and Start (Phase Gate)
 - **In:** 3- Approve Development (connects)
 
-#### [Think about sustainability](<../framework/Open Standards Main Map/Think about sustainability.md>)
+#### [Think about sustainability](<../framework/Open Standards Main Map/Phase 1 Scope and Start/Think about sustainability.md>)
 `think-about-sustainability` · phase: scope, develop, launch, review · status: draft
 
 Determine whether the proposed standard can remain useful, governable, maintainable, and adoptable over a meaningful period of time.
@@ -118,7 +299,7 @@ Determine whether the proposed standard can remain useful, governable, maintaina
 - **Out:** connects → Adoption Sustainability; connects → Community Sustainability; connects → Governance Sustainability; connects → Knowledge Sustainability; connects → Resource Sustainability; connects → Technical Sustainability
 - **In:** Development Principles (Enables us to)
 
-#### [Understand Ecosystem](<../framework/Open Standards Main Map/Understand Ecosystem.md>)
+#### [Understand Ecosystem](<../framework/Open Standards Main Map/Phase 1 Scope and Start/Understand Ecosystem.md>)
 `understand-ecosystem` · phase: scope · status: draft
 
 Develop a sufficiently grounded understanding of the environment in which a proposed governance standard would operate.
@@ -128,7 +309,17 @@ Develop a sufficiently grounded understanding of the environment in which a prop
 - **Out:** Updates → Simple Canvas
 - **In:** Frame the Opportunity (Informs and updates); Identify Community Stakeholders (Feeds)
 
-#### [What Can Be Extended](<../framework/Open Standards Main Map/What Can Be Extended.md>)
+#### [Update or Retire (Phase Gate)](<../framework/Open Standards Main Map/Phase 4 Review and Update/Update or Retire (Phase Gate).md>)
+`update-or-retire-phase-gate` · phase: review · status: draft · gate: phase
+
+Commit the standard to its next lifecycle state.
+
+- **Produces:** `lifecycle-decision`, `next-phase-route`, `update-mandate`, `retirement-record`, `transition-conditions`, `lifecycle-decision-record`
+- **Domains:** lifecycle, transition
+- **Out:** minor update → Develop the Standard; rescope → Frame the Opportunity; produces → Lifecycle Decision Record; maintain → Monitor Adoption; major update → Scope and Start (Phase Gate)
+- **In:** Deciding Next Steps (connects)
+
+#### [What Can Be Extended](<../framework/Open Standards Main Map/Phase 1 Scope and Start/What Can Be Extended.md>)
 `what-can-be-extended` · phase: scope · status: draft
 
 Determine whether an existing standard already provides a viable foundation.
@@ -137,7 +328,7 @@ Determine whether an existing standard already provides a viable foundation.
 - **Domains:** standards-landscape
 - **Out:** Checks → Identify Current Ecosystem Standards
 
-#### [What Can Be Used Instead](<../framework/Open Standards Main Map/What Can Be Used Instead.md>)
+#### [What Can Be Used Instead](<../framework/Open Standards Main Map/Phase 1 Scope and Start/What Can Be Used Instead.md>)
 `what-can-be-used-instead` · phase: scope · status: draft
 
 Actively search for alternatives to creating a new standard.
@@ -148,7 +339,7 @@ Actively search for alternatives to creating a new standard.
 
 ### supporting
 
-#### [1- Choose the Development Method](<../framework/Open Standards Main Map/1- Choose the Development Method.md>)
+#### [1- Choose the Development Method](<../framework/Open Standards Main Map/Phase 1 Scope and Start/1- Choose the Development Method.md>)
 `1-choose-the-development-method` · phase: scope · status: draft
 
 Match the method to the uncertainty.
@@ -157,7 +348,7 @@ Match the method to the uncertainty.
 - **Out:** connects → 2- Plan the Development
 - **In:** Development Principles (Enables us to)
 
-#### [2- Plan the Development](<../framework/Open Standards Main Map/2- Plan the Development.md>)
+#### [2- Plan the Development](<../framework/Open Standards Main Map/Phase 1 Scope and Start/2- Plan the Development.md>)
 `2-plan-the-development` · phase: scope · status: draft
 
 Once the method is chosen, turn it into an actionable development model.
@@ -166,25 +357,16 @@ Once the method is chosen, turn it into an actionable development model.
 - **Out:** connects → Sustainability Gate
 - **In:** 1- Choose the Development Method (connects)
 
-#### [3- Approve Development](<../framework/Open Standards Main Map/3- Approve Development.md>)
+#### [3- Approve Development](<../framework/Open Standards Main Map/Phase 1 Scope and Start/3- Approve Development.md>)
 `3-approve-development` · phase: scope · status: draft
 
-“Approval” should not automatically mean:
+“Approval” should not automatically mean: A single owner authorizes development.
 
 - **Domains:** development, mandate
 - **Out:** connects → The Development Method
 - **In:** Sustainability Gate (connects)
 
-#### [Accessibility and Translation](<../framework/Open Standards Main Map/Accessibility and Translation.md>)
-`accessibility-and-translation` · phase: scope · status: draft
-
-Identify whether language, technical complexity, disability, tooling, culture, geography, bandwidth, or other access conditions could prevent intended participants from using or contributing to the standard.
-
-- **Produces:** `accessibility-intent`, `translation-intent`, `participation-barriers`
-- **Domains:** accessibility, participation
-- **Out:** connects → Decide On Aims and Objectives
-
-#### [Adaptability and Extensibility](<../framework/Open Standards Main Map/Adaptability and Extensibility.md>)
+#### [Adaptability and Extensibility](<../framework/Open Standards Main Map/Phase 1 Scope and Start/Adaptability and Extensibility.md>)
 `adaptability-and-extensibility` · phase: scope · status: draft
 
 Identify what parts of the standard need to remain stable and what parts should permit adaptation.
@@ -193,7 +375,7 @@ Identify what parts of the standard need to remain stable and what parts should 
 - **Domains:** adaptability, extensibility
 - **Out:** Describes → Decide On Aims and Objectives
 
-#### [Adoption Sustainability](<../framework/Open Standards Main Map/Adoption Sustainability.md>)
+#### [Adoption Sustainability](<../framework/Open Standards Main Map/Phase 1 Scope and Start/Adoption Sustainability.md>)
 `adoption-sustainability` · phase: scope · status: draft
 
 The burden does not end with publication.
@@ -202,7 +384,7 @@ The burden does not end with publication.
 - **Out:** connects → Operational Guidance for Producers; connects → Sustainability Gate
 - **In:** Think about sustainability (connects)
 
-#### [Community Sustainability](<../framework/Open Standards Main Map/Community Sustainability.md>)
+#### [Community Sustainability](<../framework/Open Standards Main Map/Phase 1 Scope and Start/Community Sustainability.md>)
 `community-sustainability` · phase: scope · status: draft
 
 A standard persists because people continue to understand, use, improve, and care about it.
@@ -211,7 +393,7 @@ A standard persists because people continue to understand, use, improve, and car
 - **Out:** connects → Operational Guidance for Producers; connects → Sustainability Gate
 - **In:** Think about sustainability (connects)
 
-#### [Decide Who To Work With](<../framework/Open Standards Main Map/Decide Who To Work With.md>)
+#### [Decide Who To Work With](<../framework/Open Standards Main Map/Phase 1 Scope and Start/Decide Who To Work With.md>)
 `decide-who-to-work-with` · phase: scope · status: draft
 
 Identify people able to participate meaningfully in the next stages of development.
@@ -221,7 +403,16 @@ Identify people able to participate meaningfully in the next stages of developme
 - **Out:** Enables us to → Identify Community Stakeholders
 - **In:** Ecosystem Map (Enables us to)
 
-#### [Development Principles](<../framework/Open Standards Main Map/Development Principles.md>)
+#### [Development Platform](<../framework/Open Standards Main Map/Phase 2 Development/Development Platform.md>)
+`development-platform` · phase: develop · status: draft
+
+Provide the durable public infrastructure through which the standard can be developed, inspected, tested, discussed, and reproduced.
+
+- **Produces:** `public-development-space`, `version-history`, `issue-register`, `decision-record`, `contribution-history`
+- **Domains:** infrastructure, openness, provenance
+- **Out:** supports → Develop the Standard
+
+#### [Development Principles](<../framework/Open Standards Main Map/Phase 1 Scope and Start/Development Principles.md>)
 `development-principles` · phase: scope · status: draft
 
 Define the commitments that should govern how the standard itself is developed.
@@ -231,7 +422,25 @@ Define the commitments that should govern how the standard itself is developed.
 - **Out:** Enables us to → 1- Choose the Development Method; Checkpoint for → Scope and Start (Phase Gate); Enables us to → Think about sustainability
 - **In:** Decide On Aims and Objectives (Follows through)
 
-#### [Exchanging of Governance Information](<../framework/Open Standards Main Map/Exchanging of Governance Information.md>)
+#### [Documentation](<../framework/Open Standards Main Map/Phase 2 Development/Documentation.md>)
+`documentation` · phase: develop · status: draft
+
+Create the information environments different audiences need to understand, implement, use, evaluate, and maintain the standard.
+
+- **Produces:** `normative-specification`, `tutorials`, `how-to-guides`, `explanation`, `reference-material`, `examples`, `decision-records`
+- **Domains:** documentation, adoption, accessibility
+- **Out:** logs → Develop the Standard
+- **In:** Decision and Provenance Record (layers); Examples (layers); Structured Documentation (Details); Translation and Accessibility (qualifies)
+
+#### [Examples](<../framework/Open Standards Main Map/Phase 2 Development/Examples.md>)
+`examples` · phase: develop · status: draft
+
+Maintain tested examples — minimal, complex, invalid, boundary and domain-specific — that serve every documentation mode without drifting from the specification.
+
+- **Domains:** documentation, testing
+- **Out:** layers → Documentation
+
+#### [Exchanging of Governance Information](<../framework/Open Standards Main Map/Phase 1 Scope and Start/Exchanging of Governance Information.md>)
 `exchanging-of-governance-information` · phase: scope · status: draft
 
 This node is slightly less a category of people and more a search for information intermediaries and exchange relationships.
@@ -239,16 +448,16 @@ This node is slightly less a category of people and more a search for informatio
 - **Domains:** ecosystem, actors, information
 - **Out:** Supports → Identify People and Groups
 
-#### [Governance Sustainability](<../framework/Open Standards Main Map/Governance Sustainability.md>)
+#### [Governance Sustainability](<../framework/Open Standards Main Map/Phase 1 Scope and Start/Governance Sustainability.md>)
 `governance-sustainability` · phase: scope · status: draft
 
-A standard that succeeds will eventually need to answer:
+A standard that succeeds will eventually need to answer: Who can change it?
 
 - **Domains:** sustainability, governance
 - **Out:** connects → Operational Guidance for Producers; connects → Sustainability Gate
 - **In:** Think about sustainability (connects)
 
-#### [Identify Community Stakeholders](<../framework/Open Standards Main Map/Identify Community Stakeholders.md>)
+#### [Identify Community Stakeholders](<../framework/Open Standards Main Map/Phase 1 Scope and Start/Identify Community Stakeholders.md>)
 `identify-community-stakeholders` · phase: scope · status: draft
 
 Transform the broad ecosystem map into a more focused understanding of the people whose participation matters to this specific standards effort.
@@ -258,7 +467,7 @@ Transform the broad ecosystem map into a more focused understanding of the peopl
 - **Out:** Feeds → Understand Ecosystem
 - **In:** Decide Who To Work With (Enables us to); Surface Ecosystem Tensions (Enables us to)
 
-#### [Identify Core Features](<../framework/Open Standards Main Map/Identify Core Features.md>)
+#### [Identify Core Features](<../framework/Open Standards Main Map/Phase 1 Scope and Start/Identify Core Features.md>)
 `identify-core-features` · phase: scope · status: draft
 
 Identify the smallest capabilities the standard must possess for its objectives to remain plausible.
@@ -267,7 +476,7 @@ Identify the smallest capabilities the standard must possess for its objectives 
 - **Domains:** requirements, design-intent
 - **Out:** connects → Decide On Aims and Objectives
 
-#### [Identify Current Ecosystem Standards](<../framework/Open Standards Main Map/Identify Current Ecosystem Standards.md>)
+#### [Identify Current Ecosystem Standards](<../framework/Open Standards Main Map/Phase 1 Scope and Start/Identify Current Ecosystem Standards.md>)
 `identify-current-ecosystem-standards` · phase: scope · status: draft
 
 Identify existing standards, conventions, specifications, schemas and common practices that already coordinate relevant parts of the ecosystem.
@@ -277,7 +486,7 @@ Identify existing standards, conventions, specifications, schemas and common pra
 - **Out:** Produces → Ecosystem Map
 - **In:** Types of Standards (References); What Can Be Extended (Checks); What Can Be Opened Up (Checks); What Can Be Used Instead (Checks)
 
-#### [Identify People and Groups](<../framework/Open Standards Main Map/Identify People and Groups.md>)
+#### [Identify People and Groups](<../framework/Open Standards Main Map/Phase 1 Scope and Start/Identify People and Groups.md>)
 `identify-people-and-groups` · phase: scope · status: draft
 
 Identify the people, groups and institutions participating in the governance activity relevant to the proposed standard.
@@ -287,7 +496,16 @@ Identify the people, groups and institutions participating in the governance act
 - **Out:** Produces → Actor Map
 - **In:** Exchanging of Governance Information (Supports); Producers of Governance Activity (Supports); Users of Governance Infrastructure (Supports)
 
-#### [Information Exchange](<../framework/Open Standards Main Map/Information Exchange.md>)
+#### [Inclusivity](<../framework/Open Standards Main Map/Phase 1 Scope and Start/Inclusivity.md>)
+`inclusivity` · phase: scope · status: draft
+
+Identify who could be excluded from shaping, using, governing, or benefiting from the standard, and what the standard must therefore make room for.
+
+- **Produces:** `inclusivity-intent`, `accessibility-intent`, `translation-intent`, `participation-barriers`
+- **Domains:** inclusivity, accessibility, participation
+- **Out:** connects → Decide On Aims and Objectives
+
+#### [Information Exchange](<../framework/Open Standards Main Map/Phase 1 Scope and Start/Information Exchange.md>)
 `information-exchange` · phase: scope, develop, review · status: stable
 
 Create consistent ways for governance information or governance objects to move between people, organisations, tools, or systems.
@@ -296,7 +514,7 @@ Create consistent ways for governance information or governance objects to move 
 - **Domains:** interoperability, exchange, interfaces
 - **Out:** connects → Types of Standards
 
-#### [Interoperability Intent](<../framework/Open Standards Main Map/Interoperability Intent.md>)
+#### [Interoperability Intent](<../framework/Open Standards Main Map/Phase 1 Scope and Start/Interoperability Intent.md>)
 `interoperability-intent` · phase: scope · status: draft
 
 Determine where success requires the proposed standard to work coherently with existing standards, tools, vocabularies, identifiers, or infrastructure.
@@ -305,7 +523,15 @@ Determine where success requires the proposed standard to work coherently with e
 - **Domains:** interoperability, standards-landscape
 - **Out:** connects → Decide On Aims and Objectives
 
-#### [Knowledge Sustainability](<../framework/Open Standards Main Map/Knowledge Sustainability.md>)
+#### [Key Review Questions](<../framework/Open Standards Main Map/Phase 4 Review and Update/Key Review Questions.md>)
+`key-review-questions` · phase: review · status: draft
+
+Provide the question set a review draws on — adoption, ease of adoption, use cases, impact, interoperability, errors, change requests, governance, sustainability, ecosystem position and scope integrity.
+
+- **Domains:** evaluation
+- **Out:** connects → Reviewing the Standard
+
+#### [Knowledge Sustainability](<../framework/Open Standards Main Map/Phase 1 Scope and Start/Knowledge Sustainability.md>)
 `knowledge-sustainability` · phase: scope · status: draft
 
 A standard contains knowledge about why choices were made.
@@ -314,7 +540,7 @@ A standard contains knowledge about why choices were made.
 - **Out:** connects → Operational Guidance for Producers; connects → Sustainability Gate
 - **In:** Think about sustainability (connects)
 
-#### [Minimal Theory of Change](<../framework/Open Standards Main Map/Minimal Theory of Change.md>)
+#### [Minimal Theory of Change](<../framework/Open Standards Main Map/Phase 1 Scope and Start/Minimal Theory of Change.md>)
 `minimal-theory-of-change` · phase: scope · status: draft
 
 Make explicit the causal reasoning connecting the standard to the change it hopes to support.
@@ -324,7 +550,17 @@ Make explicit the causal reasoning connecting the standard to the change it hope
 - **Out:** Informs → Decide On Aims and Objectives
 - **In:** Review Research and Feedback (Informs)
 
-#### [Operational Guidance for Producers](<../framework/Open Standards Main Map/Operational Guidance for Producers.md>)
+#### [Monitor Adoption](<../framework/Open Standards Main Map/Phase 3 Launch and Adoption/Monitor Adoption.md>)
+`monitor-adoption` · phase: launch · status: draft
+
+Observe how the standard is actually being used and how the ecosystem changes around it.
+
+- **Produces:** `adoption-register`, `use-case-evidence`, `adoption-patterns`, `impact-evidence`, `refreshed-actor-map`, `refreshed-ecosystem-map`, `refreshed-theory-of-change`, `review-inputs`
+- **Domains:** adoption, monitoring, ecosystem, impact
+- **Out:** Feeds → Launch and Adoption Outcomes (Phase Gate)
+- **In:** Launch and Adoption (requires); Lifecycle Decision Record (is the baseline for); Update or Retire (Phase Gate) (maintain)
+
+#### [Operational Guidance for Producers](<../framework/Open Standards Main Map/Phase 1 Scope and Start/Operational Guidance for Producers.md>)
 `operational-guidance-for-producers` · phase: scope · status: draft
 
 If the standard relies on participants producing governance information, specify enough operational guidance to keep implementations useful.
@@ -332,15 +568,25 @@ If the standard relies on participants producing governance information, specify
 - **Domains:** sustainability, information
 - **In:** Adoption Sustainability (connects); Community Sustainability (connects); Governance Sustainability (connects); Knowledge Sustainability (connects); Resource Sustainability (connects); Technical Sustainability (connects)
 
-#### [Producers of Governance Activity](<../framework/Open Standards Main Map/Producers of Governance Activity.md>)
+#### [Plan and Launch](<../framework/Open Standards Main Map/Phase 3 Launch and Adoption/Plan and Launch.md>)
+`plan-and-launch` · phase: launch · status: draft
+
+Make the standard publicly legible, discoverable, accessible, and ready for use by audiences beyond the development group.
+
+- **Produces:** `launch-plan`, `stable-release`, `launch-materials`, `adoption-entry-points`, `public-release-record`
+- **Domains:** release, communication, adoption
+- **Out:** generates → Launch and Adoption Outcomes (Phase Gate)
+- **In:** Launch and Adoption (requires)
+
+#### [Producers of Governance Activity](<../framework/Open Standards Main Map/Phase 1 Scope and Start/Producers of Governance Activity.md>)
 `producers-of-governance-activity` · phase: scope · status: draft
 
-This node asks:
+This node asks: Who creates, initiates, maintains, interprets, or implements the things that governance depends on?
 
 - **Domains:** ecosystem, actors
 - **Out:** Supports → Identify People and Groups
 
-#### [Provide Guidance](<../framework/Open Standards Main Map/Provide Guidance.md>)
+#### [Provide Guidance](<../framework/Open Standards Main Map/Phase 1 Scope and Start/Provide Guidance.md>)
 `provide-guidance` · phase: scope, develop, review · status: stable
 
 Create repeatable guidance for performing governance work consistently without necessarily requiring identical outputs.
@@ -349,7 +595,7 @@ Create repeatable guidance for performing governance work consistently without n
 - **Domains:** practice, process, methods
 - **Out:** connects → Types of Standards
 
-#### [Real-World Testnet](<../framework/Open Standards Main Map/Real-World Testnet.md>)
+#### [Real-World Testnet](<../framework/Open Standards Main Map/Phase 1 Scope and Start/Real-World Testnet.md>)
 `real-world-testnet` · phase: scope · status: draft
 
 Identify, before development, how the standard might eventually encounter reality.
@@ -358,16 +604,24 @@ Identify, before development, how the standard might eventually encounter realit
 - **Domains:** testing, validation
 - **Out:** connects → Decide On Aims and Objectives
 
-#### [Resource Sustainability](<../framework/Open Standards Main Map/Resource Sustainability.md>)
+#### [Resource Sustainability](<../framework/Open Standards Main Map/Phase 1 Scope and Start/Resource Sustainability.md>)
 `resource-sustainability` · phase: scope · status: draft
 
-Ask:
+Ask: Who supplies development effort?
 
 - **Domains:** sustainability, resource
 - **Out:** connects → Operational Guidance for Producers; connects → Sustainability Gate
 - **In:** Think about sustainability (connects)
 
-#### [Review Research and Feedback](<../framework/Open Standards Main Map/Review Research and Feedback.md>)
+#### [Review Process](<../framework/Open Standards Main Map/Phase 4 Review and Update/Review Process.md>)
+`review-process` · phase: review · status: draft
+
+Run a review as a bounded, recorded process — from confirming the trigger to producing findings — that separates reviewing from deciding.
+
+- **Domains:** evaluation, process
+- **Out:** connects → Reviewing the Standard
+
+#### [Review Research and Feedback](<../framework/Open Standards Main Map/Phase 1 Scope and Start/Review Research and Feedback.md>)
 `review-research-and-feedback` · phase: scope · status: draft
 
 Ensure aims reflect what has been learned rather than merely what initiators originally intended.
@@ -377,7 +631,34 @@ Ensure aims reflect what has been learned rather than merely what initiators ori
 - **Out:** Informs → Minimal Theory of Change
 - **In:** Frame the Opportunity (Feeds)
 
-#### [Shared Vocabularies](<../framework/Open Standards Main Map/Shared Vocabularies.md>)
+#### [Reviewing the Standard](<../framework/Open Standards Main Map/Phase 4 Review and Update/Reviewing the Standard.md>)
+`reviewing-the-standard` · phase: review · status: draft
+
+Systematically evaluate the standard against its original purpose, current use, real-world effects, and present ecosystem conditions.
+
+- **Produces:** `review-findings`, `evidence-summary`, `issue-priorities`, `change-options`, `impact-assessment`
+- **Domains:** evaluation, evidence, governance
+- **Out:** connects → Review Outcomes (Gate)
+- **In:** Deciding To Review (connects); Key Review Questions (connects); Review (connects); Review Process (connects)
+
+#### [Roles and Responsibilities](<../framework/Open Standards Main Map/Phase 2 Development/Roles and Responsibilities.md>)
+`roles-and-responsibilities` · phase: develop · status: draft
+
+Define the functions Development needs — process stewardship, editing, implementation, testing, domain expertise, review, liaison and evidence stewardship — and what each may and may not decide.
+
+- **Domains:** collaboration, governance
+- **Out:** develops the details of → Team
+
+#### [Share Progress](<../framework/Open Standards Main Map/Phase 2 Development/Share Progress.md>)
+`share-progress` · phase: develop · status: draft
+
+Keep development legible to the communities that may use, implement, or be affected by the standard, while creating repeated opportunities for those communities to alter the work.
+
+- **Produces:** `public-drafts`, `progress-updates`, `review-windows`, `feedback`, `milestone-records`
+- **Domains:** communication, participation, feedback
+- **Out:** supports → Develop the Standard
+
+#### [Shared Vocabularies](<../framework/Open Standards Main Map/Phase 1 Scope and Start/Shared Vocabularies.md>)
 `shared-vocabularies` · phase: scope, develop, review · status: stable
 
 Create shared meaning so that different participants can refer to the same concepts consistently.
@@ -386,16 +667,44 @@ Create shared meaning so that different participants can refer to the same conce
 - **Domains:** semantics, classification, shared-language
 - **Out:** connects → Types of Standards
 
-#### [Surface Ecosystem Tensions](<../framework/Open Standards Main Map/Surface Ecosystem Tensions.md>)
+#### [Structured Documentation](<../framework/Open Standards Main Map/Phase 2 Development/Structured Documentation.md>)
+`structured-documentation` · phase: develop · status: draft
+
+Organize documentation into four modes — tutorials, how-to guides, reference and explanation — each answering a different reader's question.
+
+- **Domains:** documentation
+- **Out:** Details → Documentation
+
+#### [Support Adoption](<../framework/Open Standards Main Map/Phase 3 Launch and Adoption/Support Adoption.md>)
+`support-adoption` · phase: launch · status: draft
+
+Reduce the practical distance between: “The standard exists” and: “An independent actor can use it competently.”
+
+- **Produces:** `adopter-guidance`, `training`, `support-record`, `adoption-tools`, `recurring-adopter-issues`
+- **Domains:** adoption, support, education
+- **Out:** supports → Launch and Adoption Outcomes (Phase Gate)
+- **In:** Launch and Adoption (requires)
+
+#### [Surface Ecosystem Tensions](<../framework/Open Standards Main Map/Phase 1 Scope and Start/Surface Ecosystem Tensions.md>)
 `surface-ecosystem-tensions` · phase: scope · status: draft
 
-Look for:
+Look for: contested interests;
 
 - **Domains:** ecosystem, power-and-control
 - **Out:** Enables us to → Identify Community Stakeholders
 - **In:** Ecosystem Map (Enables us to)
 
-#### [Technical Sustainability](<../framework/Open Standards Main Map/Technical Sustainability.md>)
+#### [Team](<../framework/Open Standards Main Map/Phase 2 Development/Team.md>)
+`team` · phase: develop · status: draft
+
+Assemble enough complementary capability to develop the standard without confusing participation with centralized ownership.
+
+- **Produces:** `development-team`, `responsibility-map`, `participation-pathways`, `capacity-gaps`
+- **Domains:** collaboration, participation
+- **Out:** supports → Develop the Standard
+- **In:** Roles and Responsibilities (develops the details of)
+
+#### [Technical Sustainability](<../framework/Open Standards Main Map/Phase 1 Scope and Start/Technical Sustainability.md>)
 `technical-sustainability` · phase: scope · status: draft
 
 Ask whether the standard depends on technology or infrastructure that can plausibly persist.
@@ -404,7 +713,15 @@ Ask whether the standard depends on technology or infrastructure that can plausi
 - **Out:** connects → Operational Guidance for Producers; connects → Sustainability Gate
 - **In:** Think about sustainability (connects)
 
-#### [Types of Standards](<../framework/Open Standards Main Map/Types of Standards.md>)
+#### [Translation and Accessibility](<../framework/Open Standards Main Map/Phase 2 Development/Translation and Accessibility.md>)
+`translation-and-accessibility` · phase: develop · status: draft
+
+Make each class of documentation reachable by the people (and machine agents) who need it, in the language, level, format and bandwidth they can use, while keeping clear correspondence with the canonical version.
+
+- **Domains:** documentation, accessibility
+- **Out:** qualifies → Documentation
+
+#### [Types of Standards](<../framework/Open Standards Main Map/Phase 1 Scope and Start/Types of Standards.md>)
 `types-of-standards` · phase: scope, develop, review · status: stable
 
 Provide a shared reference for recognizing, comparing, and designing the kinds of reusable agreements that may function as open governance standards.
@@ -414,7 +731,7 @@ Provide a shared reference for recognizing, comparing, and designing the kinds o
 - **Out:** References/Consults → Frame the Opportunity; References → Identify Current Ecosystem Standards
 - **In:** Information Exchange (connects); On a Governance Open Standard (connects); Provide Guidance (connects); Shared Vocabularies (connects)
 
-#### [Understand Governance Data and Infrastructure](<../framework/Open Standards Main Map/Understand Governance Data and Infrastructure.md>)
+#### [Understand Governance Data and Infrastructure](<../framework/Open Standards Main Map/Phase 1 Scope and Start/Understand Governance Data and Infrastructure.md>)
 `understand-governance-data-and-infrastructure` · phase: scope · status: draft
 
 Identify the infrastructure through which governance information and action move.
@@ -424,7 +741,7 @@ Identify the infrastructure through which governance information and action move
 - **Out:** Produces → Ecosystem Map
 - **In:** Actor Map (Feeds)
 
-#### [Understand Relationships Between People and Groups](<../framework/Open Standards Main Map/Understand Relationships Between People and Groups.md>)
+#### [Understand Relationships Between People and Groups](<../framework/Open Standards Main Map/Phase 1 Scope and Start/Understand Relationships Between People and Groups.md>)
 `understand-relationships-between-people-and-groups` · phase: scope · status: draft
 
 Understand how actors depend upon, constrain, influence and exchange information with one another.
@@ -434,15 +751,15 @@ Understand how actors depend upon, constrain, influence and exchange information
 - **Out:** Produces → Ecosystem Map
 - **In:** Actor Map (Informs)
 
-#### [Users of Governance Infrastructure](<../framework/Open Standards Main Map/Users of Governance Infrastructure.md>)
+#### [Users of Governance Infrastructure](<../framework/Open Standards Main Map/Phase 1 Scope and Start/Users of Governance Infrastructure.md>)
 `users-of-governance-infrastructure` · phase: scope · status: draft
 
-This node asks:
+This node asks: Who must interact with governance systems, tools, procedures, interfaces, and institutions in order to participate?
 
 - **Domains:** ecosystem, actors
 - **Out:** Supports → Identify People and Groups
 
-#### [What Can Be Opened Up](<../framework/Open Standards Main Map/What Can Be Opened Up.md>)
+#### [What Can Be Opened Up](<../framework/Open Standards Main Map/Phase 1 Scope and Start/What Can Be Opened Up.md>)
 `what-can-be-opened-up` · phase: scope · status: draft
 
 Identify useful existing conventions or infrastructure whose primary limitation is not functionality but openness.
@@ -453,34 +770,60 @@ Identify useful existing conventions or infrastructure whose primary limitation 
 
 ### artifact
 
-#### [Actor Map](<../framework/Open Standards Main Map/Actor Map.md>)
+#### [Actor Map](<../framework/Open Standards Main Map/Phase 1 Scope and Start/Actor Map.md>)
 `actor-map` · phase: scope · status: stub
 
-From the Scope and Start gate, the Actor Map should make visible:
+From the Scope and Start gate, the Actor Map should make visible: who produces relevant governance activity; who uses relevant governance infrastructure; who exchanges or transforms governance information; recurring governance roles; act...
 
 - **Domains:** ecosystem, actors
 - **Out:** Feeds → Understand Governance Data and Infrastructure; Informs → Understand Relationships Between People and Groups
 - **In:** Identify People and Groups (Produces)
 
-#### [Ecosystem Map](<../framework/Open Standards Main Map/Ecosystem Map.md>)
+#### [Decision and Provenance Record](<../framework/Open Standards Main Map/Phase 2 Development/Decision and Provenance Record.md>)
+`decision-and-provenance-record` · phase: develop · status: draft
+
+Preserve how the agreement came to exist — decisions, rejected alternatives, objections and rationale — alongside the specification that records what it currently says.
+
+- **Domains:** documentation, provenance
+- **Out:** layers → Documentation
+
+#### [Ecosystem Map](<../framework/Open Standards Main Map/Phase 1 Scope and Start/Ecosystem Map.md>)
 `ecosystem-map` · phase: scope · status: draft
 
-An Ecosystem Map should be capable of showing:
+An Ecosystem Map should be capable of showing: actors;
 
 - **Domains:** ecosystem
 - **Out:** Enables us to → Decide Who To Work With; Enables us to → Surface Ecosystem Tensions
 - **In:** Identify Current Ecosystem Standards (Produces); Understand Governance Data and Infrastructure (Produces); Understand Relationships Between People and Groups (Produces)
+
+#### [Lifecycle Decision Record](<../framework/Open Standards Main Map/Phase 4 Review and Update/Lifecycle Decision Record.md>)
+`lifecycle-decision-record` · phase: review · status: stub
+
+Carry the decision made at *Update or Retire* into the next cycle as an explicit baseline, so the part of the framework the standard re-enters can see what was decided, on what evidence, and what it inherits.
+
+- **Produces:** `lifecycle-decision-record`
+- **Domains:** lifecycle, provenance
+- **Out:** is the baseline for → Develop the Standard; is the baseline for → Frame the Opportunity; is the baseline for → Monitor Adoption; is the baseline for → Scope and Start (Phase Gate)
+- **In:** Update or Retire (Phase Gate) (produces)
 
 ## Artifacts → producing nodes
 
 | Artifact | Produced by |
 |---|---|
 | `access-barriers` | What Can Be Opened Up |
-| `accessibility-intent` | Decide On Aims and Objectives, Accessibility and Translation |
+| `accessibility-intent` | Decide On Aims and Objectives, Inclusivity |
 | `actor-categories` | Identify People and Groups |
 | `actor-map` | Identify People and Groups |
 | `adaptability-intent` | Decide On Aims and Objectives |
+| `adopter-guidance` | Support Adoption |
 | `adoption-burden-assessment` | Think about sustainability |
+| `adoption-entry-points` | Plan and Launch |
+| `adoption-evidence` | Launch and Adoption |
+| `adoption-patterns` | Monitor Adoption |
+| `adoption-profile` | Launch and Adoption Outcomes (Phase Gate) |
+| `adoption-register` | Monitor Adoption |
+| `adoption-support-system` | Launch and Adoption |
+| `adoption-tools` | Support Adoption |
 | `advocates` | Decide Who To Work With |
 | `affected-groups` | Identify Community Stakeholders |
 | `affected-participant-frame` | Frame the Opportunity |
@@ -492,21 +835,32 @@ An Ecosystem Map should be capable of showing:
 | `assumptions` | Minimal Theory of Change |
 | `benefit-hypotheses` | Frame the Opportunity |
 | `candidate-interventions` | Frame the Opportunity |
+| `candidate-specifications` | Develop the Standard |
+| `candidate-standard` | Development Outcomes (Phase Gate), Development Phase |
 | `candidate-standard-form` | Types of Standards |
 | `candidate-standard-type` | Frame the Opportunity |
 | `candidate-test-contexts` | Real-World Testnet |
+| `capacity-gaps` | Team |
+| `change-options` | Reviewing the Standard |
 | `change-pathway` | Minimal Theory of Change |
+| `change-priorities` | Review Outcomes (Gate) |
 | `codes-of-practice` | Provide Guidance |
+| `communication-plan` | Deciding Next Steps |
 | `comparison-language` | Types of Standards |
 | `compatibility-boundaries` | Interoperability Intent |
 | `compatibility-questions` | What Can Be Extended |
 | `conceptual-models` | Shared Vocabularies |
 | `conflict-map` | Understand Relationships Between People and Groups |
+| `conformance-criteria` | Testing |
 | `continuity-risks` | Think about sustainability |
+| `contribution-history` | Development Platform |
 | `contribution-model` | The Development Method |
 | `conventions-inventory` | Identify Current Ecosystem Standards |
 | `coordination-need` | Frame the Opportunity |
 | `core-feature-hypotheses` | Decide On Aims and Objectives, Identify Core Features |
+| `decision-conditions` | Review Outcomes (Gate) |
+| `decision-record` | Development Platform |
+| `decision-records` | Documentation |
 | `decision-rights` | The Development Method |
 | `definitions` | Shared Vocabularies |
 | `dependency-map` | Understand Relationships Between People and Groups |
@@ -514,10 +868,15 @@ An Ecosystem Map should be capable of showing:
 | `development-entry-conditions` | Scope and Start (Phase Gate) |
 | `development-infrastructure` | The Development Method |
 | `development-method` | The Development Method |
+| `development-outcomes-bundle` | Development Outcomes (Phase Gate), Development Phase |
 | `development-plan` | The Development Method |
 | `development-principles` | Decide On Aims and Objectives, Development Principles |
 | `development-readiness-record` | Scope and Start (Phase Gate) |
+| `development-record` | Development Phase |
+| `development-team` | Team |
+| `documentation-set` | Development Phase |
 | `early-adopters` | Decide Who To Work With |
+| `ecosystem-change-record` | Launch and Adoption Outcomes (Phase Gate) |
 | `ecosystem-findings` | Understand Ecosystem |
 | `ecosystem-map` | Understand Ecosystem |
 | `ecosystem-open-questions` | Understand Ecosystem |
@@ -525,22 +884,34 @@ An Ecosystem Map should be capable of showing:
 | `engagement-hypothesis` | Simple Canvas |
 | `engagement-priorities` | Identify Community Stakeholders |
 | `evidence-gaps` | Frame the Opportunity |
-| `evidence-summary` | Review Research and Feedback |
+| `evidence-summary` | Review Research and Feedback, Reviewing the Standard |
+| `examples` | Documentation |
 | `exchange-rules` | Information Exchange |
+| `explanation` | Documentation |
 | `extension-candidates` | What Can Be Extended |
 | `extension-intent` | Adaptability and Extensibility |
 | `failure-conditions` | Real-World Testnet |
+| `failure-register` | Testing |
 | `feature-rationale` | Identify Core Features |
+| `feedback` | Share Progress |
 | `feedback-partners` | Decide Who To Work With |
 | `feedback-summary` | Review Research and Feedback |
+| `fitness-assessment` | Review Outcomes (Gate) |
 | `framing-assumptions` | Frame the Opportunity |
 | `framing-changes` | Review Research and Feedback |
 | `governance-barriers` | What Can Be Opened Up |
 | `governance-infrastructure-map` | Understand Ecosystem |
+| `guidance` | Develop the Standard |
 | `guides` | Provide Guidance |
+| `how-to-guides` | Documentation |
 | `identified-gaps` | Simple Canvas |
 | `identifiers` | Shared Vocabularies |
+| `impact-assessment` | Reviewing the Standard |
+| `impact-evidence` | Launch and Adoption Outcomes (Phase Gate), Monitor Adoption |
 | `impact-hypothesis` | Simple Canvas |
+| `implementation-artifacts` | Develop the Standard |
+| `implementation-evidence` | Development Phase, Testing |
+| `inclusivity-intent` | Inclusivity |
 | `information-flow-map` | Understand Governance Data and Infrastructure |
 | `infrastructure-gaps` | Understand Governance Data and Infrastructure |
 | `infrastructure-map` | Understand Governance Data and Infrastructure |
@@ -550,43 +921,88 @@ An Ecosystem Map should be capable of showing:
 | `initial-use-cases` | Simple Canvas |
 | `interface-map` | Understand Governance Data and Infrastructure |
 | `interfaces` | Information Exchange |
+| `interoperability-evidence` | Testing |
 | `interoperability-intent` | Decide On Aims and Objectives |
 | `interoperability-requirements` | Interoperability Intent |
+| `issue-priorities` | Reviewing the Standard |
+| `issue-register` | Development Platform |
+| `known-limitations` | Development Outcomes (Phase Gate) |
+| `launch-and-adoption-outcomes-bundle` | Launch and Adoption, Launch and Adoption Outcomes (Phase Gate) |
+| `launch-entry-conditions` | Development Outcomes (Phase Gate) |
+| `launch-materials` | Plan and Launch |
+| `launch-plan` | Plan and Launch |
+| `launch-record` | Launch and Adoption |
 | `learning-questions` | Minimal Theory of Change |
+| `lifecycle-decision` | Deciding Next Steps, Update or Retire (Phase Gate) |
+| `lifecycle-decision-record` | Update or Retire (Phase Gate), Lifecycle Decision Record |
+| `maintenance-decision` | Deciding Next Steps |
 | `maintenance-model` | Think about sustainability |
 | `mechanisms` | Minimal Theory of Change |
 | `methods` | Provide Guidance |
+| `milestone-records` | Share Progress |
 | `missing-actor-questions` | Identify People and Groups |
+| `models` | Develop the Standard |
+| `next-phase-route` | Update or Retire (Phase Gate) |
+| `next-step-options` | Review, Review Outcomes (Gate) |
 | `no-new-standard-option` | What Can Be Used Instead |
+| `normative-specification` | Documentation |
 | `objectives` | Decide On Aims and Objectives |
 | `ontologies` | Shared Vocabularies |
 | `open-standard-canvas` | Simple Canvas |
 | `opening-opportunities` | What Can Be Opened Up |
+| `operational-evidence` | Launch and Adoption Outcomes (Phase Gate) |
 | `opportunity-frame` | Frame the Opportunity |
 | `optional-feature-hypotheses` | Identify Core Features |
 | `participant-cohort` | Decide Who To Work With |
 | `participant-map` | Simple Canvas |
-| `participation-barriers` | Accessibility and Translation |
+| `participation-barriers` | Inclusivity |
 | `participation-candidates` | Understand Ecosystem |
+| `participation-pathways` | Team |
 | `participation-rationale` | Decide Who To Work With |
 | `procedural-commitments` | Development Principles |
 | `proceed-reframe-exit-decision` | Frame the Opportunity |
 | `process-models` | Provide Guidance |
-| `protocols` | Provide Guidance |
+| `progress-updates` | Share Progress |
+| `protocols` | Develop the Standard, Provide Guidance |
+| `public-development-space` | Development Platform |
+| `public-drafts` | Share Progress |
+| `public-release-record` | Plan and Launch |
 | `readiness-decision` | The Development Method |
+| `recurring-adopter-issues` | Support Adoption |
+| `reference-material` | Documentation |
+| `refreshed-actor-map` | Monitor Adoption |
+| `refreshed-ecosystem-map` | Monitor Adoption |
+| `refreshed-scope-artifacts` | Launch and Adoption |
+| `refreshed-theory-of-change` | Monitor Adoption |
 | `registers` | Shared Vocabularies |
 | `relationship-map` | Understand Ecosystem, Understand Relationships Between People and Groups |
+| `release-readiness-record` | Development Outcomes (Phase Gate) |
 | `representation-gaps` | Identify Community Stakeholders |
 | `resource-hypothesis` | Simple Canvas |
 | `resource-model` | Think about sustainability |
+| `responsibility-map` | Team |
+| `retirement-plan` | Deciding Next Steps |
+| `retirement-record` | Update or Retire (Phase Gate) |
 | `reuse-candidates` | Identify Current Ecosystem Standards, Interoperability Intent |
-| `review-triggers` | Scope and Start (Phase Gate) |
+| `review-evidence` | Review |
+| `review-findings` | Review, Reviewing the Standard |
+| `review-inputs` | Monitor Adoption |
+| `review-mandate` | Deciding To Review |
+| `review-outcomes-bundle` | Review, Review Outcomes (Gate) |
+| `review-plan` | Review |
+| `review-priority` | Deciding To Review |
+| `review-readiness-record` | Launch and Adoption Outcomes (Phase Gate) |
+| `review-scope` | Deciding To Review |
+| `review-trigger` | Deciding To Review |
+| `review-triggers` | Development Outcomes (Phase Gate), Launch and Adoption Outcomes (Phase Gate), Scope and Start (Phase Gate) |
+| `review-windows` | Share Progress |
 | `risk-hypothesis` | Simple Canvas |
-| `schemas` | Information Exchange |
+| `schemas` | Develop the Standard, Information Exchange |
 | `scope-and-start-bundle` | Scope and Start (Phase Gate) |
 | `specification-options` | Types of Standards |
 | `specifications` | Information Exchange |
 | `stability-boundaries` | Adaptability and Extensibility |
+| `stable-release` | Plan and Launch |
 | `stakeholder-map` | Understand Ecosystem, Identify Community Stakeholders |
 | `standard-type-classification` | Types of Standards |
 | `standards-inventory` | Identify Current Ecosystem Standards |
@@ -594,29 +1010,45 @@ An Ecosystem Map should be capable of showing:
 | `stewardship-model` | Think about sustainability |
 | `success-hypotheses` | Decide On Aims and Objectives |
 | `support-model` | Think about sustainability |
+| `support-record` | Support Adoption |
 | `sustainability-conditions` | Think about sustainability |
 | `sustainability-model` | Think about sustainability |
 | `taxonomies` | Shared Vocabularies |
 | `templates` | Information Exchange |
+| `test-evidence` | Development Phase |
 | `test-hypotheses` | Real-World Testnet |
+| `test-results` | Testing |
+| `test-suite` | Testing |
 | `testing-plan` | The Development Method |
 | `theory-of-change` | Decide On Aims and Objectives |
-| `translation-intent` | Accessibility and Translation |
+| `training` | Support Adoption |
+| `transition-conditions` | Update or Retire (Phase Gate) |
+| `transition-plan` | Deciding Next Steps |
+| `translation-intent` | Inclusivity |
 | `trust-boundaries` | Understand Relationships Between People and Groups |
+| `tutorials` | Documentation |
 | `unintended-effects` | Minimal Theory of Change |
 | `unresolved-disagreements` | Review Research and Feedback |
+| `unresolved-objections` | Development Outcomes (Phase Gate) |
 | `unresolved-questions` | Scope and Start (Phase Gate) |
+| `update-mandate` | Update or Retire (Phase Gate) |
+| `update-scope` | Deciding Next Steps |
+| `updated-ecosystem-map` | Launch and Adoption |
+| `updated-stakeholder-map` | Launch and Adoption |
+| `use-case-evidence` | Monitor Adoption |
 | `validation-rules` | Information Exchange |
 | `variation-boundaries` | Adaptability and Extensibility |
-| `vocabularies` | Shared Vocabularies |
+| `version-history` | Development Platform |
+| `vocabularies` | Develop the Standard, Shared Vocabularies |
 | `work-phases` | The Development Method |
+| `working-drafts` | Develop the Standard |
 
 ## Canvases
 
-- [Updated Open Governance Standards Map](<../framework/Open Standards Main Map/Updated Open Governance Standards Map.canvas>) — 57 note links, 71 nodes, 85 edges
+- [Updated Open Governance Standards Map](<../framework/Open Standards Main Map/Updated Open Governance Standards Map.canvas>) — 88 note links, 143 nodes, 191 edges
 - [Simple Canvas For Open Standards](<../framework/Open Standards Simple Canvas/Simple Canvas For Open Standards.canvas>) — 4 note links, 58 nodes, 30 edges
 - [Theory of change - Four principles of Change](<../framework/Theory of Change/Theory of change - Four principles of Change.canvas>) — 0 note links, 195 nodes, 164 edges
 
 ## Maintenance warnings
 
-- 30 canvas edges between notes have no label (indexed as 'connects')
+- 37 canvas edges between notes have no label (indexed as 'connects')

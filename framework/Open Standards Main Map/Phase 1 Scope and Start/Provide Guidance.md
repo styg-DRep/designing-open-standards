@@ -29,8 +29,6 @@ Create repeatable guidance for performing governance work consistently without n
 
 Guidance standards are useful when variability in **practice** rather than vocabulary or representation is the principal coordination problem.
 
-We typically describe these as frameworks and recommendations for understanding information flows and performing processes consistently, including protocols, methods, measures, and codes of practice.
-
 ## Governance-native forms
 
 A guidance standard might define:

@@ -105,7 +105,7 @@ The principal inputs are:
     
 - Adaptability and Extensibility
     
-- Accessibility and Translation
+- Inclusivity
     
 - Real-World Test Intent
     

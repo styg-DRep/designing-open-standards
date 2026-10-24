@@ -1,807 +1,94 @@
 {
-	"nodes": [
-		{
-			"type": "group",
-			"id": "fac8975b632a1762",
-			"x": 569,
-			"y": 756,
-			"width": 2845,
-			"height": 1624,
-			"label": "How?"
-		},
-		{
-			"type": "group",
-			"id": "0b0dbb97b6b45f56",
-			"x": 1236,
-			"y": -1785,
-			"width": 1621,
-			"height": 1783,
-			"label": "Open Standards"
-		},
-		{
-			"type": "group",
-			"id": "1ef42f0e9f97519d",
-			"x": -428,
-			"y": 1267,
-			"width": 744,
-			"height": 602,
-			"label": "What?"
-		},
-		{
-			"type": "group",
-			"id": "b5684c1892c42432",
-			"x": -565,
-			"y": 728,
-			"width": 1018,
-			"height": 350,
-			"label": "Who?"
-		},
-		{
-			"type": "text",
-			"text": "## WHY                                                                      ",
-			"id": "bf22c0a9a108d110",
-			"x": 1355,
-			"y": 784,
-			"width": 250,
-			"height": 60,
-			"color": "5"
-		},
-		{
-			"type": "text",
-			"text": "Guides",
-			"id": "956fe6f9b030613b",
-			"x": 2588,
-			"y": -87,
-			"width": 250,
-			"height": 65,
-			"color": "2"
-		},
-		{
-			"type": "text",
-			"text": "Templates",
-			"id": "e54f96f93f8dab31",
-			"x": 2588,
-			"y": -737,
-			"width": 250,
-			"height": 60,
-			"color": "2"
-		},
-		{
-			"type": "text",
-			"text": "Protocols",
-			"id": "f08ab871035b9b33",
-			"x": 2588,
-			"y": -252,
-			"width": 250,
-			"height": 60,
-			"color": "2"
-		},
-		{
-			"type": "text",
-			"text": "Models",
-			"id": "4d6a1df038a0de08",
-			"x": 2588,
-			"y": -422,
-			"width": 250,
-			"height": 60,
-			"color": "2"
-		},
-		{
-			"type": "text",
-			"text": "**Step Three: The Standard**\n- What does this effort offer, and what type of agreement or standard will be created?\n- Will it be a guide, or a shared vocabulary?  A format for sharing information?  A hybrid of all three?\n- Follow the yellow line for more details on this question\n-  Keep this section concise and make sure it aligns with Step 1",
-			"id": "4db431ad82780af4",
-			"x": 1355,
-			"y": 844,
-			"width": 422,
-			"height": 135,
-			"color": "4"
-		},
-		{
-			"type": "text",
-			"text": "Specifications",
-			"id": "21035133a90e253c",
-			"x": 2588,
-			"y": -1077,
-			"width": 250,
-			"height": 60,
-			"color": "2"
-		},
-		{
-			"type": "text",
-			"text": "Schemas",
-			"id": "594ad77506b5a4e7",
-			"x": 2588,
-			"y": -907,
-			"width": 250,
-			"height": 60,
-			"color": "2"
-		},
-		{
-			"type": "text",
-			"text": "Ontologies",
-			"id": "3c76bec8f216e738",
-			"x": 2588,
-			"y": -1305,
-			"width": 250,
-			"height": 60,
-			"color": "2"
-		},
-		{
-			"type": "text",
-			"text": "vocabularies",
-			"id": "35a15545f5993ea4",
-			"x": 2588,
-			"y": -1459,
-			"width": 250,
-			"height": 60,
-			"color": "2"
-		},
-		{
-			"type": "text",
-			"text": "*Example*\n- *Common format for submission of Treasury Withdrawal Proposals*\n- *Guide to requesting DRep Council feedback*\n---\n- ",
-			"id": "5af0b928e2d5a82d",
-			"x": 1355,
-			"y": 979,
-			"width": 536,
-			"height": 230,
-			"color": "6"
-		},
-		{
-			"type": "text",
-			"text": "**Step Four: The Opportunity**\n- Can also be thought of as the Problem Statement\n- Think 'concise and clear'...summarize the effort and standard by combining steps 1 and 3",
-			"id": "4b17e1b32aac11f7",
-			"x": 1355,
-			"y": 1209,
-			"width": 422,
-			"height": 135,
-			"color": "4"
-		},
-		{
-			"type": "text",
-			"text": "## Types of Standards",
-			"id": "b6236025b2d40efc",
-			"x": 1331,
-			"y": -905,
-			"width": 250,
-			"height": 60,
-			"color": "3"
-		},
-		{
-			"type": "text",
-			"text": "Taxonomies",
-			"id": "4fa6ed14ecc913d7",
-			"x": 2588,
-			"y": -1599,
-			"width": 250,
-			"height": 60,
-			"color": "2"
-		},
-		{
-			"type": "text",
-			"text": "Registers",
-			"id": "d00285218fd190c5",
-			"x": 2588,
-			"y": -1765,
-			"width": 250,
-			"height": 60,
-			"color": "2"
-		},
-		{
-			"type": "file",
-			"file": "Open Standards Main Map/Information Exchange.md",
-			"id": "96e43b21a5af667f",
-			"x": 2029,
-			"y": -1077,
-			"width": 400,
-			"height": 400,
-			"color": "3"
-		},
-		{
-			"type": "file",
-			"file": "Open Standards Main Map/Shared Vocabularies.md",
-			"id": "350e7cb1c34e32ad",
-			"x": 2029,
-			"y": -1705,
-			"width": 400,
-			"height": 400,
-			"color": "3"
-		},
-		{
-			"type": "file",
-			"file": "Open Standards Main Map/Provide Guidance.md",
-			"id": "2b12b72647333b4e",
-			"x": 2029,
-			"y": -422,
-			"width": 400,
-			"height": 400,
-			"color": "3"
-		},
-		{
-			"type": "text",
-			"text": "**Step Two: High level details**\n- Does this effort have a name?\n- Who is the team behind the effort",
-			"id": "d059bcd18c0c975f",
-			"x": 638,
-			"y": 1580,
-			"width": 422,
-			"height": 136,
-			"color": "4"
-		},
-		{
-			"type": "text",
-			"text": "**Step Six: Use Cases**\n- Integrate steps 3,4 and 5 here, by showing how they all come to gether to make step 1 a reality\n- It can be helpful to brainstorm a lot of use cases, and then distill  a few key use case concepts and describe those here",
-			"id": "18df6f3de2d17bc9",
-			"x": 1355,
-			"y": 1939,
-			"width": 422,
-			"height": 135,
-			"color": "4"
-		},
-		{
-			"type": "text",
-			"text": "*Example*\n- *A guide that familiarizes users with the challenges of creating successful improvement paths for governance would prepare them to take advantage of a submission format that makes discussion and comparison of improvements easy and reduce confusion and complication*\n---\n",
-			"id": "50b2d9c3d007e50b",
-			"x": 1355,
-			"y": 1709,
-			"width": 536,
-			"height": 230,
-			"color": "6"
-		},
-		{
-			"type": "text",
-			"text": "Step Twelve:  Key Resources\n- This effort can't be conducted in a vaccuum; funding, support for existing tools, support for communications are all needed to deliver the asset\n- Dedicate time to surfacing these resources, as it may make or break the effort.  ",
-			"id": "6413b2b3a68c3acf",
-			"x": 2779,
-			"y": 1930,
-			"width": 422,
-			"height": 135,
-			"color": "4"
-		},
-		{
-			"type": "text",
-			"text": "*Example*\n- *CIPs*\n- *DRep Council WG*\n---\n- ",
-			"id": "70f1df0a5b11fc57",
-			"x": 638,
-			"y": 1716,
-			"width": 536,
-			"height": 217,
-			"color": "6"
-		},
-		{
-			"type": "text",
-			"text": "## Tips:\n- work quickly\n- don't worry about getting stuck, this highlights areas to develop\n- expect to go through this at least once, and to update as sections clarify\n- Its fine to use placeholders and to return as it is updated\n- The canvas consists of 9 pillars supporting 3 sections (who/why/how)\n- These 9 pillars are expected to be the most important considerations for developing an agreement for how changes to governance are created and shared",
-			"id": "aea3134365ddc690",
-			"x": 589,
-			"y": 776,
-			"width": 585,
-			"height": 318
-		},
-		{
-			"type": "text",
-			"text": "*Example*\n- *Outreach via Social Media\n- *X Spaces to reach the edges*\n- *Forums as part of early outreach and testing*\n- *Live workshops to test platforms*\n- *Dedicated hosting for full integration of asset*\n---\n ",
-			"id": "ba53ca6952b37c96",
-			"x": 2056,
-			"y": 1709,
-			"width": 536,
-			"height": 230,
-			"color": "6"
-		},
-		{
-			"type": "text",
-			"text": "Tips\n- These three steps focus on impacts, risks and resources – what benefits the asset will bring, what could derail the scoping, development or launch of the asset and what’s available to help the effort deliver those benefits.\n- When completing these sections, remember to be concise and focus on getting started.\n- List the *strongest* benefits, the *major* risks and *known* resources. Keep in mind that unexpected benefits, new risks and unknown resources may come up as you assess or develop the effort.",
-			"id": "0ceb12c8a63947c7",
-			"x": 2779,
-			"y": 784,
-			"width": 572,
-			"height": 310
-		},
-		{
-			"type": "file",
-			"file": "Open Standards Main Map/On a Governance Open Standard.md",
-			"id": "1e11fdd42546441e",
-			"x": 1256,
-			"y": -1399,
-			"width": 400,
-			"height": 400,
-			"color": "3"
-		},
-		{
-			"type": "text",
-			"text": "*Example*\n- *What if...changes to governance could be shared and discussed in a transparent, accessible way to speed up effective improvement?*\n---\n- ",
-			"id": "b5c68f4462080310",
-			"x": 638,
-			"y": 1351,
-			"width": 536,
-			"height": 229,
-			"color": "6"
-		},
-		{
-			"type": "text",
-			"text": "**Step One:  Overview**\n- Clarify the intent of this effort to develop the agreement.  Try phrasing it as a short, simple \"What if...?\" question.",
-			"id": "a325bf6dd037994a",
-			"x": 638,
-			"y": 1210,
-			"width": 422,
-			"height": 141,
-			"color": "4"
-		},
-		{
-			"type": "text",
-			"text": "*Example*\n- *Ideas that affect a large number of communities in Cardano can effectively reach high levels of saturation among the affected in order to collect consistent feedback that can dial the idea in tightly.*\n- *Voting on improvements can be organized around detailed, consistent comparisons between suggestions that have fully explored the opportunity space where they will be implemented*\n---\n",
-			"id": "abe29118de5ff864",
-			"x": 1355,
-			"y": 2074,
-			"width": 536,
-			"height": 230,
-			"color": "6"
-		},
-		{
-			"type": "text",
-			"text": "## START                                                                   ",
-			"id": "8d221dd9d1cec61c",
-			"x": 638,
-			"y": 1149,
-			"width": 250,
-			"height": 60,
-			"color": "5"
-		},
-		{
-			"type": "text",
-			"text": "- high level\n- single view\n- prototype\n\nShows:\n- opportunity\n- available resources\n- risks\n- impacts\n\nIt outlines:\n- How to begin development of an agreement around sharing changes in Catalyst",
-			"id": "aa6cd98dd7b5b0f1",
-			"x": -408,
-			"y": 1405,
-			"width": 288,
-			"height": 444,
-			"color": "4"
-		},
-		{
-			"type": "text",
-			"text": "- **a detailed document** - a high level view is used to spot gaps and clarify assumptions\n- **a roadmap** - this is for outlining the proposed opportunity, but can be used to scope out a roadmap later\n- **a complete guide** - the intent is to cover key areas in order to get started, with insight into what further documentation is needed",
-			"id": "53b6af902b8826db",
-			"x": 13,
-			"y": 1405,
-			"width": 283,
-			"height": 444,
-			"color": "1"
-		},
-		{
-			"type": "text",
-			"text": "What this Canvas is:",
-			"id": "ecab610e639fb37e",
-			"x": -408,
-			"y": 1287,
-			"width": 250,
-			"height": 60,
-			"color": "4"
-		},
-		{
-			"type": "text",
-			"text": "What this Canvas is NOT:",
-			"id": "2cb202bb29359141",
-			"x": 46,
-			"y": 1287,
-			"width": 250,
-			"height": 60,
-			"color": "1"
-		},
-		{
-			"type": "text",
-			"text": "*Example*\n- *Clear, standardized proposals are the first step in creating agreement around meaningful change in governance*\n---\n",
-			"id": "be282f7b6b377a80",
-			"x": 1355,
-			"y": 1344,
-			"width": 536,
-			"height": 230,
-			"color": "6"
-		},
-		{
-			"type": "text",
-			"text": "Who will be most interested in this canvas?",
-			"id": "cd5eed44643c2a92",
-			"x": -155,
-			"y": 748,
-			"width": 250,
-			"height": 60,
-			"color": "5"
-		},
-		{
-			"type": "text",
-			"text": "Individuals or groups interested in using or developing an agreement for how to create and share changes to governance",
-			"id": "e797098839b54b82",
-			"x": -545,
-			"y": 806,
-			"width": 250,
-			"height": 153,
-			"color": "6"
-		},
-		{
-			"type": "text",
-			"text": "Individuals or groups interested in sharing changes to governance",
-			"id": "94f0d14cfe8c6366",
-			"x": 183,
-			"y": 826,
-			"width": 250,
-			"height": 114,
-			"color": "6"
-		},
-		{
-			"type": "text",
-			"text": "Individuals or groups who are interested in exploring how agreements around changes in governance can help them create solutions.",
-			"id": "2cf1b9cdeaaf317f",
-			"x": -155,
-			"y": 909,
-			"width": 250,
-			"height": 149,
-			"color": "6"
-		},
-		{
-			"type": "text",
-			"text": "*Example*\n- *Proper scoping and communication could be compromised by a \"Hurry and Do something NOW\" approach -- adopt a \"Be patient and Do something RIGHT\" approach*\n- *The effort may require too much time to execute within Voting communities' windows of tolerance -- adopt good comms, test early and often, work closely with early adopters*\n- *Development may struggle to source funding -- communicate closely with governance participants to keep community aware of this issue and to surface funding opportunities*\n- *Perceived lack of benefit to communities -- demonstrate use in testing*",
-			"id": "eaba12e1159970fa",
-			"x": 2779,
-			"y": 1700,
-			"width": 536,
-			"height": 230,
-			"color": "6"
-		},
-		{
-			"type": "text",
-			"text": "**Step Eleven: Major Risks**\n- These should focus on things that might derail the scoping, development or launch of the asset\n- Include technical, social, privacy, temporal and other weaknesses or challenges\n- If possible briefly mention mitigation strategies",
-			"id": "2c84e3241051b656",
-			"x": 2779,
-			"y": 1565,
-			"width": 422,
-			"height": 135,
-			"color": "4"
-		},
-		{
-			"type": "text",
-			"text": "**Now what?**\n\n- Once you have completed the canvas, you will have an overview of your asset and its requirements. This can guide the development or adoption of the asset including any additional documents you need to prepare or *gaps* in your understanding that need to be filled.\n\n- Sharing the canvas for comment either as a public document or directly with key stakeholders and early adopters will open you up to useful feedback early on.\n\n- It’s worth returning to the canvas as you progress to keep your development on track. ",
-			"id": "180d75cfb95b6da3",
-			"x": 3065,
-			"y": 2526,
-			"width": 733,
-			"height": 294
-		},
-		{
-			"type": "text",
-			"text": "## HOW                                                                      ",
-			"id": "43c13c92238d29d3",
-			"x": 2779,
-			"y": 1140,
-			"width": 250,
-			"height": 60,
-			"color": "5"
-		},
-		{
-			"type": "text",
-			"text": "*Example*\n- *Intersect (Name members)*\n- *???(Funding Entities - name specific point person)*\n----\n",
-			"id": "4f0350bd7cf5173b",
-			"x": 2056,
-			"y": 1344,
-			"width": 536,
-			"height": 230,
-			"color": "6"
-		},
-		{
-			"type": "text",
-			"text": "Step Nine: Engagement\n- keeping the development team in touch with the key participants and early adopters is crucial, but also other stakeholders in the effort as well, including indirect users\n- This is less about direct or targeted contact than it is about identifying *where* these additional stakeholders might be found and developing effective communications into these areas\n- This will develop and inform many aspects of the asset, from testing to implementation, so be prepared to continually update this section, and consider a dedicated space to collect the feedback early",
-			"id": "32e72f952d7deb3b",
-			"x": 2056,
-			"y": 1574,
-			"width": 422,
-			"height": 135,
-			"color": "4"
-		},
-		{
-			"type": "text",
-			"text": "## WHO                                                                     ",
-			"id": "48347191461de9c5",
-			"x": 2056,
-			"y": 784,
-			"width": 250,
-			"height": 60,
-			"color": "5"
-		},
-		{
-			"type": "text",
-			"text": "**Step 7: Key Participants**\n- Establish here who will be affected by and use the assets created\n- Note how communication will be established and maintained with each community or individual\n- The key participants are those who develop, maintain and fund the asset, as well as those who directly use or share the assets produced",
-			"id": "55ef1527919bb25d",
-			"x": 2056,
-			"y": 844,
-			"width": 422,
-			"height": 135,
-			"color": "4"
-		},
-		{
-			"type": "text",
-			"text": "*Example*\n- *Governance participants who have been using the existing standards*\n- *Founding stewards of governance (IOG, CF, Intersect) who have been deeply involved in bootstrapping and developing governance processes*\n- *Governance members who have been unable to effectively use existing standards*\n---\n",
-			"id": "577420ba333fa016",
-			"x": 2056,
-			"y": 979,
-			"width": 536,
-			"height": 230,
-			"color": "6"
-		},
-		{
-			"type": "text",
-			"text": "**Step Eight: Early Adopters**\n- These are the people or groups most likely to first use these assets\n- They should be involved early and often in the development of the standards\n- Try to be very specific:  MEMBER NAME (Group Name) is a good start",
-			"id": "f2bff6ade2b435fa",
-			"x": 2056,
-			"y": 1209,
-			"width": 422,
-			"height": 135,
-			"color": "4"
-		},
-		{
-			"type": "text",
-			"text": "*Example*\n- *Community X has funding available to setup communications that may help us*\n- *Individual Y has experience mapping ecosystems and is available to help with that phase*\n- *Group Z is known to have a strong Github presence.  They may be willing to advise on our efforts there*\n----\n",
-			"id": "b970cf83484b2758",
-			"x": 2779,
-			"y": 2065,
-			"width": 536,
-			"height": 230,
-			"color": "6"
-		},
-		{
-			"type": "text",
-			"text": "**Step Ten: Key Impacts**\n- Share here what the benefits are once these standards and agreements are in place and the asset is available\n- Think about what might change because of the adoption of this asset?",
-			"id": "954a1c71cfec4081",
-			"x": 2779,
-			"y": 1200,
-			"width": 422,
-			"height": 135,
-			"color": "4"
-		},
-		{
-			"type": "text",
-			"text": "*Example*\n- *All proposals will be able to be browsed and compared*\n- *The 'problem space' will be well-defined and, when intractable, will indicate clear opportunities for new assets*\n- *discussion around improvements will more easily iterate suggestions leading to quicker turnaround on implementation*\n---\n",
-			"id": "7f8df9f344ceb0e3",
-			"x": 2779,
-			"y": 1335,
-			"width": 536,
-			"height": 230,
-			"color": "6"
-		},
-		{
-			"type": "text",
-			"text": "**Step Five: The Asset**\n- Can also be thought of as The Solution, but try to think instead about how to build tools for others to use to build their own solutions\n- How will this asset help realize the Opportunity from step 3?\n- It may be helpful to compare this asset to other assets currently available",
-			"id": "9738f2878dc93109",
-			"x": 1355,
-			"y": 1574,
-			"width": 422,
-			"height": 135,
-			"color": "4"
-		}
+	"nodes":[
+		{"type":"group","id":"fac8975b632a1762","x":569,"y":756,"width":2845,"height":1624,"label":"How?"},
+		{"type":"group","id":"0b0dbb97b6b45f56","x":1236,"y":-1785,"width":1621,"height":1783,"label":"Open Standards"},
+		{"type":"group","id":"1ef42f0e9f97519d","x":-428,"y":1267,"width":744,"height":602,"label":"What?"},
+		{"type":"group","id":"b5684c1892c42432","x":-565,"y":728,"width":1018,"height":350,"label":"Who?"},
+		{"type":"text","text":"Guides","id":"956fe6f9b030613b","x":2588,"y":-87,"width":250,"height":65,"color":"2"},
+		{"type":"text","text":"Templates","id":"e54f96f93f8dab31","x":2588,"y":-737,"width":250,"height":60,"color":"2"},
+		{"type":"text","text":"Protocols","id":"f08ab871035b9b33","x":2588,"y":-252,"width":250,"height":60,"color":"2"},
+		{"type":"text","text":"Models","id":"4d6a1df038a0de08","x":2588,"y":-422,"width":250,"height":60,"color":"2"},
+		{"type":"text","text":"vocabularies","id":"35a15545f5993ea4","x":2588,"y":-1459,"width":250,"height":60,"color":"2"},
+		{"type":"text","text":"Who will be most interested in this canvas?","id":"cd5eed44643c2a92","x":-155,"y":748,"width":250,"height":60,"color":"5"},
+		{"type":"text","text":"Individuals or groups interested in using or developing an agreement for how to create and share changes to governance","id":"e797098839b54b82","x":-545,"y":806,"width":250,"height":153,"color":"6"},
+		{"type":"text","text":"Individuals or groups interested in sharing changes to governance","id":"94f0d14cfe8c6366","x":183,"y":826,"width":250,"height":114,"color":"6"},
+		{"type":"text","text":"Individuals or groups who are interested in exploring how agreements around changes in governance can help them create solutions.","id":"2cf1b9cdeaaf317f","x":-155,"y":909,"width":250,"height":149,"color":"6"},
+		{"type":"text","text":"Specifications","id":"21035133a90e253c","x":2588,"y":-1077,"width":250,"height":60,"color":"2"},
+		{"type":"text","text":"Schemas","id":"594ad77506b5a4e7","x":2588,"y":-907,"width":250,"height":60,"color":"2"},
+		{"type":"text","text":"Ontologies","id":"3c76bec8f216e738","x":2588,"y":-1305,"width":250,"height":60,"color":"2"},
+		{"type":"text","text":"## Types of Standards","id":"b6236025b2d40efc","x":1331,"y":-905,"width":250,"height":60,"color":"3"},
+		{"type":"text","text":"Taxonomies","id":"4fa6ed14ecc913d7","x":2588,"y":-1599,"width":250,"height":60,"color":"2"},
+		{"type":"text","text":"Registers","id":"d00285218fd190c5","x":2588,"y":-1765,"width":250,"height":60,"color":"2"},
+		{"type":"file","file":"framework/Open Standards Main Map/Phase 1 Scope and Start/Information Exchange.md","id":"96e43b21a5af667f","x":2029,"y":-1077,"width":400,"height":400,"color":"3"},
+		{"type":"file","file":"framework/Open Standards Main Map/Phase 1 Scope and Start/Shared Vocabularies.md","id":"350e7cb1c34e32ad","x":2029,"y":-1705,"width":400,"height":400,"color":"3"},
+		{"type":"file","file":"framework/Open Standards Main Map/Phase 1 Scope and Start/Provide Guidance.md","id":"2b12b72647333b4e","x":2029,"y":-422,"width":400,"height":400,"color":"3"},
+		{"type":"text","text":"**Step Two: High level details**\n- Does this effort have a name?\n- Who is the team behind the effort","id":"d059bcd18c0c975f","x":638,"y":1580,"width":422,"height":136,"color":"4"},
+		{"type":"text","text":"*Example*\n- *CIPs*\n- *DRep Council WG*\n---\n- ","id":"70f1df0a5b11fc57","x":638,"y":1716,"width":536,"height":217,"color":"6"},
+		{"type":"file","file":"framework/Open Standards Main Map/Phase 1 Scope and Start/On a Governance Open Standard.md","id":"1e11fdd42546441e","x":1256,"y":-1399,"width":400,"height":400,"color":"3"},
+		{"type":"text","text":"*Example*\n- *What if...changes to governance could be shared and discussed in a transparent, accessible way to speed up effective improvement?*\n---\n- ","id":"b5c68f4462080310","x":638,"y":1351,"width":536,"height":229,"color":"6"},
+		{"type":"text","text":"*Example*\n- *Ideas that affect a large number of communities in Cardano can effectively reach high levels of saturation among the affected in order to collect consistent feedback that can dial the idea in tightly.*\n- *Voting on improvements can be organized around detailed, consistent comparisons between suggestions that have fully explored the opportunity space where they will be implemented*\n---\n","id":"abe29118de5ff864","x":1355,"y":2074,"width":536,"height":230,"color":"6"},
+		{"type":"text","text":"*Example*\n- *Proper scoping and communication could be compromised by a \"Hurry and Do something NOW\" approach -- adopt a \"Be patient and Do something RIGHT\" approach*\n- *The effort may require too much time to execute within Voting communities' windows of tolerance -- adopt good comms, test early and often, work closely with early adopters*\n- *Development may struggle to source funding -- communicate closely with governance participants to keep community aware of this issue and to surface funding opportunities*\n- *Perceived lack of benefit to communities -- demonstrate use in testing*","id":"eaba12e1159970fa","x":2779,"y":1700,"width":536,"height":230,"color":"6"},
+		{"type":"text","text":"**Now what?**\n\n- Once you have completed the canvas, you will have an overview of your asset and its requirements. This can guide the development or adoption of the asset including any additional documents you need to prepare or *gaps* in your understanding that need to be filled.\n\n- Sharing the canvas for comment either as a public document or directly with key stakeholders and early adopters will open you up to useful feedback early on.\n\n- It’s worth returning to the canvas as you progress to keep your development on track. ","id":"180d75cfb95b6da3","x":3065,"y":2526,"width":733,"height":294},
+		{"type":"text","text":"*Example*\n- *Community X has funding available to setup communications that may help us*\n- *Individual Y has experience mapping ecosystems and is available to help with that phase*\n- *Group Z is known to have a strong Github presence.  They may be willing to advise on our efforts there*\n----\n","id":"b970cf83484b2758","x":2779,"y":2065,"width":536,"height":230,"color":"6"},
+		{"type":"text","text":"*Example*\n- *All proposals will be able to be browsed and compared*\n- *The 'problem space' will be well-defined and, when intractable, will indicate clear opportunities for new assets*\n- *discussion around improvements will more easily iterate suggestions leading to quicker turnaround on implementation*\n---\n","id":"7f8df9f344ceb0e3","x":2779,"y":1335,"width":536,"height":230,"color":"6"},
+		{"type":"text","text":"*Example*\n- *Outreach via Social Media\n- *X Spaces to reach the edges*\n- *Forums as part of early outreach and testing*\n- *Live workshops to test platforms*\n- *Dedicated hosting for full integration of asset*\n---\n ","id":"ba53ca6952b37c96","x":2056,"y":1709,"width":536,"height":230,"color":"6"},
+		{"type":"text","text":"- high level\n- single view\n- prototype\n\nShows:\n- opportunity\n- available resources\n- risks\n- impacts\n\nIt outlines:\n- How to begin development of an agreement around sharing changes in Catalyst","id":"aa6cd98dd7b5b0f1","x":-408,"y":1405,"width":288,"height":444,"color":"4"},
+		{"type":"text","text":"- **a detailed document** - a high level view is used to spot gaps and clarify assumptions\n- **a roadmap** - this is for outlining the proposed opportunity, but can be used to scope out a roadmap later\n- **a complete guide** - the intent is to cover key areas in order to get started, with insight into what further documentation is needed","id":"53b6af902b8826db","x":13,"y":1405,"width":283,"height":444,"color":"1"},
+		{"type":"text","text":"What this Canvas is:","id":"ecab610e639fb37e","x":-408,"y":1287,"width":250,"height":60,"color":"4"},
+		{"type":"text","text":"What this Canvas is NOT:","id":"2cb202bb29359141","x":46,"y":1287,"width":250,"height":60,"color":"1"},
+		{"type":"text","text":"**Step Eleven: Major Risks**\n- These should focus on things that might derail the scoping, development or launch of the asset\n- Include technical, social, privacy, temporal and other weaknesses or challenges\n- If possible briefly mention mitigation strategies","id":"2c84e3241051b656","x":2779,"y":1565,"width":422,"height":135,"color":"4"},
+		{"type":"text","text":"## HOW                                                                      ","id":"43c13c92238d29d3","x":2779,"y":1140,"width":250,"height":60,"color":"5"},
+		{"type":"text","text":"*Example*\n- *Intersect (Name members)*\n- *???(Funding Entities - name specific point person)*\n----\n","id":"4f0350bd7cf5173b","x":2056,"y":1344,"width":536,"height":230,"color":"6"},
+		{"type":"text","text":"Step Nine: Engagement\n- keeping the development team in touch with the key participants and early adopters is crucial, but also other stakeholders in the effort as well, including indirect users\n- This is less about direct or targeted contact than it is about identifying *where* these additional stakeholders might be found and developing effective communications into these areas\n- This will develop and inform many aspects of the asset, from testing to implementation, so be prepared to continually update this section, and consider a dedicated space to collect the feedback early","id":"32e72f952d7deb3b","x":2056,"y":1574,"width":422,"height":135,"color":"4"},
+		{"type":"text","text":"## WHY                                                                      ","id":"bf22c0a9a108d110","x":1355,"y":784,"width":250,"height":60,"color":"5"},
+		{"type":"text","text":"*Example*\n- *Common format for submission of Treasury Withdrawal Proposals*\n- *Guide to requesting DRep Council feedback*\n---\n- ","id":"5af0b928e2d5a82d","x":1355,"y":979,"width":536,"height":230,"color":"6"},
+		{"type":"text","text":"**Step Four: The Opportunity**\n- Can also be thought of as the Problem Statement\n- Think 'concise and clear'...summarize the effort and standard by combining steps 1 and 3","id":"4b17e1b32aac11f7","x":1355,"y":1209,"width":422,"height":135,"color":"4"},
+		{"type":"text","text":"**Step Six: Use Cases**\n- Integrate steps 3,4 and 5 here, by showing how they all come to gether to make step 1 a reality\n- It can be helpful to brainstorm a lot of use cases, and then distill  a few key use case concepts and describe those here","id":"18df6f3de2d17bc9","x":1355,"y":1939,"width":422,"height":135,"color":"4"},
+		{"type":"text","text":"*Example*\n- *A guide that familiarizes users with the challenges of creating successful improvement paths for governance would prepare them to take advantage of a submission format that makes discussion and comparison of improvements easy and reduce confusion and complication*\n---\n","id":"50b2d9c3d007e50b","x":1355,"y":1709,"width":536,"height":230,"color":"6"},
+		{"type":"text","text":"Step Twelve:  Key Resources\n- This effort can't be conducted in a vaccuum; funding, support for existing tools, support for communications are all needed to deliver the asset\n- Dedicate time to surfacing these resources, as it may make or break the effort.  ","id":"6413b2b3a68c3acf","x":2779,"y":1930,"width":422,"height":135,"color":"4"},
+		{"type":"text","text":"*Example*\n- *Clear, standardized proposals are the first step in creating agreement around meaningful change in governance*\n---\n","id":"be282f7b6b377a80","x":1355,"y":1344,"width":536,"height":230,"color":"6"},
+		{"type":"text","text":"**Step Eight: Early Adopters**\n- These are the people or groups most likely to first use these assets\n- They should be involved early and often in the development of the standards\n- Try to be very specific:  MEMBER NAME (Group Name) is a good start","id":"f2bff6ade2b435fa","x":2056,"y":1209,"width":422,"height":135,"color":"4"},
+		{"type":"text","text":"**Step Ten: Key Impacts**\n- Share here what the benefits are once these standards and agreements are in place and the asset is available\n- Think about what might change because of the adoption of this asset?","id":"954a1c71cfec4081","x":2779,"y":1200,"width":422,"height":135,"color":"4"},
+		{"type":"text","text":"**Step Five: The Asset**\n- Can also be thought of as The Solution, but try to think instead about how to build tools for others to use to build their own solutions\n- How will this asset help realize the Opportunity from step 3?\n- It may be helpful to compare this asset to other assets currently available","id":"9738f2878dc93109","x":1355,"y":1574,"width":422,"height":135,"color":"4"},
+		{"type":"text","text":"**Step Three: The Standard**\n- What does this effort offer, and what type of agreement or standard will be created?\n- Will it be a guide, or a shared vocabulary?  A format for sharing information?  A hybrid of all three?\n- Follow the yellow line for more details on this question\n-  Keep this section concise and make sure it aligns with Step 1","id":"4db431ad82780af4","x":1355,"y":844,"width":422,"height":135,"color":"4"},
+		{"type":"text","text":"## Tips:\n- work quickly\n- don't worry about getting stuck, this highlights areas to develop\n- expect to go through this at least once, and to update as sections clarify\n- Its fine to use placeholders and to return as it is updated\n- The canvas consists of 9 pillars supporting 3 sections (who/why/how)\n- These 9 pillars are expected to be the most important considerations for developing an agreement for how changes to governance are created and shared","id":"aea3134365ddc690","x":589,"y":776,"width":585,"height":318},
+		{"type":"text","text":"Tips\n- These three steps focus on impacts, risks and resources – what benefits the asset will bring, what could derail the scoping, development or launch of the asset and what’s available to help the effort deliver those benefits.\n- When completing these sections, remember to be concise and focus on getting started.\n- List the *strongest* benefits, the *major* risks and *known* resources. Keep in mind that unexpected benefits, new risks and unknown resources may come up as you assess or develop the effort.","id":"0ceb12c8a63947c7","x":2779,"y":784,"width":572,"height":310},
+		{"type":"text","text":"**Step One:  Overview**\n- Clarify the intent of this effort to develop the agreement.  Try phrasing it as a short, simple \"What if...?\" question.","id":"a325bf6dd037994a","x":638,"y":1210,"width":422,"height":141,"color":"4"},
+		{"type":"text","text":"## START                                                                   ","id":"8d221dd9d1cec61c","x":638,"y":1149,"width":250,"height":60,"color":"5"},
+		{"type":"text","text":"## WHO                                                                     ","id":"48347191461de9c5","x":2056,"y":784,"width":250,"height":60,"color":"5"},
+		{"type":"text","text":"**Step 7: Key Participants**\n- Establish here who will be affected by and use the assets created\n- Note how communication will be established and maintained with each community or individual\n- The key participants are those who develop, maintain and fund the asset, as well as those who directly use or share the assets produced","id":"55ef1527919bb25d","x":2056,"y":844,"width":422,"height":135,"color":"4"},
+		{"type":"text","text":"*Example*\n- *Governance participants who have been using the existing standards*\n- *Founding stewards of governance (IOG, CF, Intersect) who have been deeply involved in bootstrapping and developing governance processes*\n- *Governance members who have been unable to effectively use existing standards*\n---\n","id":"577420ba333fa016","x":2056,"y":979,"width":536,"height":230,"color":"6"}
 	],
-	"edges": [
-		{
-			"id": "a1509c012e49a1f9",
-			"fromNode": "cd5eed44643c2a92",
-			"fromSide": "left",
-			"toNode": "e797098839b54b82",
-			"toSide": "right"
-		},
-		{
-			"id": "e65f9dceb3052b0a",
-			"fromNode": "cd5eed44643c2a92",
-			"fromSide": "bottom",
-			"toNode": "2cf1b9cdeaaf317f",
-			"toSide": "top"
-		},
-		{
-			"id": "bf2e70471e38a47a",
-			"fromNode": "cd5eed44643c2a92",
-			"fromSide": "right",
-			"toNode": "94f0d14cfe8c6366",
-			"toSide": "left"
-		},
-		{
-			"id": "2f0a9fa3e538b720",
-			"fromNode": "ecab610e639fb37e",
-			"fromSide": "bottom",
-			"toNode": "aa6cd98dd7b5b0f1",
-			"toSide": "top"
-		},
-		{
-			"id": "d2d5a3925da2e9b9",
-			"fromNode": "ecab610e639fb37e",
-			"fromSide": "right",
-			"toNode": "2cb202bb29359141",
-			"toSide": "left"
-		},
-		{
-			"id": "421949768ed229b3",
-			"fromNode": "2cb202bb29359141",
-			"fromSide": "left",
-			"toNode": "ecab610e639fb37e",
-			"toSide": "right"
-		},
-		{
-			"id": "d01ce52358f993fa",
-			"fromNode": "2cb202bb29359141",
-			"fromSide": "bottom",
-			"toNode": "53b6af902b8826db",
-			"toSide": "top"
-		},
-		{
-			"id": "fffb8210c336e371",
-			"fromNode": "70f1df0a5b11fc57",
-			"fromSide": "right",
-			"toNode": "bf22c0a9a108d110",
-			"toSide": "left",
-			"color": "5"
-		},
-		{
-			"id": "5aa1c439dc5a1022",
-			"fromNode": "abe29118de5ff864",
-			"fromSide": "right",
-			"toNode": "48347191461de9c5",
-			"toSide": "left",
-			"color": "5"
-		},
-		{
-			"id": "4b254292feb3ebd1",
-			"fromNode": "ba53ca6952b37c96",
-			"fromSide": "right",
-			"toNode": "43c13c92238d29d3",
-			"toSide": "left",
-			"color": "5"
-		},
-		{
-			"id": "cf7f396f4a47809e",
-			"fromNode": "2b12b72647333b4e",
-			"fromSide": "right",
-			"toNode": "4d6a1df038a0de08",
-			"toSide": "left",
-			"color": "3"
-		},
-		{
-			"id": "90f3bcd447a039d2",
-			"fromNode": "2b12b72647333b4e",
-			"fromSide": "right",
-			"toNode": "f08ab871035b9b33",
-			"toSide": "left",
-			"color": "3"
-		},
-		{
-			"id": "e356ec9b69e10890",
-			"fromNode": "2b12b72647333b4e",
-			"fromSide": "right",
-			"toNode": "956fe6f9b030613b",
-			"toSide": "left",
-			"color": "3"
-		},
-		{
-			"id": "8a259319af51487a",
-			"fromNode": "b6236025b2d40efc",
-			"fromSide": "right",
-			"toNode": "2b12b72647333b4e",
-			"toSide": "left",
-			"color": "3"
-		},
-		{
-			"id": "5b4c2fe49b17ffc6",
-			"fromNode": "350e7cb1c34e32ad",
-			"fromSide": "right",
-			"toNode": "d00285218fd190c5",
-			"toSide": "left",
-			"color": "3"
-		},
-		{
-			"id": "50e5886cc234b9af",
-			"fromNode": "350e7cb1c34e32ad",
-			"fromSide": "right",
-			"toNode": "4fa6ed14ecc913d7",
-			"toSide": "left",
-			"color": "3"
-		},
-		{
-			"id": "9df350cbf07539ba",
-			"fromNode": "96e43b21a5af667f",
-			"fromSide": "right",
-			"toNode": "594ad77506b5a4e7",
-			"toSide": "left",
-			"color": "3"
-		},
-		{
-			"id": "4510686bd9748644",
-			"fromNode": "96e43b21a5af667f",
-			"fromSide": "right",
-			"toNode": "e54f96f93f8dab31",
-			"toSide": "left",
-			"color": "3"
-		},
-		{
-			"id": "4be85872c7de76d5",
-			"fromNode": "350e7cb1c34e32ad",
-			"fromSide": "right",
-			"toNode": "35a15545f5993ea4",
-			"toSide": "left",
-			"color": "3"
-		},
-		{
-			"id": "0d1bd3fb42131ae4",
-			"fromNode": "350e7cb1c34e32ad",
-			"fromSide": "right",
-			"toNode": "3c76bec8f216e738",
-			"toSide": "left",
-			"color": "3"
-		},
-		{
-			"id": "2b4ab9bc0edcb4f0",
-			"fromNode": "96e43b21a5af667f",
-			"fromSide": "right",
-			"toNode": "21035133a90e253c",
-			"toSide": "left",
-			"color": "3"
-		},
-		{
-			"id": "2f0386c96d6ddae5",
-			"fromNode": "1e11fdd42546441e",
-			"fromSide": "bottom",
-			"toNode": "b6236025b2d40efc",
-			"toSide": "top",
-			"color": "3"
-		},
-		{
-			"id": "a8555bd6b58a3100",
-			"fromNode": "b6236025b2d40efc",
-			"fromSide": "right",
-			"toNode": "350e7cb1c34e32ad",
-			"toSide": "left",
-			"color": "3"
-		},
-		{
-			"id": "5d36e042e71be023",
-			"fromNode": "b6236025b2d40efc",
-			"fromSide": "right",
-			"toNode": "96e43b21a5af667f",
-			"toSide": "left",
-			"color": "3"
-		},
-		{
-			"id": "b9b21e11c8b95584",
-			"fromNode": "4db431ad82780af4",
-			"fromSide": "right",
-			"toNode": "0b0dbb97b6b45f56",
-			"toSide": "bottom",
-			"color": "3"
-		},
-		{
-			"id": "739fbe010beb24c0",
-			"fromNode": "b970cf83484b2758",
-			"fromSide": "bottom",
-			"toNode": "180d75cfb95b6da3",
-			"toSide": "top"
-		},
-		{
-			"id": "2955bc2425e13ee0",
-			"fromNode": "0ceb12c8a63947c7",
-			"fromSide": "bottom",
-			"toNode": "43c13c92238d29d3",
-			"toSide": "right"
-		},
-		{
-			"id": "999d7b4f87639772",
-			"fromNode": "aea3134365ddc690",
-			"fromSide": "bottom",
-			"toNode": "8d221dd9d1cec61c",
-			"toSide": "top"
-		},
-		{
-			"id": "d9867e10fa07e539",
-			"fromNode": "b5684c1892c42432",
-			"fromSide": "bottom",
-			"toNode": "1ef42f0e9f97519d",
-			"toSide": "top"
-		},
-		{
-			"id": "208588906af140a9",
-			"fromNode": "1ef42f0e9f97519d",
-			"fromSide": "right",
-			"toNode": "fac8975b632a1762",
-			"toSide": "left"
-		}
+	"edges":[
+		{"id":"a1509c012e49a1f9","fromNode":"cd5eed44643c2a92","fromSide":"left","toNode":"e797098839b54b82","toSide":"right"},
+		{"id":"e65f9dceb3052b0a","fromNode":"cd5eed44643c2a92","fromSide":"bottom","toNode":"2cf1b9cdeaaf317f","toSide":"top"},
+		{"id":"bf2e70471e38a47a","fromNode":"cd5eed44643c2a92","fromSide":"right","toNode":"94f0d14cfe8c6366","toSide":"left"},
+		{"id":"2f0a9fa3e538b720","fromNode":"ecab610e639fb37e","fromSide":"bottom","toNode":"aa6cd98dd7b5b0f1","toSide":"top"},
+		{"id":"d2d5a3925da2e9b9","fromNode":"ecab610e639fb37e","fromSide":"right","toNode":"2cb202bb29359141","toSide":"left"},
+		{"id":"421949768ed229b3","fromNode":"2cb202bb29359141","fromSide":"left","toNode":"ecab610e639fb37e","toSide":"right"},
+		{"id":"d01ce52358f993fa","fromNode":"2cb202bb29359141","fromSide":"bottom","toNode":"53b6af902b8826db","toSide":"top"},
+		{"id":"fffb8210c336e371","fromNode":"70f1df0a5b11fc57","fromSide":"right","toNode":"bf22c0a9a108d110","toSide":"left","color":"5"},
+		{"id":"5aa1c439dc5a1022","fromNode":"abe29118de5ff864","fromSide":"right","toNode":"48347191461de9c5","toSide":"left","color":"5"},
+		{"id":"4b254292feb3ebd1","fromNode":"ba53ca6952b37c96","fromSide":"right","toNode":"43c13c92238d29d3","toSide":"left","color":"5"},
+		{"id":"cf7f396f4a47809e","fromNode":"2b12b72647333b4e","fromSide":"right","toNode":"4d6a1df038a0de08","toSide":"left","color":"3"},
+		{"id":"90f3bcd447a039d2","fromNode":"2b12b72647333b4e","fromSide":"right","toNode":"f08ab871035b9b33","toSide":"left","color":"3"},
+		{"id":"e356ec9b69e10890","fromNode":"2b12b72647333b4e","fromSide":"right","toNode":"956fe6f9b030613b","toSide":"left","color":"3"},
+		{"id":"8a259319af51487a","fromNode":"b6236025b2d40efc","fromSide":"right","toNode":"2b12b72647333b4e","toSide":"left","color":"3"},
+		{"id":"5b4c2fe49b17ffc6","fromNode":"350e7cb1c34e32ad","fromSide":"right","toNode":"d00285218fd190c5","toSide":"left","color":"3"},
+		{"id":"50e5886cc234b9af","fromNode":"350e7cb1c34e32ad","fromSide":"right","toNode":"4fa6ed14ecc913d7","toSide":"left","color":"3"},
+		{"id":"9df350cbf07539ba","fromNode":"96e43b21a5af667f","fromSide":"right","toNode":"594ad77506b5a4e7","toSide":"left","color":"3"},
+		{"id":"4510686bd9748644","fromNode":"96e43b21a5af667f","fromSide":"right","toNode":"e54f96f93f8dab31","toSide":"left","color":"3"},
+		{"id":"4be85872c7de76d5","fromNode":"350e7cb1c34e32ad","fromSide":"right","toNode":"35a15545f5993ea4","toSide":"left","color":"3"},
+		{"id":"0d1bd3fb42131ae4","fromNode":"350e7cb1c34e32ad","fromSide":"right","toNode":"3c76bec8f216e738","toSide":"left","color":"3"},
+		{"id":"2b4ab9bc0edcb4f0","fromNode":"96e43b21a5af667f","fromSide":"right","toNode":"21035133a90e253c","toSide":"left","color":"3"},
+		{"id":"2f0386c96d6ddae5","fromNode":"1e11fdd42546441e","fromSide":"bottom","toNode":"b6236025b2d40efc","toSide":"top","color":"3"},
+		{"id":"a8555bd6b58a3100","fromNode":"b6236025b2d40efc","fromSide":"right","toNode":"350e7cb1c34e32ad","toSide":"left","color":"3"},
+		{"id":"5d36e042e71be023","fromNode":"b6236025b2d40efc","fromSide":"right","toNode":"96e43b21a5af667f","toSide":"left","color":"3"},
+		{"id":"b9b21e11c8b95584","fromNode":"4db431ad82780af4","fromSide":"right","toNode":"0b0dbb97b6b45f56","toSide":"bottom","color":"3"},
+		{"id":"739fbe010beb24c0","fromNode":"b970cf83484b2758","fromSide":"bottom","toNode":"180d75cfb95b6da3","toSide":"top"},
+		{"id":"2955bc2425e13ee0","fromNode":"0ceb12c8a63947c7","fromSide":"bottom","toNode":"43c13c92238d29d3","toSide":"right"},
+		{"id":"999d7b4f87639772","fromNode":"aea3134365ddc690","fromSide":"bottom","toNode":"8d221dd9d1cec61c","toSide":"top"},
+		{"id":"d9867e10fa07e539","fromNode":"b5684c1892c42432","fromSide":"bottom","toNode":"1ef42f0e9f97519d","toSide":"top"},
+		{"id":"208588906af140a9","fromNode":"1ef42f0e9f97519d","fromSide":"right","toNode":"fac8975b632a1762","toSide":"left"}
 	]
 }

@@ -29,8 +29,6 @@ Create consistent ways for governance information or governance objects to move 
 
 Exchange standards become useful when participants agree broadly on what information matters but lack interoperable ways to represent or transfer it.
 
-Typical framing emphasizes common formats and shared rules, including formats, data types, transfers, schemas, and mappings between models and exchange formats.
-
 ## Governance-native forms
 
 An exchange standard might specify:

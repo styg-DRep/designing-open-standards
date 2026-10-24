@@ -42,8 +42,6 @@ A shared-vocabulary standard is useful when coordination is breaking down becaus
 - cannot compare information because concepts are modeled differently.
     
 
-We typically identify registers, taxonomies, vocabularies, and ontologies as common forms, and note that shared vocabularies may standardize concepts, words, attributes, relationships, identifiers, measures, and models.
-
 ## Governance-native forms
 
 A shared-vocabulary standard might define:
