@@ -1,0 +1,142 @@
+# Review phase — criteria crosswalk for its two gates
+#
+#   Review Outcomes (Gate)        — is the review complete enough to decide?   (within-phase gate)
+#   Update or Retire (Phase Gate) — is the lifecycle decision ready?            (phase gate)
+#
+# `criterion` text is verbatim from the two notes in
+# framework/Open Standards Main Map/Phase 4 Review and Update/ ("Gate Criteria"), with sentence
+# case and trailing punctuation normalized. Ids, `consult` and `returns_to` are an
+# INTERPRETATION LAYER. Update or Retire's criteria have no failure routes yet (`returns_to: null`):
+# the framework has not defined where the gate sends an effort when they are not met.
+
+version: 1
+phase: review
+gate_node: update-or-retire-phase-gate
+baseline: Scope and Start, Development Outcomes, and Launch and Adoption Outcomes bundles
+
+statuses:
+  met: Sufficient evidence the criterion is true.
+  partial: Some evidence, but material gaps remain.
+  not-met: Evidence shows the criterion is not true.
+  not-evidenced: No evidence either way was found in the sources examined.
+  not-applicable: Genuinely does not apply; say why.
+
+evidence_tags: [observed, reported, inferred, assumed, contested, unknown]
+
+# Review Outcomes — "Fitness Assessment"
+fitness_classes: [fit, fit-with-maintenance, fit-with-update, requires-reframing, superseded, unsustainable, harmful-misaligned]
+
+# Deciding Next Steps — "Pattern: Classify Change Severity"
+change_classes: [patch, minor, major, deprecation, retirement]
+
+gates:
+  - gate_node: review-outcomes-gate
+    gate_outcomes: [proceed-to-decide-next-steps, return-to-review-process, return-to-monitoring, return-to-scope, emergency-action]
+    domains:
+      - domain: Review Completeness
+        criteria:
+          - id: review.outcomes.trigger-addressed
+            criterion: The trigger has been addressed.
+            consult: [deciding-to-review, review-process]
+            returns_to: review-process
+          - id: review.outcomes.evidence-collected
+            criterion: Relevant evidence has been collected.
+            consult: [review-process, reviewing-the-standard]
+            returns_to: review-process
+          - id: review.outcomes.aims-reconsidered
+            criterion: Original aims and use cases have been reconsidered.
+            consult: [key-review-questions, decide-on-aims-and-objectives]
+            returns_to: review-process
+          - id: review.outcomes.adoption-impact-understood
+            criterion: Actual adoption and impact are understood well enough.
+            consult: [key-review-questions, monitor-adoption]
+            returns_to: monitor-adoption
+          - id: review.outcomes.defects-prioritized
+            criterion: Major defects and requested changes are prioritized.
+            consult: [review-process, reviewing-the-standard]
+            returns_to: review-process
+          - id: review.outcomes.ecosystem-visible
+            criterion: Ecosystem changes are visible.
+            consult: [key-review-questions, monitor-adoption]
+            returns_to: monitor-adoption
+          - id: review.outcomes.sustainability-assessed
+            criterion: Sustainability is assessed.
+            consult: [key-review-questions, think-about-sustainability]
+            returns_to: review-process
+          - id: review.outcomes.adopters-considered
+            criterion: Affected adopters have been considered.
+            consult: [review-process]
+            returns_to: review-process
+          - id: review.outcomes.disagreements-documented
+            criterion: Major disagreements are documented.
+            consult: [review-process]
+            returns_to: review-process
+          - id: review.outcomes.options-evaluated
+            criterion: Plausible next-step options have been evaluated.
+            consult: [review-process, deciding-next-steps]
+            returns_to: review-process
+
+  - gate_node: update-or-retire-phase-gate
+    gate_outcomes: [maintain, minor-update, major-update, rescope, deprecate, retire]
+    exits:  # labelled exit edges on the canvas; the Lifecycle Decision Record is the baseline each re-entry inherits
+      maintain: monitor-adoption
+      minor-update: develop-the-standard
+      major-update: scope-and-start-phase-gate
+      rescope: frame-the-opportunity
+      deprecate: null
+      retire: null
+    domains:
+      - domain: Lifecycle Decision
+        criteria:
+          - id: review.decision.findings-clear
+            criterion: Review findings are sufficiently clear.
+            consult: [review-outcomes-gate]
+            returns_to: null
+          - id: review.decision.adopter-consequences
+            criterion: Consequences for current adopters are understood.
+            consult: [deciding-next-steps]
+            returns_to: null
+          - id: review.decision.governance-aligned
+            criterion: The decision aligns with the standard's governance process.
+            consult: [deciding-next-steps, governance-sustainability]
+            returns_to: null
+          - id: review.decision.objections-documented
+            criterion: Material objections are documented.
+            consult: [review-process]
+            returns_to: null
+          - id: review.decision.sustainability-understood
+            criterion: Sustainability implications are understood.
+            consult: [deciding-next-steps, think-about-sustainability]
+            returns_to: null
+          - id: review.decision.migration-assessed
+            criterion: Migration consequences are assessed.
+            consult: [deciding-next-steps]
+            returns_to: null
+          - id: review.decision.communication-known
+            criterion: Communication requirements are known.
+            consult: [deciding-next-steps]
+            returns_to: null
+          - id: review.decision.destination-explicit
+            criterion: The destination lifecycle path is explicit.
+            consult: [update-or-retire-phase-gate, lifecycle-decision-record]
+            returns_to: null
+          - id: review.decision.obligations-accepted
+            criterion: Responsible actors have accepted the next-step obligations.
+            consult: [update-or-retire-phase-gate]
+            returns_to: null
+
+bundle_components:
+  - {component: Review Outcomes Bundle, template: review.yaml, nodes: [review-outcomes-gate]}
+  - {component: Review Findings, template: review.yaml, nodes: [reviewing-the-standard]}
+  - {component: Update Plan, template: lifecycle-decision-record.yaml, nodes: [deciding-next-steps]}
+  - {component: Lifecycle Decision Record, template: lifecycle-decision-record.yaml, nodes: [update-or-retire-phase-gate, lifecycle-decision-record]}
+
+red_flags:
+  - {flag: "Review defends the existing standard instead of comparing expectation with reality", source: review}
+  - {flag: "Reviewing and deciding performed by the same people with no separation or record", source: review-process}
+  - {flag: "Review turns into an unstructured backlog discussion; questions not prioritized", source: review-process}
+  - {flag: "Review leads automatically to an update rather than to a bounded set of options", source: review-outcomes-gate}
+  - {flag: "Breaking change justified as if no one had adopted the standard", source: deciding-next-steps}
+  - {flag: "Major update that changes surface, actors, use cases, objective or ToC goes straight to Development", source: update-or-retire-phase-gate}
+  - {flag: "Retirement by abandonment: no status, successor, archive or stewardship transfer", source: deciding-next-steps}
+  - {flag: "Version support left implicit", source: deciding-next-steps}

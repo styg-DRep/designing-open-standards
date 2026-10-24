@@ -1,0 +1,43 @@
+# Working records for the Launch and Adoption phase.
+# sources: Plan and Launch ("Launch Artifact"), Support Adoption ("Treat Support Requests as Evidence"),
+#          Monitor Adoption (framework/Open Standards Main Map/Phase 3 Launch and Adoption/)
+
+launch:
+  release:
+    version:
+    stable_components: []
+    experimental_components: []
+    release_date:
+  audiences: []
+  adoption_entry_points: []    # a next action per audience: implementers, infrastructure providers, communities, researchers ...
+  support_channels: []
+  known_limitations: []
+  launch_channels: []
+  case_studies: []
+  demonstrations: []
+  feedback_paths: []
+  review_triggers: []
+
+adopters:                      # Monitor Adoption — behavior, not just reach
+  - actor:
+    direct_or_indirect:
+    depth:                     # awareness | experimentation | adoption | routine use | dependency | ecosystem integration
+    use_cases: []
+    local_modifications:       # "Watch the Forks" — divergence may be feedback, not misuse
+    evidence:
+    tag:                       # observed | reported | inferred | assumed | contested | unknown
+
+support_issues:
+  - support_issue:
+    category:                  # documentation | specification | tooling | interoperability | governance | education | adoption-cost
+    frequency:
+    severity:
+    resolution:
+    feeds:                     # node it feeds back into (Development, Review ...)
+
+snapshots:                     # "Preserve Longitudinal Scoping Artifacts": Scope baseline → Launch snapshot → Review snapshot
+  actor_map:
+  ecosystem_map:
+  theory_of_change:
+  standard_position:           # peripheral guidance | shared vocabulary | common interface | de facto infrastructure
+                               # | institutional requirement | dependency | contested coordination point

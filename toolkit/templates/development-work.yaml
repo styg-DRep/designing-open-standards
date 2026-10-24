@@ -1,0 +1,59 @@
+# Working records for the Development phase.
+# sources: Roles and Responsibilities ("Team Artifact"), Testing ("Every Important Failure Becomes Information"),
+#          Decision and Provenance Record, Development Platform ("Preserve Provenance")
+#          (framework/Open Standards Main Map/Phase 2 Development/)
+
+team:                      # roles are functions, not offices; one person may hold several
+  roles:
+    - role:                # process steward / facilitator | editor | implementer | tester | domain expert
+                           # | contributor / reviewer | community / ecosystem liaison | evidence / research steward
+      responsibilities: []
+      current_holders: []
+      authority:
+      required_inputs: []
+      produces: []
+      unresolved_capacity:
+  decision_rights:
+  participation_paths: []
+  missing_capabilities: []
+
+test_records:              # record what failed, not only what passed
+  - test:
+    type:                  # semantic | conformance | interoperability | use-case | implementation
+                           # | adoption-usability | governance | regression | adversarial-edge
+    expected:
+    observed:
+    classification:        # specification-defect | implementation-defect | documentation-defect
+                           # | use-case-defect | assumption-defect
+    severity:
+    resolution:            # specification change | documentation change | implementation correction
+                           # | use-case revision | accepted limitation | deferred issue | return to Scope
+
+decisions:                 # the specification says what; the decision record says why
+  - id:
+    proposed_by:
+    problem:
+    alternatives_considered: []
+    feedback_received: []
+    decision:
+    rationale:
+    objections: []
+    issue_links: []
+    release:
+
+component_maturity:        # "Stable Core, Explicit Edge"
+  stable: []
+  candidate: []
+  experimental: []
+  deprecated: []
+  deferred: []
+
+progress_updates:          # "Share for Response"
+  - version:
+    what_changed:
+    why:
+    unresolved: []
+    being_tested: []
+    feedback_needed:
+    respond_by:
+    how_to_respond:

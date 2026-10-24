@@ -1,6 +1,6 @@
 # Scope and Start gate — criteria crosswalk
 #
-# `criterion` text is verbatim from framework/Open Standards Main Map/Scope and Start (Phase Gate).md
+# `criterion` text is verbatim from framework/Open Standards Main Map/Phase 1 Scope and Start/Scope and Start (Phase Gate).md
 # ("Scope and Start Gate Criteria"). Everything else here — the stable ids, which nodes to
 # consult, and which node to return to — is an INTERPRETATION LAYER derived from the gate note
 # and the returns-to routes on the main canvas. Where the two disagree, the framework wins;
@@ -158,7 +158,7 @@ domains:
         returns_to: decide-on-aims-and-objectives
       - id: design.accessibility
         criterion: Accessibility needs have been considered.
-        consult: [accessibility-and-translation]
+        consult: [inclusivity]
         returns_to: decide-on-aims-and-objectives
 
   - domain: Development

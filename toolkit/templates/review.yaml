@@ -1,0 +1,46 @@
+# sources: Deciding To Review, Review Process, Reviewing the Standard ("Review Findings Structure"),
+#          Review Outcomes (Gate) (framework/Open Standards Main Map/Phase 4 Review and Update/)
+
+review:
+  trigger:                     # scheduled | adoption | evidence | defect | change-request | ecosystem-change
+                               # | sustainability | harm-risk | scope-drift
+  initiated_by:
+  urgency:
+  scope:                       # full lifecycle | adoption | technical | interoperability | governance | sustainability
+                               # | impact | accessibility | narrow feature
+  out_of_scope: []
+  may_recommend: []
+  reviewers: []                # separate reviewing from deciding
+  decision_authority:
+  consulted: []
+  may_object: []
+baselines:                     # Step 5 — Revisit the Baselines
+  scope_and_start_bundle:
+  development_outcomes_bundle:
+  launch_and_adoption_outcomes_bundle:
+findings:
+  adoption:
+  usability:
+  impact:
+  interoperability:
+  defects:
+  change_requests:
+  governance:
+  sustainability:
+  ecosystem_change:
+  scope_integrity:
+theory_of_change:              # was the causal theory broadly correct?
+  assumed_vs_observed_mechanism:
+  assumed_vs_observed_outcome:
+  assumed_vs_actual_beneficiaries:
+  assumed_vs_actual_risks:
+evidence: []
+confidence:
+dissent: []                    # objections, minority views, contested evidence, unresolved risks
+unresolved_questions: []
+options: []                    # each: {option, adopter_impact, migration_burden, interoperability, governance_burden,
+                               #        sustainability, risk, ecosystem_effect, reversibility}
+fitness:                       # fit | fit-with-maintenance | fit-with-update | requires-reframing | superseded
+                               # | unsustainable | harmful-misaligned
+review_outcome:                # proceed-to-decide-next-steps | return-to-review-process | return-to-monitoring
+                               # | return-to-scope | emergency-action

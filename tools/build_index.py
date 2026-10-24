@@ -66,13 +66,23 @@ def intent_of(body: str) -> str:
         if re.match(r"#+\s*Intent\b", line.strip()):
             start = i + 1
             break
-    para = []
+    para, quoted = [], False
     for line in lines[start:]:
         s = line.strip()
         if not s:
-            if para:
+            if para and not para[-1].endswith(":") and not quoted:
                 break
             continue
+        if para and para[-1].endswith(":") and s.startswith(">"):
+            para.append(s.lstrip("> ").strip())
+            quoted = True
+            continue
+        if quoted:  # allow a short connector ("and:") between quoted fragments, then stop
+            if s.endswith(":") and len(s) < 20:
+                para.append(s)
+                quoted = False
+                continue
+            break
         if s.startswith(("#", "```", "---", ">")) and not para:
             continue
         if s.startswith(("#", "```")):
@@ -137,12 +147,14 @@ def load_canvases(notes, errors: list[str]):
         file_count = 0
         for n in nodes.values():
             if n["type"] == "file":
-                if n["file"] not in notes:
-                    if not (VAULT / n["file"]).exists():
-                        errors.append(f"{crel}: links missing file '{n['file']}'")
+                key = n["file"].removeprefix("framework/")
+                if not n["file"].startswith("framework/") or key not in notes:
+                    if not (ROOT / n["file"]).exists() or not n["file"].startswith("framework/"):
+                        errors.append(f"{crel}: link '{n['file']}' does not resolve from the repository root "
+                                      "(try: python tools/fix_canvas_paths.py)")
                     continue
                 file_count += 1
-                note = notes[n["file"]]
+                note = notes[key]
                 if f"framework/{crel}" not in note["canvases"]:
                     note["canvases"].append(f"framework/{crel}")
                 for g in groups:
@@ -157,8 +169,8 @@ def load_canvases(notes, errors: list[str]):
             n = nodes.get(nid)
             if not n:
                 return None
-            if n["type"] == "file" and n["file"] in notes:
-                return ("note", notes[n["file"]]["id"])
+            if n["type"] == "file" and n["file"].removeprefix("framework/") in notes:
+                return ("note", notes[n["file"].removeprefix("framework/")]["id"])
             if n["type"] == "text":
                 return ("text", n["text"].strip())
             return None
@@ -224,24 +236,28 @@ def build():
         if not n["canvases"]:
             warnings.append(f"{n['path']}: not placed on any canvas")
     ids = {n["id"] for n in nodes}
-    crosswalk = ROOT / "toolkit" / "scope-gate-criteria.yaml"
-    if crosswalk.exists():
+    seen_ids: dict[str, str] = {}
+    for crosswalk in sorted((ROOT / "toolkit").glob("*-gate-criteria.yaml")):
+        name = f"toolkit/{crosswalk.name}"
         cw = yaml.safe_load(crosswalk.read_text(encoding="utf-8"))
+        gates = cw.get("gates") or [cw]
         refs = [cw.get("gate_node")]
-        seen_ids = set()
-        for d in cw.get("domains", []):
-            for c in d.get("criteria", []):
-                if c["id"] in seen_ids:
-                    errors.append(f"toolkit/scope-gate-criteria.yaml: duplicate criterion id {c['id']}")
-                seen_ids.add(c["id"])
-                refs += c.get("consult", []) + [c.get("returns_to")]
+        for g in gates:
+            refs.append(g.get("gate_node"))
+            refs += [t for t in (g.get("exits") or {}).values()]
+            for d in g.get("domains", []):
+                for c in d.get("criteria", []):
+                    if c["id"] in seen_ids:
+                        errors.append(f"{name}: criterion id {c['id']} already used in {seen_ids[c['id']]}")
+                    seen_ids[c["id"]] = name
+                    refs += c.get("consult", []) + [c.get("returns_to")]
         for b in cw.get("bundle_components", []):
             refs += b.get("nodes", [])
             if not (ROOT / "toolkit" / "templates" / b["template"]).exists():
-                errors.append(f"toolkit/scope-gate-criteria.yaml: missing template {b['template']}")
+                errors.append(f"{name}: missing template {b['template']}")
         refs += [f["source"] for f in cw.get("red_flags", [])]
         for r in sorted({r for r in refs if r} - ids):
-            errors.append(f"toolkit/scope-gate-criteria.yaml: unknown node id '{r}'")
+            errors.append(f"{name}: unknown node id '{r}'")
     unlabeled = sum(1 for e in edges if e["relation"] == "connects")
     if unlabeled:
         warnings.append(f"{unlabeled} canvas edges between notes have no label (indexed as 'connects')")
@@ -287,20 +303,38 @@ def render(graph) -> str:
             "referenced by notes, not yet mapped" if p["referenced"] else "not yet mapped")
         w(f"| {p['name']} | `{p['key']}` | {status} |")
     w("")
-    gates = [n for n in graph["nodes"] if n.get("gate") == "phase"]
+    order = {k: i for i, (k, _) in enumerate(PHASES)}
+    gates = sorted((n for n in graph["nodes"] if n.get("gate") == "phase"),
+                   key=lambda n: min((order.get(p, 99) for p in n["phase"]), default=99))
+
+    def routes_table(routes):
+        w("| Condition | Returns to |")
+        w("|---|---|")
+        for r in routes:
+            w(f"| {r['condition']} | {link(by_id[r['to']])} |")
+        w("")
+
     for g in gates:
         w(f"### Phase gate: {link(g)}\n")
-        routes = [r for r in graph["returns_to"] if r["from"] == g["id"]]
-        if routes:
-            w("When the gate is not passed, it **returns to**:\n")
-            w("| Condition | Returns to |")
-            w("|---|---|")
-            for r in routes:
-                w(f"| {r['condition']} | {link(by_id[r['to']])} |")
-            w("")
+        for e in out_e[g["id"]]:
+            if e["relation"] != "connects":
+                w(f"- {e['label']} → {link(by_id[e['to']])}")
         nxt = [p for p in graph["placeholders"] if p["from"] == g["id"]]
         for p in nxt:
-            w(f"Next: **{p['to_text']}** (placeholder on the canvas; not yet mapped).\n")
+            w(f"- Next: **{p['to_text']}** (placeholder on the canvas; not yet mapped)")
+        w("")
+        routes = [r for r in graph["returns_to"] if r["from"] == g["id"]]
+        if routes:
+            w("When the gate is not passed, it **returns to** (wired on the canvas):\n")
+            routes_table(routes)
+        else:
+            w("_No returns-to routes wired on the canvas yet; see the note's Possible Outcomes._\n")
+    others = sorted({r["from"] for r in graph["returns_to"]} - {g["id"] for g in gates})
+    if others:
+        w("### Other returns-to routes\n")
+        for src in others:
+            w(f"From {link(by_id[src])}:\n")
+            routes_table([r for r in graph["returns_to"] if r["from"] == src])
     w("## Nodes\n")
     w("Roles: `entry-point` start here · `orientation` context · `checkpoint` has a gate condition and "
       "possible outcomes · `supporting` a lens or sub-inquiry feeding a checkpoint · `artifact` an output other nodes consume.\n")

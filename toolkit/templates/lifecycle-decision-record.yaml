@@ -1,0 +1,63 @@
+# sources: Deciding Next Steps (change severity, update planning, version coexistence, retirement plan),
+#          Update or Retire (Phase Gate) ("Lifecycle Decision Record"), Lifecycle Decision Record (stub)
+#          (framework/Open Standards Main Map/Phase 4 Review and Update/)
+# Drafted by an agent if asked; decided and recorded by the people with standing.
+
+decision:
+  outcome:                     # maintain | minor-update | major-update | rescope | align | deprecate | retire
+basis:
+review_findings:
+decision_participants: []
+decision_method:
+affected_adopters: []
+migration_required:
+transition_conditions: []
+next_phase:                    # maintain → Monitor Adoption · minor update → Develop the Standard
+                               # · major update → Scope and Start gate · rescope → Frame the Opportunity
+responsible_stewards: []
+communication_plan:
+objections: []
+review_trigger:
+
+change:                        # "Classify Change Severity"
+  class:                       # patch | minor | major | deprecation | retirement
+  breaking:
+  affected_adopters: []
+  migration_required:
+  governance_approval:
+
+update:                        # "Update Planning" (minor and major updates)
+  rationale:
+  change_class:
+  scope:
+  affected_components: []
+  breaking_changes: []
+  affected_adopters: []
+  migration_strategy:
+  compatibility_strategy:
+  test_requirements: []
+  documentation_changes: []
+  support_requirements: []
+  release_plan:
+
+versions:                      # "Preserve Version Coexistence Explicitly"
+  - version:
+    active:
+    support_horizon:
+    compatibility:
+    migration_path:
+    end_of_support_conditions:
+
+retirement:                    # "Retirement Plan" (deprecate / retire)
+  communication: []
+  status:                      # deprecated | retired | superseded
+  successor:
+  migration_path:
+  archive: []
+  infrastructure: {}           # domains, repositories, forums, registries, validators, APIs
+  stewardship_transfer:
+
+carried_forward:               # what the next cycle inherits — open questions, conditions, objections
+  open_questions: []
+  conditions: []
+  objections: []

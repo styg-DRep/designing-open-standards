@@ -1,0 +1,130 @@
+# Launch and Adoption Outcomes gate — criteria crosswalk
+#
+# `criterion` text is verbatim from
+# framework/Open Standards Main Map/Phase 3 Launch and Adoption/Launch and Adoption Outcomes (Phase Gate).md
+# ("Gate Criteria"), with sentence case and trailing punctuation normalized.
+# The gate passes "when enough of the following are true" — it is a sufficiency judgment, not a checklist.
+# Ids, `consult` and `returns_to` are an INTERPRETATION LAYER; most unmet criteria here mean
+# "continue adoption monitoring", which the note says is not failure.
+
+version: 1
+phase: launch
+gate_node: launch-and-adoption-outcomes-phase-gate
+baseline: Development Outcomes Bundle (development-outcomes-phase-gate)
+
+statuses:
+  met: Sufficient evidence the criterion is true.
+  partial: Some evidence, but material gaps remain.
+  not-met: Evidence shows the criterion is not true.
+  not-evidenced: No evidence either way was found in the sources examined.
+  not-applicable: Genuinely does not apply; say why.
+
+evidence_tags: [observed, reported, inferred, assumed, contested, unknown]
+
+# "Review Triggers"
+review_triggers: [scheduled, adoption, evidence, change, risk, sustainability, scope]
+
+# "Bundle Component: Adoption Profile"
+adoption_depth: [awareness, experiment, implementation, routine-use, dependency]
+
+# "Possible Outcomes"
+gate_outcomes:
+  - enter-review
+  - continue-adoption-monitoring
+  - return-to-development
+  - return-to-documentation
+  - emergency-review
+  - pause-promotion
+
+domains:
+  - domain: Adoption
+    criteria:
+      - id: launch.adoption.real-use
+        criterion: Real implementations or uses exist.
+        consult: [monitor-adoption]
+        returns_to: monitor-adoption
+      - id: launch.adoption.beyond-experimental
+        criterion: Adoption is no longer purely experimental.
+        consult: [monitor-adoption]
+        returns_to: monitor-adoption
+      - id: launch.adoption.users-understood
+        criterion: Direct and indirect users are reasonably understood.
+        consult: [monitor-adoption]
+        returns_to: monitor-adoption
+
+  - domain: Evidence
+    criteria:
+      - id: launch.evidence.real-cases
+        criterion: Meaningful real-world cases have been observed.
+        consult: [monitor-adoption]
+        returns_to: monitor-adoption
+      - id: launch.evidence.patterns
+        criterion: Recurring patterns can be distinguished from isolated incidents.
+        consult: [monitor-adoption, support-adoption]
+        returns_to: monitor-adoption
+      - id: launch.evidence.support-and-defects
+        criterion: Important support and defect data exists.
+        consult: [support-adoption]
+        returns_to: monitor-adoption
+
+  - domain: Impact
+    criteria:
+      - id: launch.impact.mechanisms
+        criterion: At least some original change mechanisms can be evaluated.
+        consult: [monitor-adoption, minimal-theory-of-change]
+        returns_to: monitor-adoption
+      - id: launch.impact.effects-visible
+        criterion: Expected and unexpected effects are visible enough to discuss.
+        consult: [monitor-adoption]
+        returns_to: monitor-adoption
+
+  - domain: Ecosystem
+    criteria:
+      - id: launch.ecosystem.maps-refreshed
+        criterion: The actor and ecosystem maps have been refreshed.
+        consult: [monitor-adoption, actor-map, ecosystem-map]
+        returns_to: monitor-adoption
+      - id: launch.ecosystem.dependencies-visible
+        criterion: Material new dependencies or control relationships are visible.
+        consult: [monitor-adoption, surface-ecosystem-tensions]
+        returns_to: monitor-adoption
+
+  - domain: Sustainability
+    criteria:
+      - id: launch.sustainability.costs-understood
+        criterion: Actual maintenance and support costs are better understood.
+        consult: [support-adoption, think-about-sustainability]
+        returns_to: monitor-adoption
+
+  - domain: Governance
+    criteria:
+      - id: launch.governance.decisions-occurred
+        criterion: Enough change requests or real decisions have occurred to evaluate governance performance.
+        consult: [launch-and-adoption-outcomes-phase-gate, governance-sustainability]
+        returns_to: monitor-adoption
+
+  - domain: Uncertainty
+    criteria:
+      - id: launch.uncertainty.framable
+        criterion: The remaining unknowns are clear enough to frame Review questions.
+        consult: [launch-and-adoption-outcomes-phase-gate]
+        returns_to: monitor-adoption
+
+bundle_components:
+  - {component: Adoption Profile, template: launch-and-adoption-outcomes.yaml, nodes: [monitor-adoption]}
+  - {component: Use-Case Evidence, template: launch-and-adoption-outcomes.yaml, nodes: [monitor-adoption]}
+  - {component: Support Evidence, template: launch-and-adoption-outcomes.yaml, nodes: [support-adoption]}
+  - {component: Operational Defects, template: launch-and-adoption-outcomes.yaml, nodes: [launch-and-adoption-outcomes-phase-gate]}
+  - {component: Ecosystem Change, template: launch-and-adoption-outcomes.yaml, nodes: [monitor-adoption]}
+  - {component: Theory-of-Change Evidence, template: launch-and-adoption-outcomes.yaml, nodes: [monitor-adoption, minimal-theory-of-change]}
+  - {component: Sustainability Evidence, template: launch-and-adoption-outcomes.yaml, nodes: [think-about-sustainability]}
+  - {component: Governance Evidence, template: launch-and-adoption-outcomes.yaml, nodes: [launch-and-adoption-outcomes-phase-gate]}
+
+red_flags:
+  - {flag: "Adoption counted as reach (awareness, trials) rather than depth (routine use, dependency)", source: monitor-adoption}
+  - {flag: "Adoption success reported as impact success", source: monitor-adoption}
+  - {flag: "Divergent local use treated automatically as misuse rather than as feedback", source: monitor-adoption}
+  - {flag: "Scope-phase maps overwritten instead of kept as a longitudinal record", source: monitor-adoption}
+  - {flag: "Support requests handled as service tickets, not classified and fed back as evidence", source: support-adoption}
+  - {flag: "Launch announces the artifact, not the capability, or hides what is experimental", source: plan-and-launch}
+  - {flag: "Review entered on a calendar alone when the evidence is too thin", source: launch-and-adoption-outcomes-phase-gate}

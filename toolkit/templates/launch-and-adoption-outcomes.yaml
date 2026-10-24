@@ -1,0 +1,56 @@
+# source: framework/Open Standards Main Map/Phase 3 Launch and Adoption/Launch and Adoption Outcomes (Phase Gate).md
+
+launch_and_adoption_outcomes:
+  adoption_profile:
+    direct_adopters: []
+    indirect_users: []
+    implementation_types: []
+    adoption_contexts: []
+    distribution:
+    depth:                     # awareness | experiment | implementation | routine use | dependency
+    abandoned_implementations: []
+  use_case_evidence:
+    - use_case:
+      observed:
+      adopters: []
+      fitness:
+      friction:
+      workarounds:
+      unexpected_effects:
+      status:                  # supported | partially-supported | unsupported | obsolete
+  new_use_cases: []
+  support_evidence: []         # patterns, not individual incidents
+  operational_defects:
+    - defect_type:             # specification | interoperability | documentation | tooling | governance | accessibility | adoption | sustainability
+      severity:
+      frequency:
+      affected_actors: []
+  ecosystem_change: []         # compare with the Scope baseline
+  theory_of_change_evidence:
+    expected_mechanisms:
+    observed_mechanisms:
+    expected_outcomes:
+    observed_outcomes:
+    intended_impacts:
+    early_impact_evidence:
+    failed_assumptions:
+    new_assumptions:
+    unintended_effects:
+  sustainability_evidence: []
+  governance_evidence: []
+  review_questions: []         # "Review Questions Emerge From Adoption"
+
+review_readiness_record:
+  decision:
+  decision_date:
+  trigger: []                  # scheduled | adoption | evidence | change | risk | sustainability | scope
+  adoption_summary:
+  implementation_summary:
+  support_summary:
+  impact_summary:
+  ecosystem_changes:
+  sustainability_findings:
+  governance_findings:
+  priority_review_questions: []
+  known_risks: []
+  urgent_issues: []

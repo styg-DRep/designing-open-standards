@@ -1,0 +1,77 @@
+# source: framework/Open Standards Main Map/Phase 2 Development/Development Outcomes (Phase Gate).md
+# ("Development Outcomes Bundle", "Release Readiness Record"). May be distributed across a repository;
+# fill each field with a short summary plus a pointer to where the evidence lives.
+
+development_outcomes:
+  standard:
+    candidate_version:
+    normative_specification:
+    stable_components:
+    experimental_components:
+    conformance_model:
+  implementation:
+    implementations:
+    early_adopters:
+    demonstrated_use_cases:
+    interoperability_results:
+  testing:
+    test_suite:
+    passed:
+    failed:
+    unresolved:
+    untested_areas:
+  documentation:
+    tutorial:
+    how_to:
+    reference:
+    explanation:
+    examples:
+    decision_history:
+  participation:
+    contributors:
+    reviewers:
+    implementers:
+    testers:
+    affected_participants:
+    participation_gaps:      # who did we expect to participate but did not?
+  provenance:
+    issues:
+    decisions:
+    objections:
+    release_history:
+  limitations:
+    known_limitations:
+    assumptions:
+    deferred_features:
+  scope_integrity:           # compare with the Scope and Start Bundle
+    scope_changes:
+    objective_changes:
+    sustainability_changes:
+  readiness:
+    decision:
+    conditions:
+    launch_entry_conditions:
+    review_triggers:
+
+# Known unknowns: blocking | launch-condition | monitor | review-trigger | deferred
+known_unknowns: []
+
+# Release Readiness Record — the phase decision, recorded by the people with standing to make it
+release_readiness_record:
+  decision:
+  decision_date:
+  decision_participants: []
+  decision_method:
+  candidate_version:
+  stable_components: []
+  experimental_components: []
+  implementation_evidence: []
+  test_evidence: []
+  documented_limitations: []
+  conditions: []
+  blocking_issues: []
+  known_objections: []
+  participation_gaps: []
+  launch_entry_conditions: []
+  review_triggers: []
+  returns_to:

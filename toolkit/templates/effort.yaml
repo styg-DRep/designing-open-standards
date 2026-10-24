@@ -10,7 +10,17 @@ effort:
   initiators: []
   stewards: []
   mode: guide              # guide | audit | both
+  cycle: 1                 # lifecycle iteration; increments when Update or Retire re-enters the framework
+  phase: scope             # scope | develop | launch | review
   current_node:            # where the work is now
+
+# The bundle each phase gate produced, by cycle. Later phases compare against these.
+baselines: []
+#  - cycle: 1
+#    phase: scope
+#    artifact: scope-and-start-bundle.yaml
+#    decided:               # date of the gate decision
+#    record: development-readiness-record.yaml
 
 # Status per node. not-started | in-progress | sufficient | returned-to | not-applicable
 nodes: {}

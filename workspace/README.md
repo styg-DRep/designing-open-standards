@@ -5,17 +5,18 @@ Your standards efforts live here, one folder each:
 ```
 workspace/
   proposal-metadata-standard/
-    effort.yaml                 # where the effort is on the map, a log, open questions
-    simple-canvas.yaml
-    opportunity-frame.yaml
-    standard-classification.yaml
-    ecosystem.yaml
-    aims-and-objectives.yaml
-    development.yaml
-    sustainability-model.yaml
-    scope-and-start-bundle.yaml
-    development-readiness-record.yaml
-    bundle.md                   # readable narrative, when you want one to share
+    effort.yaml                          # cycle, phase, node status, baselines, log, open questions
+    # Scope and Start
+    simple-canvas.yaml  opportunity-frame.yaml  standard-classification.yaml  ecosystem.yaml
+    aims-and-objectives.yaml  development.yaml  sustainability-model.yaml
+    scope-and-start-bundle.yaml  development-readiness-record.yaml
+    # Development
+    development-work.yaml  development-outcomes-bundle.yaml
+    # Launch and Adoption
+    launch.yaml  launch-and-adoption-outcomes.yaml
+    # Review and Update
+    review.yaml  lifecycle-decision-record.yaml
+    scope-bundle.md                      # readable narratives, when you want one to share
     audits/
       2026-10-21-scope-audit.yaml
       2026-10-21-scope-audit.md

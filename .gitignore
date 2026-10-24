@@ -2,11 +2,12 @@
 workspace/*
 !workspace/README.md
 
-# Personal Obsidian state
-framework/.obsidian/workspace.json
-framework/.obsidian/workspace-mobile.json
-framework/.obsidian/cache
-framework/.trash/
+# Personal Obsidian state (the repository root is the vault)
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
+.trash/
+framework/.obsidian/
 
 # Claude Code personal settings
 .claude/settings.local.json

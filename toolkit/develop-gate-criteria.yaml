@@ -1,0 +1,251 @@
+# Development Outcomes gate — criteria crosswalk
+#
+# `criterion` text is verbatim from
+# framework/Open Standards Main Map/Phase 2 Development/Development Outcomes (Phase Gate).md
+# ("Development Outcomes Gate Criteria"), with trailing punctuation normalized.
+# Ids, `consult` and `returns_to` are an INTERPRETATION LAYER. `returns_to` follows the
+# returns-to routes wired on the main canvas for this gate. Where they disagree, the framework
+# wins; fix this file. Ids are stable — deprecate, never renumber.
+
+version: 1
+phase: develop
+gate_node: development-outcomes-phase-gate
+baseline: Scope and Start Bundle (scope-and-start-phase-gate)
+
+statuses:
+  met: Sufficient evidence the criterion is true for this candidate.
+  partial: Some evidence, but material gaps remain.
+  not-met: Evidence shows the criterion is not true.
+  not-evidenced: No evidence either way was found in the sources examined.
+  not-applicable: Genuinely does not apply; say why (e.g. Interoperability when it is not an objective).
+
+evidence_tags: [observed, reported, inferred, assumed, contested, unknown]
+
+# "Pattern: Known Unknowns Become Launch Conditions"
+open_question_dispositions: [blocking, launch-condition, monitor, review-trigger, deferred]
+
+# "Pattern: Failures Must Resolve Somewhere"
+failure_resolutions: [specification-change, documentation-change, implementation-correction, use-case-revision,
+                      accepted-limitation, deferred-issue, return-to-scope]
+
+# "Possible Gate Outcomes"
+gate_outcomes:
+  - ready-for-launch-preparation
+  - conditional-progression
+  - return-to-develop-the-standard
+  - return-to-testing
+  - return-to-documentation
+  - return-to-team-roles
+  - return-to-repository-platform
+  - return-to-share-progress
+  - return-to-aims-and-objectives
+  - return-to-understand-the-ecosystem
+  - return-to-think-about-sustainability
+  - return-to-scope-and-start
+  - pause
+  - stop
+
+domains:
+  - domain: Standard Coherence
+    criteria:
+      - id: develop.coherence.internally-consistent
+        criterion: The core agreement is internally consistent.
+        consult: [develop-the-standard]
+        returns_to: develop-the-standard
+      - id: develop.coherence.normative-distinct
+        criterion: Normative requirements are distinguishable from guidance.
+        consult: [develop-the-standard, documentation]
+        returns_to: develop-the-standard
+      - id: develop.coherence.terminology-stable
+        criterion: Terminology is sufficiently stable.
+        consult: [develop-the-standard, shared-vocabularies]
+        returns_to: develop-the-standard
+      - id: develop.coherence.ambiguities
+        criterion: Major ambiguities have been resolved or documented.
+        consult: [develop-the-standard, testing]
+        returns_to: develop-the-standard
+
+  - domain: Implementation
+    criteria:
+      - id: develop.implementation.real-use
+        criterion: Intended users or implementers have attempted real use.
+        consult: [testing, roles-and-responsibilities]
+        returns_to: testing
+      - id: develop.implementation.assumptions-exposed
+        criterion: Important implementation assumptions have been exposed.
+        consult: [testing]
+        returns_to: testing
+      - id: develop.implementation.external-evidence
+        criterion: At least some evidence comes from outside the core authoring group.
+        consult: [testing, share-progress]
+        returns_to: testing
+
+  - domain: Testing
+    criteria:
+      - id: develop.testing.core-claims
+        criterion: Core claims have relevant tests.
+        consult: [testing, develop-the-standard]
+        returns_to: testing
+      - id: develop.testing.use-cases
+        criterion: Important use cases have been exercised.
+        consult: [testing]
+        returns_to: testing
+      - id: develop.testing.failure-conditions
+        criterion: Failure conditions have been explored.
+        consult: [testing]
+        returns_to: testing
+      - id: develop.testing.defects
+        criterion: Material defects have been resolved or explicitly accepted.
+        consult: [testing]
+        returns_to: testing
+
+  - domain: Interoperability
+    applies_when: interoperability is an objective
+    criteria:
+      - id: develop.interop.independent-implementations
+        criterion: Independent implementations have been compared.
+        consult: [testing]
+        returns_to: testing
+      - id: develop.interop.reused-standards
+        criterion: Reused standards behave as expected.
+        consult: [testing, interoperability-intent]
+        returns_to: testing
+      - id: develop.interop.mappings
+        criterion: Important mappings and dependencies are documented.
+        consult: [documentation]
+        returns_to: documentation
+
+  - domain: Documentation
+    criteria:
+      - id: develop.docs.reference
+        criterion: Reference material is usable.
+        consult: [documentation, structured-documentation]
+        returns_to: documentation
+      - id: develop.docs.explanation
+        criterion: Necessary explanation exists.
+        consult: [documentation, structured-documentation]
+        returns_to: documentation
+      - id: develop.docs.practical-guidance
+        criterion: Adopters have practical guidance.
+        consult: [documentation, structured-documentation, translation-and-accessibility]
+        returns_to: documentation
+      - id: develop.docs.examples
+        criterion: Examples exist.
+        consult: [examples]
+        returns_to: documentation
+      - id: develop.docs.decisions-traceable
+        criterion: Major decisions are traceable.
+        consult: [decision-and-provenance-record, development-platform]
+        returns_to: documentation
+
+  - domain: Participation
+    criteria:
+      - id: develop.participation.review-opportunities
+        criterion: Relevant communities had meaningful review opportunities.
+        consult: [share-progress]
+        returns_to: share-progress
+      - id: develop.participation.feedback-addressed
+        criterion: Important feedback has been addressed.
+        consult: [share-progress, decision-and-provenance-record]
+        returns_to: share-progress
+      - id: develop.participation.gaps-visible
+        criterion: Known participation gaps are visible.
+        consult: [share-progress, identify-community-stakeholders]
+        returns_to: share-progress
+
+  - domain: Openness
+    criteria:
+      - id: develop.openness.inspectable
+        criterion: Development artifacts are publicly inspectable.
+        consult: [development-platform]
+        returns_to: development-platform
+      - id: develop.openness.provenance
+        criterion: Contribution provenance is preserved.
+        consult: [development-platform, decision-and-provenance-record]
+        returns_to: development-platform
+      - id: develop.openness.licensing
+        criterion: Licensing remains appropriate.
+        consult: [2-plan-the-development, development-platform]
+        returns_to: development-platform
+      - id: develop.openness.histories
+        criterion: Issue and decision histories are accessible.
+        consult: [development-platform]
+        returns_to: development-platform
+
+  - domain: Sustainability
+    criteria:
+      - id: develop.sustainability.maintenance-burden
+        criterion: The candidate has not created an obviously unsustainable maintenance burden.
+        consult: [think-about-sustainability]
+        returns_to: think-about-sustainability
+      - id: develop.sustainability.stewardship
+        criterion: Ongoing stewardship remains plausible.
+        consult: [roles-and-responsibilities, governance-sustainability]
+        returns_to: roles-and-responsibilities
+      - id: develop.sustainability.infrastructure
+        criterion: Development infrastructure can continue supporting the standard.
+        consult: [development-platform, technical-sustainability]
+        returns_to: development-platform
+
+  - domain: Scope Integrity
+    criteria:
+      - id: develop.scope.changes-reviewed
+        criterion: Material changes from Scope have been reviewed.
+        consult: [development-outcomes-phase-gate, scope-and-start-phase-gate]
+        returns_to: scope-and-start-phase-gate
+      - id: develop.scope.aims-relevant
+        criterion: Aims and objectives remain relevant.
+        consult: [decide-on-aims-and-objectives]
+        returns_to: decide-on-aims-and-objectives
+      - id: develop.scope.serves-use-cases
+        criterion: The candidate still serves the justified use cases.
+        consult: [testing, development-outcomes-phase-gate]
+        returns_to: decide-on-aims-and-objectives
+
+# "Readiness Questions" — the concise gate review
+readiness_questions:
+  - What is the candidate standard?
+  - What evidence shows it can be used?
+  - Who has implemented or tested it?
+  - Which use cases have actually been demonstrated?
+  - What claims remain weakly tested?
+  - Where are known ambiguities or limitations?
+  - Can an adopter understand and implement it without relying on author knowledge?
+  - Have material objections been addressed or preserved?
+  - Has the standard materially drifted from its approved scope?
+  - Is wider exposure likely to produce useful learning rather than predictable failure?
+
+bundle_components:
+  - {component: Candidate Standard, template: development-outcomes-bundle.yaml, nodes: [develop-the-standard]}
+  - {component: Implementation Evidence, template: development-outcomes-bundle.yaml, nodes: [testing]}
+  - {component: Test Evidence, template: development-outcomes-bundle.yaml, nodes: [testing]}
+  - {component: Conformance Model, template: development-outcomes-bundle.yaml, nodes: [development-outcomes-phase-gate]}
+  - {component: Use-Case Evidence, template: development-outcomes-bundle.yaml, nodes: [testing]}
+  - {component: Documentation Set, template: development-outcomes-bundle.yaml, nodes: [documentation, structured-documentation, examples]}
+  - {component: Development Provenance, template: development-outcomes-bundle.yaml, nodes: [decision-and-provenance-record, development-platform]}
+  - {component: Participation Record, template: development-outcomes-bundle.yaml, nodes: [share-progress, roles-and-responsibilities]}
+  - {component: Known Limitations, template: development-outcomes-bundle.yaml, nodes: [development-outcomes-phase-gate]}
+  - {component: Scope Drift Record, template: development-outcomes-bundle.yaml, nodes: [development-phase, scope-and-start-phase-gate]}
+
+red_flags:
+  - {flag: "Gate passed because the schedule elapsed, 1.0 was assigned, editors felt ready, or planned features were done", source: development-outcomes-phase-gate}
+  - {flag: "All implementation or test evidence comes from the authoring group", source: development-outcomes-phase-gate}
+  - {flag: "Test record shows only what passed", source: development-outcomes-phase-gate}
+  - {flag: "A material test failure disappears from the record without a resolution", source: development-outcomes-phase-gate}
+  - {flag: "Experimental material silently incorporated into normative behavior", source: development-outcomes-phase-gate}
+  - {flag: "Tutorials, guides or examples create requirements the normative specification does not state", source: documentation}
+  - {flag: "Editorial discretion used to change meaning, requirements or compatibility", source: roles-and-responsibilities}
+  - {flag: "Progress updates appear unanimous: no objections, alternatives, deferrals or failures reported", source: share-progress}
+  - {flag: "Scope changed without being recorded or reviewed", source: development-phase}
+  - {flag: "Expected participants from the Scope participation model did not take part, and the gap is not recorded", source: development-outcomes-phase-gate}
+
+# "Pattern: Development Outcomes Create the Launch Baseline" — questions later phases ask of this bundle
+baseline_questions:
+  - Did adoption match expectations?
+  - Did limitations become material?
+  - Did new interoperability failures emerge?
+  - Did support costs exceed expectations?
+  - Did the standard produce the intended behavioral change?
+  - Did governance requests accumulate around unexpected areas?
+  - Did experimental components stabilize?
+  - Did supposedly stable components require frequent change?

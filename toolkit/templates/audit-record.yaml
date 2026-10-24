@@ -3,12 +3,15 @@
 # An audit assesses evidence. It is not an approval, a mandate, or a certification.
 
 audit:
-  id:                      # YYYY-MM-DD-<effort-slug>-scope
+  id:                      # YYYY-MM-DD-<effort-slug>-<phase>
   effort:
-  phase: scope
+  phase:                   # scope | develop | launch | review
   mode:                    # pre-gate | retroactive-baseline | partial
   framework_version:       # git tag or commit of this repo used
-  criteria_version:        # toolkit/scope-gate-criteria.yaml `version`
+  gate_node:               # the gate audited, e.g. scope-and-start-phase-gate
+  criteria_file:           # toolkit/<phase>-gate-criteria.yaml
+  criteria_version:        # that file's `version`
+  cycle:                   # lifecycle iteration audited, from effort.yaml
   auditors: []             # people, and the agent if one assisted
   independence:            # e.g. "self-assessment: the auditor helped author the bundle"
   date:
@@ -19,7 +22,7 @@ sources:
     location:              # path or URL
     retrieved:             # YYYY-MM-DD
 findings:
-  - criterion_id:          # from toolkit/scope-gate-criteria.yaml
+  - criterion_id:          # from the criteria file
     status:                # met | partial | not-met | not-evidenced | not-applicable
     evidence:
       - source: S1
@@ -40,5 +43,5 @@ summary:
   open_questions: []       # each: {question, resolve, disposition}
 limitations: []
 statement: >-
-  This record reports what the listed sources evidence against the Scope and Start gate
-  criteria as of the audit date. It does not approve, authorize, or certify the effort.
+  This record reports what the listed sources evidence against the criteria
+  of the gate named above, as of the audit date. It does not approve, authorize, or certify the effort.
